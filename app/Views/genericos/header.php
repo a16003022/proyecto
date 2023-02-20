@@ -24,19 +24,19 @@
     color: #818181;
     
   }
-  h2 {
-    font-size: 24px;
+  h3 {
     text-transform: uppercase;
-    color: #303030;
+    color: #9162DD;
     font-weight: 600;
     margin-bottom: 30px;
   }
   #promoCarousel{
-  height: 100vh;
+  height: 50vh;
+  z-index: 3;
   }
 .carousel-item{
   overflow: hidden;
-  height: 100vh;
+  height: 50vh;
   background-color: #000;
   }
 .carousel-item > img{ object-fit: cover; object-position: center; min-height: 100vh; opacity: 45%;}
@@ -70,6 +70,7 @@
   .video-text{
     font-family: adineue PRO, sans-serif;
     font-weight: bold;
+    font-size: 5em;
   }
   .center {
   position: absolute;
@@ -216,7 +217,7 @@
   .video_header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 55vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -306,9 +307,13 @@
   color:  #9162DD;
 }
 .logo{
-  width: 20%;
+  width: 25%;
 }
 
+.about-img{
+  width:70%;
+  
+}
 
   @media screen and (max-width: 767px) {
   #about{
@@ -522,6 +527,32 @@
     .centrar-marca {
     margin-top: 10%;
   }
+
+  .video-text{
+    font-size: 4em;
+  }
+
+  .about-img{
+  width:100%;
+  
+  }
+
+  .carousel-item{
+  height: 60vh;
+ 
+  }
+
+  #promoCarousel{
+  height: 60vh;
+  }
+
+ 
+
+  .cel-text{
+    display:none;
+    visibility: hidden;
+  }
+
   }
 
   

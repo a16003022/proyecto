@@ -23,20 +23,21 @@
     </div>
   </div>
 </div>
-<section style="height: 80vh;">
+
+<section style="height: 60vh;">
       <div class="row p-0 mx-0">
         <div class="col-12 col-lg-6 col-md-6 col-sm-12 centrado" id="about">
             <div class="mx-auto">
                 <div class="container p-5 text-about">
-                    <h2 class="text-about">Sobre nosotros</h2>
+                    <h3 class="text-about">Sobre nosotros</h3>
                     <h6>Somos Tec-Shirts, una empresa ubicada en Mérida, Yucatán, dedicada a la producción y venta de ropa de alta calidad. Nos enorgullece ofrecer productos con un estilo fresco y moderno, hechos con materiales de la más alta calidad.<br> <br>Además de nuestra amplia gama de ropa, en Tec-Shirts también ofrecemos una línea de bolsas térmicas de alta calidad. Estas bolsas están diseñadas para mantener tus alimentos y bebidas a la temperatura perfecta, ya sea en el trabajo, en un picnic o en un viaje.
-                    <br><br>Nos esforzamos por utilizar materiales duraderos y respetuosos con el medio ambiente en la fabricación de nuestras bolsas térmicas, y por ofrecer una amplia variedad de tamaños y estilos para satisfacer las necesidades de todos nuestros clientes.</h6>
+                    <br><br> <div class="cel-text"> Nos esforzamos por utilizar materiales duraderos y respetuosos con el medio ambiente en la fabricación de nuestras bolsas térmicas, y por ofrecer una amplia variedad de tamaños y estilos para satisfacer las necesidades de todos nuestros clientes.</div></h6>
                     <br><button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="#contact">Contáctanos</a></button>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-6 col-md-6 col-sm-12 p-0">
-            <img class="w-100 my-auto" src="<?php echo base_url()?>/imagenes/sudadera3.jpg"/>
+        <div style="text-align: center;" class="col-12 col-lg-6 col-md-6 col-sm-12 p-0">
+            <img  class="about-img my-auto" src="<?php echo base_url()?>/imagenes/sudadera3.jpg"/>
         </div>
     </div>
 </section>
@@ -66,7 +67,7 @@
           <div class="carousel-item active text-center" data-bs-interval='5000'>
                 <img src="<?php echo base_url()?>/imagenes/carousel3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
-                    <h2 class="text-white">¡Registrate!</h2>
+                    <h3 class="text-white">¡Registrate!</h3>
                     <p>
                     ¡Obtén un 15% de descuento en tu primera compra!
                     </p>
@@ -78,7 +79,7 @@
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
                     <h2 class="text-white text-left col-8 mr-auto">Misión</h2>
                     <p>
-                    Nuestra misión es proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
+                     Proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
                     </p>
                     <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto " data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contactános! </a>
                 </div>
@@ -88,7 +89,7 @@
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
                     <h2 class="text-white text-justify">Visión</h2>
                     <p>
-                    Nuestra visión es ser reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
+                    Reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
                     </p>
                     <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto" data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Ver productos</a>
                 </div>
@@ -160,7 +161,7 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="productos" class="container-fluid text-center">
-  <h2>Nuestros productos</h2><br>
+  <h3 style="color: #9162DD">Nuestros productos</h3><br>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -225,7 +226,7 @@
   <div class="container py-5">
     <div class="row d-flex justify-content-center">
       <div class="col-md-10 col-xl-8 text-center">
-        <h3 class="fw-bold mb-4">Comentarios de nuestros clientes</h3>
+        <h3 style="color: #9162DD" class="fw-bold mb-4">Comentarios de nuestros clientes</h3>
       </div>
     </div>
 
@@ -334,7 +335,7 @@
 
 <div id="promos" class="container-fluid">
   <div class="text-center">
-    <h1><br>Paquetes</h1>
+    <h3>Paquetes</h3>
     <h4>¡Selecciona un paquete para ti!</h4>
   </div>
   <div class="row slideanim ">
@@ -346,7 +347,7 @@
             <p><strong>2</strong> Playeras</p>
             <p><strong>1</strong> Sudadera</p>
             <p class="regalo-promo">¡Llevate de regalo un termo ADIDAS!</p>
-            <h3>$699</h3>
+            <h2>$699</h2>
             <br>
           <br>
         </div>
@@ -363,7 +364,7 @@
             <p><strong>1</strong> Sudadera</p>
             <p><strong>1</strong> Bolsa térmica</p>
             <p class="regalo-promo">¡Llevate de regalo una bolsa Puma!</p>
-            <h3>$999</h3>
+            <h2>$999</h2>
             <br>
           <br>
         </div>
@@ -380,7 +381,7 @@
             <p><strong>1</strong> Sudadera</p>
             <p><strong>3</strong> Bolsas térmicas</p>
             <p class="regalo-promo">¡Llevate de regalo una sudadera Nike!</p>
-            <h3>$1699</h3>
+            <h2>$1699</h2>
             <br>
           <br>
         </div>
