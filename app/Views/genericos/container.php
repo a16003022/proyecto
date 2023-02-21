@@ -24,7 +24,7 @@
   </div>
 </div>
 
-<section style="height: 60vh;">
+<section id="about">
       <div class="row p-0 mx-0">
         <div class="col-12 col-lg-6 col-md-6 col-sm-12 centrado" id="about">
             <div class="mx-auto">
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div style="text-align: center;" class="col-12 col-lg-6 col-md-6 col-sm-12 p-0">
-            <img  class="about-img my-auto" src="<?php echo base_url()?>/imagenes/sudadera3.jpg"/>
+            <img  class="about-img my-auto" src="<?php echo base_url()?>/imagenes/about.jpg"/>
         </div>
     </div>
 </section>
@@ -65,7 +65,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active text-center" data-bs-interval='5000'>
-                <img src="<?php echo base_url()?>/imagenes/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="<?php echo base_url()?>/imagenes/cr2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
                     <h3 class="text-white">¡Registrate!</h3>
                     <p>

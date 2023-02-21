@@ -12,8 +12,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet" type="text/css"/>
-  <style>
+  <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet" type="text/css"/>  <style>
 
   @import url(//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO);
 
@@ -31,7 +30,7 @@
     margin-bottom: 30px;
   }
   #promoCarousel{
-  height: 50vh;
+  height: 60vh;
   z-index: 3;
   }
 .carousel-item{
@@ -120,7 +119,8 @@
     font-size: 18px;
   }
   #about img{
-    height: 50vh;
+    height: 60vh;
+    width:100%;
     object-fit: cover;
     object-position: center;
   }
@@ -178,15 +178,29 @@
   z-index: 100; 
   width: 100%;
 }
+/*@media screen and (max-width: 1200px) {
+  #about img{
+    min-height: 80vh;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}*/
 
   @media screen and (max-width: 767px) {
-  #about{
-    max-height: 80vh;
+  /*#about{
+    min-height: 100vh;
     margin-bottom: -100vh;
     z-index: 2;
     color:white !important;
     background-color: rgba(0, 0, 0, 0.5);
       }
+  #about img{
+    min-height: 80vh;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+  }*/
   .text-about{
     color:white;
     }
@@ -311,20 +325,19 @@
 }
 
 .about-img{
-  width:70%;
+  width:100%;
   
 }
 
-  @media screen and (max-width: 767px) {
-  #about{
-    /* max-height: 100vh;
-    margin-bottom: -100vh; */
-    z-index: 2;
-    color:white;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+ @media screen and (max-width: 767px) {
+  #about h6{
+    color:#818181!important;
+    }
+  #about h3{
+    color:#9162DD!important;
     }
 
-  }
+  }*/
 
   @media screen and (max-width: 992px) {
     .nosotros_img{
@@ -425,7 +438,24 @@
   .footer-fondo{
     background-color: #9162DD !important;
   }
+  .btn-pass{
+    background-color:#1BBABA;
+    border:#1BBABA;
+  }
+  .icon-register{
+    color: #9162DD;
+  }
+  .background-imagn {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://i2.wp.com/www.fantasticmag.es/wordpress2/wp-content/archivos/2017/03/nike-plus-size-ok.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
+  .bg-glass {
+      background-color: hsla(0, 0%, 100%, 0.9) !important;
+      backdrop-filter: saturate(200%) blur(25px);
+    }
   .navbar {
     margin-bottom: 0;
     background-color: #ffff;
@@ -543,7 +573,7 @@
   }
 
   #promoCarousel{
-  height: 60vh;
+  height: 70vh;
   }
 
  

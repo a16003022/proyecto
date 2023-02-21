@@ -30,7 +30,7 @@
 </svg></i></button>
 
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">LOGIN</a>
+          <a class="nav-link" href="<?php echo base_url()?>/login">LOGIN</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo base_url()?>/registro">REGISTRO</a>
