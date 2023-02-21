@@ -13,7 +13,7 @@
     <div class="d-flex h-100 text-center align-items-center ">
       <div class="w-100 text-white">
         <h1 class="display-3 video-text">TEC-SHIRTS</h1>
-        <p class="lead mb-0 text-10">¡Inscribete a la 10° carrera 10k-Yucatán y recibe tu kit TEC-SHIRTS! </p>
+        <p class="lead mb-0 text-10 text-video">¡Inscribete a la 10° carrera 10k-Yucatán y recibe tu kit TEC-SHIRTS! </p>
         <form class="form col-lg-6 col-sm-12 center">
           <div>
               <button type="button" class="btn btn-danger btn-jumbotron w-25">Inscribirme</button>
@@ -26,7 +26,7 @@
 
 <section id="about">
       <div class="row p-0 mx-0">
-        <div class="col-12 col-lg-6 col-md-6 col-sm-12 centrado" id="about">
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 centrado" id="about">
             <div class="mx-auto">
                 <div class="container p-5 text-about">
                     <h3 class="text-about">Sobre nosotros</h3>
@@ -36,8 +36,9 @@
                 </div>
             </div>
         </div>
-        <div style="text-align: center;" class="col-12 col-lg-6 col-md-6 col-sm-12 p-0">
-            <img  class="about-img my-auto" src="<?php echo base_url()?>/imagenes/about.jpg"/>
+        <div style="text-align: center;" class=" col-lg-6 col-md-12 col-sm-12  p-0">
+            <img  class="about-img my-auto" src="<?php echo base_url()?>/imagenes/danaabout.png"/>
+            <img class="about-img-cel img-responsive"  src="<?php echo base_url()?>/imagenes/danaabout_cel.png">
         </div>
     </div>
 </section>
