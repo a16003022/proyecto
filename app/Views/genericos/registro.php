@@ -1,5 +1,5 @@
 <!-- Section: Design Block -->
-<section class="background-imagn overflow-hidden">
+<section class="background-imagn overflow-hidden" style="padding-top: 60px;">
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div class="row gx-lg-5 align-items-center mb-5">
       <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
