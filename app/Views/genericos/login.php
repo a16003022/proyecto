@@ -25,11 +25,27 @@
                         </div>
                     </div>
                 </div>
+
+              <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                  <div class="col d-flex justify-content-center">
+                    <!-- Checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="form2Example31"/>
+                      <label class="form-check-label" for="form2Example31"> Recordarme </label>
+                    </div>
+                  </div>
+                </div>
+
               <!-- Submit button -->
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary btn-jumbotron btn-block mb-4 w-50">
                     Login
                     </button>
+                </div>
+
+                <div class="text-center">
+                <p>¿Todavía no eres miembro? <br> <a href="<?php echo base_url()?>/registro">Regístrate gratis ahora</a></p>
                 </div>
             </form>
           </div>
@@ -37,6 +53,7 @@
     </div>
 </div>
 </section>
+
 <script type="text/javascript">
 function mostrarPassword(){
 		var cambio = document.getElementById("txtPassword");

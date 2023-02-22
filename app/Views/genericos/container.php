@@ -9,14 +9,14 @@
   </video>
 
   <!-- The header content -->
-  <div class="container  h-100">
+  <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center ">
       <div class="w-100 text-white">
         <h1 class="display-3 video-text">TEC-SHIRTS</h1>
         <p class="lead mb-0 text-10 text-video">¡Inscribete a la 10° carrera 10k-Yucatán y recibe tu kit TEC-SHIRTS! </p>
         <form class="form col-lg-6 col-sm-12 center">
           <div>
-              <button type="button" class="btn btn-danger btn-jumbotron w-25">Inscribirme</button>
+          <button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="<?php echo base_url()?>/registro">Inscribirme</a></button>
           </div>
         </form>
       </div>

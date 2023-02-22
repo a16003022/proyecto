@@ -78,6 +78,8 @@
                 </label>
               </div>
 
+              <div class="d-flex justify-content-center mb-4 g-recaptcha brochure__form__captcha" data-sitekey="6Lfqa3okAAAAAFeDDk0pDfN9TZJ3DrL57bCICsxI" style="display: inline-block;"></div>
+
               <!-- Submit button -->
               <div class="text-center">
                 <button type="submit" class="btn btn-primary btn-jumbotron btn-block mb-4">
@@ -119,6 +121,7 @@
     <img src="<?php echo base_url()?>/imagenes/puma.png" class="marcas" >
     </div>
 </div>-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script type="text/javascript">
 function mostrarPassword(){
 		var cambio = document.getElementById("txtPassword");
