@@ -376,7 +376,9 @@
   .carousel-indicators li.active {
     background-color: #0E6655;
   }
-
+  .carousel-text{
+    font-size: 25px;
+  }
   .cnt-txt{
     margin-top: 10vh;
   }
@@ -560,6 +562,7 @@
     .logo{
     width: 60%;
     }
+
 
     .centrar-marca {
     margin-top: 10%;

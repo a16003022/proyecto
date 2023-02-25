@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#about">NOSOTROS</a>
+          <a class="nav-link" href="<?php echo base_url()?>/inicio">NOSOTROS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact">CONTACTO</a>
+          <a class="nav-link" href="<?php echo base_url()?>/inicio/#contact">CONTACTO</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CATÁLOGO</a>

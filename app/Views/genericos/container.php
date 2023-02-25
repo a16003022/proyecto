@@ -69,10 +69,10 @@
                 <img src="<?php echo base_url()?>/imagenes/cr2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
                     <h3 class="text-white">¡Registrate!</h3>
-                    <p>
+                    <p class="carousel-text">
                     ¡Obtén un 15% de descuento en tu primera compra!
                     </p>
-                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto">Registrarme</a>
+                    <a href="<?php echo base_url()?>/registro" class="btn-jumbotron btn btn-primary mr-auto">Registrarme</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval='3000'>
@@ -483,6 +483,7 @@
         </div>
       </div>
       <textarea class="form-control p-4" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+      <p>0 caracteres/144</p>
       <div class="row">
         <div class="col-sm-12 form-group">
           <!-- <img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/79wsjD0Xy7FmmYvR0sCncy/5b732b7e26adb7d6c06d943d14dc4acd/not-a-robot.png" style="max-width:35%;"> -->
