@@ -35,6 +35,7 @@ $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
 $routes->add('registro', 'Registro::index');
 $routes->add('login', 'Login::index');
+$routes->add('registrarPaquete', 'RegistrarPaquete::index');
 
 /*
  * --------------------------------------------------------------------

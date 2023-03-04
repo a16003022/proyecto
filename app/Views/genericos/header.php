@@ -497,7 +497,10 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
-
+  .registrarPaquete{min-height: 100vh; padding: 15%}
+  @media screen and (max-width: 500px) {
+    .registrarPaquete{min-height: 100vh; padding-top: 35%}
+  }
   .caja-marcas{
     margin-top: 5%;
     background-color: #9162DD;

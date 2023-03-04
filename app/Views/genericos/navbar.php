@@ -48,3 +48,4 @@
     <input type="search" id="search" class="form-control shadow-sm" placeholder="Buscar">
   </div>
 </div>
+</nav>
