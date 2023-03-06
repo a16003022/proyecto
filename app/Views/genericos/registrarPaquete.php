@@ -6,7 +6,7 @@
         <input type="text" id="inputNombre" class="form-control" required/>
     </div>
     <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+        <label for="exampleFormControlTextarea1" class="form-label">Contenido</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <div class="mb-3">
