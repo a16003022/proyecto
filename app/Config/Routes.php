@@ -35,7 +35,8 @@ $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
 $routes->add('registro', 'Registro::index');
 $routes->add('login', 'Login::index');
-$routes->add('registrarPaquete', 'RegistrarPaquete::index');
+$routes->get('registrarPaquete', 'RegistrarPaquete::index');
+$routes->post('/guardar_paquete', 'RegistrarPaquete::guardar_paquete');
 
 /*
  * --------------------------------------------------------------------
@@ -53,3 +54,4 @@ $routes->add('registrarPaquete', 'RegistrarPaquete::index');
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
+?>

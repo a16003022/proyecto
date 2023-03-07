@@ -1,0 +1,48 @@
+CRITICAL - 2023-03-07 16:44:04 --> Class "App\Controllers\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 16:56:52 --> Class "App\Controllers\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 17:22:38 --> Class "App\Controllers\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 17:23:19 --> Class "App\Controllers\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 17:24:43 --> Class "App\Controllers\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 17:25:04 --> Class "App\Controllers\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 17:26:57 --> Class "App\Models\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-07 17:27:22 --> Class "App\Models\Registrar" not found
+in APPPATH\Controllers\RegistrarPaquete.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegistrarPaquete->guardar_paquete()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrarPaquete))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
