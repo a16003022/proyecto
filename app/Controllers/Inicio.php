@@ -1,6 +1,7 @@
-<?php
-
+<?php 
 namespace App\Controllers;
+use App\Models\Paquetes;
+
 
 class Inicio extends BaseController
 {
@@ -9,11 +10,13 @@ class Inicio extends BaseController
         $data=[
             "titulo"=>"Inicio"
         ];
+        $mPaquetes=new Paquetes();
+        $data2["paquete"]=$mPaquetes->traer_paquetes();
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
         $vistas= view('genericos/header', $data).  
             view('genericos/navbar').
             view('genericos/jumbotron.php').
-            view('genericos/container').
+            view('genericos/container', $data2).
             view('genericos/image').
             view('genericos/footer').
             view("inicio");
@@ -30,3 +33,5 @@ class Inicio extends BaseController
         echo view('contacto/footer');
     }*/
 }
+
+?>

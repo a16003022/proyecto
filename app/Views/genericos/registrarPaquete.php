@@ -6,9 +6,14 @@
             <label class="form-label" for="nombre">Nombre Paquete</label>
             <input type="text" id="nombre" name="nombre" class="form-control" required/>
         </div>
+        <div>
+            <div class="form-outline">
+            <label class="form-label" for="descripcion">Descripción del paquete</label>
+            <input type="text" id="descripcion" name="descripcion" class="form-control" required/>
+        </div>
         <div class="mb-3">
             <label for="contenido" class="form-label">Contenido</label>
-            <textarea class="form-control" id="contenido" name="contenido" rows="3"></textarea>
+            <textarea class="form-control" id="contenido" name="contenido" rows="10"></textarea>
         </div>
         <div class="mb-3">
             <label for="fechaInicio" class="form-label">Fecha de inicio</label>
@@ -33,8 +38,13 @@
         </div>
         <!-- Submit button -->
         <div class="text-center">
-            <input type="submit" class="btn btn-success btn-jumbotron btn-block mb-4" value="Registrar">
+            <input type="submit" class="btn btn-success btn-jumbotron btn-block" value="Registrar">
         </div>
     </form>
 </div>
 </section>
+<script type="text/javascript">
+    function carga_modal(idPaquete){
+        alert(idPaquete);
+    }
+</script>

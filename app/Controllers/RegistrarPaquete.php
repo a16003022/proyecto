@@ -1,6 +1,7 @@
 <?php
 namespace App\Controllers;
 use App\Models\Registrar;
+use App\Models\Paquetes;
 
 class RegistrarPaquete extends BaseController
 {
@@ -9,10 +10,13 @@ class RegistrarPaquete extends BaseController
         $data=[
             "titulo"=>"Registrar"
         ];
+    $mPaquetes=new Paquetes();
+    $data3["paquete"]=$mPaquetes->traer_paquetes();
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
         $vistas= view('genericos/header').  
             view('genericos/navbar').
             view('genericos/registrarPaquete', $data).
+            view('genericos/listar_paquetes', $data3).
             view('genericos/footer').
             view("inicio");
         return $vistas;
@@ -23,6 +27,7 @@ class RegistrarPaquete extends BaseController
     public function guardar_paquete(){
         $data=[
             "nombre"=>$_POST["nombre"],
+            "descripcion"=>$_POST["descripcion"],
             "contenido"=>$_POST["contenido"],
             "fechaInicio"=>$_POST["fechaInicio"],
             "fechaTermino"=>$_POST["fechaTermino"],
@@ -30,9 +35,12 @@ class RegistrarPaquete extends BaseController
             "precio"=>$_POST["precio"]
         ];
         $mregistrar= new Registrar(); //instanciando mi modelo
-        $mregistrar->insert($data);
+        $mregistrar->guardar_paquete($data);
+        //en la sig es como retornar a la pagina anterior.
+        return redirect()->back();
+        // $mregistrar->insert($data);
         //$mregistrar->guardar_paquete($data);
-        echo json_encode(["mensaje"=>"creado el registro"]);
+        //echo json_encode(["mensaje"=>"creado el registro"]);
     }
 
    /* public function catalogo($numeroCatalogo){

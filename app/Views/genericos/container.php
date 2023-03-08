@@ -339,7 +339,16 @@
     <h3>Paquetes</h3>
     <h4>¡Selecciona un paquete para ti!</h4>
   </div>
-  <div class="row slideanim ">
+  
+  <div class="row justify-content-center align-items-stretch slideanim">
+    
+  <?php
+    foreach($paquete as $dat){
+      echo $dat['contenido'];
+    }
+  ?>
+
+    <?php /*
     <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
@@ -357,6 +366,7 @@
         </div>
       </div>
     </div>
+
     <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
@@ -374,6 +384,7 @@
         </div>
       </div>
     </div>
+
     <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
@@ -391,9 +402,15 @@
         </div>
       </div>
     </div>
+    AQUI TERMINAN LAS CARDS QUE VIENE DE LA BASE DE DATOS 
+    
+    EL SIGUIENTE DIV ES DE LAS CARDS DE PROMOS
+    */ ?>
+  </div> 
+  
+  <?php /* 
   </div>
-</div>
-    <!--<div class="col-sm-4 col-xs-12 ">
+    <div class="col-sm-4 col-xs-12 ">
       <div class="panel panel-default text-center ">
         <div class="panel-heading promociones">
           <h1>Básico</h1>
@@ -446,8 +463,12 @@
         </div>
       </div>      
     </div>    
-  </div>
-</div>-->
+  </div> <?php */ ?>
+
+
+</div>  <!--Aqui termina el div de promos-->
+
+
 <!--Alianzas-->
 <div class=" row centrar-marca text-center p-3">
     <div class="col-4 col-sm-4 col-md-4 caja">
