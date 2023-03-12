@@ -820,3 +820,56 @@ in APPPATH\Views\genericos\header.php on line 6.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-12 15:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-12 19:05:03 --> syntax error, unexpected token "<", expecting "function" or "const"
+in APPPATH\Controllers\RegPaquete.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegPaquete.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegPaquete')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegPaquete')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegPaquete', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 19:06:26 --> Unmatched '}'
+in APPPATH\Controllers\RegPaquete.php on line 92.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\RegPaquete.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\RegPaquete')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\RegPaquete')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\RegPaquete', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-12 19:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-12 19:37:00 --> mysqli_sql_exception: Unknown column 'p.id' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT c.codigo...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT c.codigo...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT c.codigo...')
+#3 D:\xampp\htdocs\proyecto\proyecto\app\Models\Contenido.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.codigo...')
+#4 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\Inicio.php(14): App\Models\Contenido->traer_paquetes()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Inicio->index()
+#6 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-12 19:37:00 --> Unknown column 'p.id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Contenido.php(13): CodeIgniter\Database\BaseConnection->query('SELECT c.codigo, c.idPaquete FROM contenido c
+        INNER JOIN paquetes p ON c.idPaquete = p.id AND p.estado = \'Activo\'')
+ 2 APPPATH\Controllers\Inicio.php(14): App\Models\Contenido->traer_paquetes()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 19:37:31 --> Undefined array key "contenido"
+in APPPATH\Views\genericos\container.php on line 346.
+ 1 APPPATH\Views\genericos\container.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contenido"', 'APPPATH\\Views\\genericos\\container.php', 346)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\container.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/container', [], true)
+ 5 APPPATH\Controllers\Inicio.php(19): view('genericos/container', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-12 19:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

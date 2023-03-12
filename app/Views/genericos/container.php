@@ -341,7 +341,13 @@
   </div>
   
   <div class="row justify-content-center align-items-stretch slideanim">
-    
+    <?php
+      foreach($paquete as $dat){
+        echo $dat['codigo'];      
+      }
+    ?>
+  
+  <?php /*
     <div class="col-lg-4 col-md-4 col-sm-12" style="backgrund-color:grey; padding: 2%;">
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
@@ -364,9 +370,8 @@
       <div class="card h-100 p-4">
         <div class="card-body text-center" style="padding:0px; margin:0px;">
             <h4 class="card-title mb-0 p-2">Intermedio</h4>
-            <p><strong>1</strong> Playera</p>
-            <p><strong>1</strong> Sudadera</p>
-            <p><strong>1</strong> Bolsa térmica</p>
+            <p><strong>Fecha Inicio</strong> 02/03/2023</p>
+            <p><strong>Fecha Termino</strong> 06/05/2023</p>
             <p class="regalo-promo">¡Llevate de regalo una bolsa Puma!</p>
             <h2>$999</h2>
             <br>
@@ -396,7 +401,9 @@
       </div>
     </div>
   </div> 
-  
+
+  */ ?>
+
   <?php /* 
   </div>
     <div class="col-sm-4 col-xs-12 ">

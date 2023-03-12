@@ -1,6 +1,6 @@
 <?php 
 namespace App\Controllers;
-use App\Models\Paquetes;
+use App\Models\Contenido;
 
 
 class Inicio extends BaseController
@@ -10,7 +10,7 @@ class Inicio extends BaseController
         $data=[
             "titulo"=>"Página de Inicio"
         ];
-        $mPaquetes=new Paquetes();
+        $mPaquetes=new Contenido();
         $data2["paquete"]=$mPaquetes->traer_paquetes();
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
         $vistas= view('genericos/header', $data).  
