@@ -16,7 +16,16 @@
             <tbody>
                 <?php foreach($productos as $producto): ?>
                     <tr>
-                        <td><input type="checkbox" name="productos[]" value="<?php echo $producto['idProducto']; ?>"></td>
+                        <?php
+                            $hayRelaciones = false;
+                            foreach($relaciones as $pr) {
+                                if ($pr['idProducto'] == $producto['idProducto']) {
+                                    $hayRelaciones = true;
+                                    break;
+                                }
+                            }
+                        ?>
+                        <td><input type="checkbox" name="productos[]" value="<?php echo $producto['idProducto']; ?>" <?php if ($hayRelaciones) { echo 'checked'; } ?>></td>
                         <td><?php echo $producto['nombre']; ?></td>
                         <td><?php echo $producto['modelo']; ?></td>
                         <td><?php echo $producto['marca']; ?></td>
