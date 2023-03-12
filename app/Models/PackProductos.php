@@ -6,7 +6,7 @@ class PackProductos extends Model
 {
     protected $table    = 'detalle_paquete';
     protected $returnType = 'array';
-    protected $allowedFields = ['cantidad','idPaquete', 'idProducto'];
+    protected $allowedFields = ['idPaquete', 'idProducto'];
 
     public function guardar_paquete($param){
         $this->insert($param);
@@ -26,6 +26,34 @@ class PackProductos extends Model
     
         return $result;
     }
+
+    public function guardarRelacion($idPaquete, $idProducto) {
+        // Verificar si ya existe una relación entre el paquete y el producto
+        $builder = $this->db->table($this->table);
+        $builder->where('idPaquete', $idPaquete);
+        $builder->where('idProducto', $idProducto);
+        $query = $builder->get();
+        $result = $query->getRow();
+    
+        // Si no existe la relación, insertar un nuevo registro
+        if (!$result) {
+            $data = [
+                'idPaquete' => $idPaquete,
+                'idProducto' => $idProducto
+            ];
+            $this->insert($data);
+        }
+    }
+    
+    public function eliminarRelacion($idPaquete, $idProducto) {
+        $builder = $this->db->table($this->table);
+        $builder->where('idPaquete', $idPaquete);
+        $builder->where('idProducto', $idProducto);
+        $builder->delete();
+    }
+    
+
+
     
 }
 ?>

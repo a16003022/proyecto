@@ -802,3 +802,21 @@ in APPPATH\Views\genericos\añadir_productos.php on line 21.
  7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 14:39:04 --> in_array(): Argument #2 ($haystack) must be of type array, null given
+in APPPATH\Controllers\AñaProductos.php on line 40.
+ 1 APPPATH\Controllers\AñaProductos.php(40): in_array('1', null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->relacionarProd('6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 15:04:56 --> Undefined variable $titulo
+in APPPATH\Views\genericos\header.php on line 6.
+ 1 APPPATH\Views\genericos\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'APPPATH\\Views\\genericos\\header.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/header', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(22): view('genericos/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('7')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

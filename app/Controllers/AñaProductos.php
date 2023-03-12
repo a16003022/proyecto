@@ -10,9 +10,9 @@ class AñaProductos extends BaseController
     {
         $data2=[
             'titulo'=>"Añadir a paquetes",
-            'titulo_seccion'=>"Añadir productos al paquete",
-            'descripcion'=>"A continuación se muestran los productos disponibles en la base de datos. Seleccione
-            los que vaya a incluir en los paquetes y presione guardar."
+            'descripcion'=>"A continuación se muestran todos los productos disponibles en la base de datos. Aquellos
+            que ya se encuentran relacionados con el paquete seleccionado aparecerán marcados. Ustede puede tanto
+            seleccionar más productos para dicho paquete o desmarcar productos para eliminarnos del paquete."
         ];
     $mPaquete=new Paquetes();
     $data3["paquete"] = $mPaquete->traer_paquete($idPaquete);
@@ -29,23 +29,43 @@ class AñaProductos extends BaseController
     }
 
     public function relacionarProd($idPaquete) {
-        $productosSeleccionados = $this->request->getPost('productos');
-    
-        if (!empty($productosSeleccionados)) {
-            // Insertar cada producto seleccionado en la tabla detalle_paquete
+        try{
             $packProductosModel = new PackProductos();
-    
-            foreach ($productosSeleccionados as $idProducto) {
-                $param = [
-                    'cantidad' => 1, // Puedes cambiar esta cantidad si lo necesitas
-                    'idPaquete' => $idPaquete,
-                    'idProducto' => $idProducto
-                ];
-                $packProductosModel->guardar_paquete($param);
+            $productosSeleccionados = $this->request->getPost('productos');
+        
+            // Obtener las relaciones existentes
+            $relacionesActuales = $packProductosModel->getProductosRelacionados($idPaquete);
+
+            // Eliminar las relaciones que ya no están seleccionadas
+            foreach ($relacionesActuales as $relacion) {
+                if (!in_array($relacion['idProducto'], $productosSeleccionados)) {
+                    $packProductosModel->eliminarRelacion($idPaquete, $relacion['idProducto']);
+                }
             }
-        }
-        return redirect()->to(base_url('registrarPaquete'));
-    }
+
+            // Insertar cada producto seleccionado en la tabla detalle_paquete
+            foreach ($productosSeleccionados as $idProducto) {
+                $packProductosModel->guardarRelacion($idPaquete, $idProducto);
+            }
+
+            if (!empty($productosSeleccionados)) {
+                // Insertar cada producto seleccionado en la tabla detalle_paquete
+        
+                foreach ($productosSeleccionados as $idProducto) {
+                    $packProductosModel->guardarRelacion($idPaquete, $idProducto);
+                }
+                
+            }
+            return redirect()->to(base_url('registrarPaquete'));
     
+        } catch (\Exception $e) {
+            // Mostrar mensaje de error personalizado
+            $mensajeError = 'Ocurrió un error interno. Por favor, intenta nuevamente.';
+            $data = [
+                'mensajeError' => $mensajeError
+            ];
+            return view('error', $data);
+        }
+    }
 }
 ?>

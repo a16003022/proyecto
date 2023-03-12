@@ -1,6 +1,7 @@
 <div class="container registrarPaquete">
     <h2>Agregar productos al paquete</h2>
     <h3>Paquete: <?php echo $paquete[0]['nombre']; ?></h3>
+    <p><?= $descripcion; ?></p>
     <form action="<?php echo base_url('relacionarProd/' . $paquete[0]['idPaquete']); ?>" method="post">
         <table class="table table-hover table-bordered">
             <thead>

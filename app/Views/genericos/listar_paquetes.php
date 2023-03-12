@@ -23,7 +23,7 @@
                                 echo "<td>".$dat['fechaTermino']."</td>";
                                 echo "<td>".$dat['estado']."</td>";
                                 echo "<td>".$dat['precio']."</td>";
-                                echo "<td><a href='" . base_url('añadirProductos/')."/".$dat['idPaquete'] . "' class='btn btn-success'>Agregar productos</a></td>";
+                                echo "<td><a href='" . base_url('añadirProductos/')."/".$dat['idPaquete'] . "' class='btn btn-success'>Editar productos</a></td>";
                             echo "</tr>";
                         }
                         ?>
