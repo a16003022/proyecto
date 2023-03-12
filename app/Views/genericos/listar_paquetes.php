@@ -8,7 +8,6 @@
                         <tr>
                             <th>Nombre</th>
                             <th>Descripcion</th>
-               <?php //     <th>Contenido</th>             ?>
                             <th>Fecha de Inicio</th>
                             <th>Fecha de Termino</th>
                             <th>Estado</th>
@@ -20,12 +19,11 @@
                             echo "<tr>";
                                 echo "<td>".$dat['nombre']."</td>";
                                 echo "<td>".$dat['descripcion']."</td>";
-                             // echo "<td>".$dat['contenido']."</td>";
                                 echo "<td>".$dat['fechaInicio']."</td>";
                                 echo "<td>".$dat['fechaTermino']."</td>";
                                 echo "<td>".$dat['estado']."</td>";
                                 echo "<td>".$dat['precio']."</td>";
-                                echo "<td><button type='button' class='btn btn-success' onclick='carga_modal(".$dat["idPaquete"].")'>Editar/Borrar</button></td>";
+                                echo "<td><a href='" . base_url('añadirProductos/')."/".$dat['idPaquete'] . "' class='btn btn-success'>Agregar productos</a></td>";
                             echo "</tr>";
                         }
                         ?>

@@ -1,5 +1,7 @@
 <section>
 <div class="container registrarPaquete">
+<h2><?= $titulo_seccion; ?></h2>
+<p><?= $descripcion; ?></p>
     <form method="post" action="<?php echo base_url().'/guardar_paquete'?>">   
         <div>
             <div class="form-outline">
@@ -10,10 +12,6 @@
             <div class="form-outline">
             <label class="form-label" for="descripcion">Descripción del paquete</label>
             <input type="text" id="descripcion" name="descripcion" class="form-control" required/>
-        </div>
-        <div class="mb-3">
-            <label for="contenido" class="form-label">Contenido</label>
-            <textarea class="form-control" id="contenido" name="contenido" rows="10"></textarea>
         </div>
         <div class="mb-3">
             <label for="fechaInicio" class="form-label">Fecha de inicio</label>

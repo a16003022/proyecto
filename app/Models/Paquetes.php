@@ -7,11 +7,20 @@ class Paquetes extends Model
     protected $table    = 'paquetes';
     protected $primaryKey = 'idPaquete';
     protected $returnType = 'array';
-    protected $allowedFields = ['nombre', 'descripcion', 'contenido', 'fechaInicio','fechaTermino','estado','precio','idPaquete'];
+    protected $allowedFields = ['nombre', 'descripcion', 'fechaInicio','fechaTermino','estado','precio','idPaquete'];
 
     public function traer_paquetes(){
-        $query=$this->db->query("select nombre, descripcion, contenido, fechaInicio, fechaTermino, estado, precio, idPaquete from paquetes");
+        $query=$this->db->query("select nombre, descripcion, fechaInicio, fechaTermino, estado, precio, idPaquete from paquetes");
         return $query->getResultArray();
+    }
+
+    public function traer_paquete($idPaquete){
+        $query=$this->db->query("select nombre, descripcion, fechaInicio, fechaTermino, estado, precio, idPaquete from paquetes WHERE idPaquete = $idPaquete");
+        return $query->getResultArray();
+    }
+
+    public function guardar_paquete($param){
+        $this->insert($param);
     }
 }
 ?>

@@ -8,7 +8,7 @@ class Inicio extends BaseController
     public function index()
     {
         $data=[
-            "titulo"=>"Inicio"
+            "titulo"=>"Página de Inicio"
         ];
         $mPaquetes=new Paquetes();
         $data2["paquete"]=$mPaquetes->traer_paquetes();

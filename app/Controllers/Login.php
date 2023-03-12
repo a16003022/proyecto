@@ -7,7 +7,7 @@ class Login extends BaseController
     public function index()
     {
         $data=[
-            "titulo"=>"Login"
+            "titulo"=>"Iniciar sesión"
         ];
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
         $vistas= view('genericos/header', $data).  

@@ -33,10 +33,14 @@ $routes->get('/', 'Home::index');
 //ruta - clase - metodo
 $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
-$routes->add('registro', 'Registro::index');
+$routes->add('registro', 'RegUsuario::index');
 $routes->add('login', 'Login::index');
-$routes->get('registrarPaquete', 'RegistrarPaquete::index');
-$routes->post('/guardar_paquete', 'RegistrarPaquete::guardar_paquete');
+$routes->get('registrarPaquete', 'RegPaquete::index');
+$routes->post('/guardar_paquete', 'RegPaquete::guardar_paquete');
+$routes->get('registrarProducto', 'RegProducto::index');
+$routes->post('/guardar_producto', 'RegProducto::guardar_producto');
+$routes->get('/añadirProductos/(:num)', 'AñaProductos::index/$1', ['as' => 'añadir_productos']);
+$routes->post('/relacionarProd/(:num)', 'AñaProductos::relacionarProd/$1', ['as' => 'añadir_productos']);
 
 /*
  * --------------------------------------------------------------------

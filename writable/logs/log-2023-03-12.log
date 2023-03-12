@@ -1,0 +1,600 @@
+CRITICAL - 2023-03-12 00:00:11 --> Undefined variable $paquetes
+in APPPATH\Views\genericos\listar_paquetes.php on line 16.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquetes', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:00:12 --> Undefined variable $paquetes
+in APPPATH\Views\genericos\listar_paquetes.php on line 16.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquetes', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:00:13 --> Undefined variable $paquetes
+in APPPATH\Views\genericos\listar_paquetes.php on line 16.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquetes', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:00:39 --> Undefined array key "descripcion"
+in APPPATH\Views\genericos\listar_paquetes.php on line 19.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:01:01 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:00 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:02 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:02 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:03 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:03 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:04 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:04 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:04 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:05 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:05 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:06 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:06 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:07 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:33 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:04:34 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:05:13 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:05:52 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:05:53 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:05:54 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:05:55 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:05:56 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:06:14 --> Undefined array key "producto"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:12:42 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:12:43 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:12:44 --> Undefined array key "productos"
+in APPPATH\Views\genericos\listar_paquetes.php on line 25.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productos"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:23:32 --> mysqli_sql_exception: Unknown column 'paquetes.idPaquete' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:23:32 --> Unknown column 'paquetes.idPaquete' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idPaquete` = `paquetes`.`idPaquete`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:25:20 --> mysqli_sql_exception: Unknown column 'paquetes.idProducto' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:25:20 --> Unknown column 'paquetes.idProducto' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idProducto` = `paquetes`.`idProducto`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:25:21 --> mysqli_sql_exception: Unknown column 'paquetes.idProducto' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:25:21 --> Unknown column 'paquetes.idProducto' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idProducto` = `paquetes`.`idProducto`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:25:22 --> mysqli_sql_exception: Unknown column 'paquetes.idProducto' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:25:22 --> Unknown column 'paquetes.idProducto' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idProducto` = `paquetes`.`idProducto`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:25:22 --> mysqli_sql_exception: Unknown column 'paquetes.idProducto' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:25:22 --> Unknown column 'paquetes.idProducto' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idProducto` = `paquetes`.`idProducto`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:25:22 --> mysqli_sql_exception: Unknown column 'paquetes.idProducto' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:25:22 --> Unknown column 'paquetes.idProducto' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idProducto` = `paquetes`.`idProducto`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-12 00:25:23 --> mysqli_sql_exception: Unknown column 'paquetes.idProducto' in 'on clause' in D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\proyecto\proyecto\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\proyecto\proyecto\app\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+#8 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+#9 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+#10 D:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-03-12 00:25:23 --> Unknown column 'paquetes.idProducto' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+LEFT JOIN `detalle_paquete` ON `detalle_paquete`.`idProducto` = `paquetes`.`idProducto`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Productos.php(25): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:25:31 --> Undefined array key "descripcion"
+in APPPATH\Models\Productos.php on line 34.
+ 1 APPPATH\Models\Productos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Models\\Productos.php', 34)
+ 2 APPPATH\Controllers\RegPaquete.php(19): App\Models\Productos->getPaquetesConProductos()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:25:55 --> Undefined variable $paquetesConProductos
+in APPPATH\Views\genericos\listar_paquetes.php on line 11.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquetesConProductos', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:26:52 --> Undefined array key "descripcion"
+in APPPATH\Views\genericos\listar_paquetes.php on line 14.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(23): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:29:23 --> Undefined variable $paquete
+in APPPATH\Views\genericos\listar_paquetes.php on line 18.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquete', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(21): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:29:24 --> Undefined variable $paquete
+in APPPATH\Views\genericos\listar_paquetes.php on line 18.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquete', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(21): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:29:24 --> Undefined variable $paquete
+in APPPATH\Views\genericos\listar_paquetes.php on line 18.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquete', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(21): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-12 00:29:25 --> Undefined variable $paquete
+in APPPATH\Views\genericos\listar_paquetes.php on line 18.
+ 1 APPPATH\Views\genericos\listar_paquetes.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paquete', 'APPPATH\\Views\\genericos\\listar_paquetes.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\genericos\\listar_paquetes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('genericos/listar_paquetes', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(21): view('genericos/listar_paquetes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
