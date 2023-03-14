@@ -14,11 +14,11 @@ class RegProducto extends BaseController
         ];
     $mProductos=new Productos();
     $data3["producto"]=$mProductos->traer_productos();
-        $vistas= view('genericos/header', $data2).  
-            view('genericos/navbar').
-            view('genericos/regProducto').
-            view('genericos/listar_productos', $data3).
-            view('genericos/footer').
+        $vistas= view('administrador/header', $data2).  
+            view('administrador/navbar').
+            view('administrador/regProducto').
+            view('administrador/listar_productos', $data3).
+            view('administrador/footer').
             view("inicio");
         return $vistas;
     }

@@ -15,19 +15,20 @@
                 <div class="form-outline mb-4">
                     <div class="form-outline">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
+                        <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" required>
                     </div>
                 </div>
               <!-- Password input -->
                 <div class="form-outline mb-4">
-                    <label for="password" class="form-label">Contraseña</label>
+                    <label class="form-label" for="password">Contraseña</label>
                     <div class="input-group">
-                     <input type="password" class="form-control" id="password" name="password">
+                        <input ID="password" type="password" Class="form-control">
                         <div class="input-group-append">
                             <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword()"> 
                             <span class="fa fa-eye-slash icon"></span> 
                             </button>
-                            </div>
+                        </div>
+                    </div>
                 </div>
 
               <!-- 2 column grid layout for inline styling -->
@@ -50,11 +51,13 @@
 
                 <div class="text-center">
                 <p>¿Todavía no eres miembro? <br> <a href="<?php echo base_url()?>/registro">Regístrate gratis ahora</a></p>
-
-                </form>
+                </div>
+            </form>
           </div>
+        </div>
+    </div>
+</div>
 </section>
-
 
 <script type="text/javascript">
 function mostrarPassword(){

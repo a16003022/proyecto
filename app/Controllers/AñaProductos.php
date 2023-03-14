@@ -20,10 +20,10 @@ class AñaProductos extends BaseController
     $data3["productos"]=$mProductos->traer_productos();
     $mRelaciones=new PackProductos();
     $data3["relaciones"]=$mRelaciones->getProductosRelacionados($idPaquete);
-        $vistas= view('genericos/header', $data2).  
-            view('genericos/navbar').
-            view('genericos/añadir_productos', $data3).
-            view('genericos/footer').
+        $vistas= view('administrador/header', $data2).  
+            view('administrador/navbar').
+            view('administrador/añadir_productos', $data3).
+            view('administrador/footer').
             view("inicio");
         return $vistas;
     }

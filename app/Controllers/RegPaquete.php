@@ -16,11 +16,11 @@ class RegPaquete extends BaseController
         ];
     $mPaquetes=new Paquetes();
     $data3["paquete"]=$mPaquetes->traer_paquetes();
-        $vistas= view('genericos/header', $data2).  
-            view('genericos/navbar').
-            view('genericos/regPaquete').
-            view('genericos/listar_paquetes', $data3).
-            view('genericos/footer').
+        $vistas= view('administrador/header', $data2).  
+            view('administrador/navbar').
+            view('administrador/regPaquete').
+            view('administrador/listar_paquetes', $data3).
+            view('administrador/footer').
             view("inicio");
         return $vistas;
     }

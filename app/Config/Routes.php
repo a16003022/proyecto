@@ -33,14 +33,22 @@ $routes->get('/', 'Home::index');
 //ruta - clase - metodo
 $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
+
 $routes->add('registro', 'RegUsuario::index');
+$routes->post('RegUsuario', 'RegUsuario::register');
+
 $routes->add('login', 'Login::index');
-$routes->get('registrarPaquete', 'RegPaquete::index');
-$routes->post('/guardar_paquete', 'RegPaquete::guardar_paquete');
-$routes->get('registrarProducto', 'RegProducto::index');
-$routes->post('/guardar_producto', 'RegProducto::guardar_producto');
+$routes->get('registrarPaquete', 'RegPaquete::index', ['filter' => 'authFilter']);
+$routes->post('/guardar_paquete', 'RegPaquete::guardar_paquete', ['filter' => 'authFilter']);
+$routes->get('registrarProducto', 'RegProducto::index', ['filter' => 'authFilter']);
+$routes->post('/guardar_producto', 'RegProducto::guardar_producto', ['filter' => 'authFilter']);
 $routes->get('/añadirProductos/(:num)', 'AñaProductos::index/$1', ['as' => 'añadir_productos']);
 $routes->post('/relacionarProd/(:num)', 'AñaProductos::relacionarProd/$1', ['as' => 'añadir_productos']);
+$routes->get('/login', 'Login::index', ['filter' => 'guestFilter']);
+$routes->post('/login', 'Login::authenticate', ['filter' => 'guestFilter']);
+$routes->get('/logout', 'Login::logout', ['filter' => 'authFilter']);
+$routes->get('/usuarios', 'Usuarios::index', ['filter' => 'authFilter']);
+$routes->get('/administrador', 'Administrador::index', ['filter' => 'authFilter']);
 
 /*
  * --------------------------------------------------------------------

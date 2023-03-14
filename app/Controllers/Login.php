@@ -1,7 +1,10 @@
 <?php
 
 namespace App\Controllers;
-
+use App\Models\UserModel;
+use App\Models\Contenido;
+use App\Models\Paquetes;
+use App\Models\Productos;
 class Login extends BaseController
 {
     public function index()
@@ -17,14 +20,69 @@ class Login extends BaseController
             view("inicio");
         return $vistas;
 
-        //return view('inicio');
+        
     }
-   /* public function catalogo($numeroCatalogo){
-        $data=['titulo'=>"catalogo"];
-        $catalogo=['numero'=>$numeroCatalogo];
-        echo view('contacto/header',$data);
-        echo view('contacto/menu');
-        echo view('contacto/catalogo',$catalogo);
-        echo view('contacto/footer');
-    }*/
+   
+    public function authenticate()
+    {
+        $session = session();
+        $userModel = new UserModel();
+ 
+        $email = $this->request->getVar('email');
+        $password = $this->request->getVar('password');
+         
+        $user = $userModel->where('email', $email)->first();
+ 
+        if(is_null($user)) {
+            return redirect()->back()->withInput()->with('error', 'Correo o contraseña incorrecta.');
+        }
+ 
+        $pwd_verify = password_verify($password, $user['password']);
+ 
+        if(!$pwd_verify) {
+            return redirect()->back()->withInput()->with('error', 'Correo o contraseña incorrecta.');
+        }
+ 
+        $ses_data = [
+            'id' => $user['user_id'],
+            'email' => $user['email'],
+            'rol' => $user['rol'],
+            'isLoggedIn' => TRUE
+        ];
+ 
+        $session->set($ses_data);
+        // return redirect()->to('/dashboard');
+
+        $rol = $session->get('rol');
+
+        if ($rol != 'administrador') {
+            return redirect()->to(base_url('/usuarios'));
+        }
+
+        $data2=[
+            'titulo'=>"Registrar paquetes",
+            'titulo_seccion'=>"Registro para los paquetes",
+            'descripcion'=>"Los siguientes datos son requeridos para poder darlos de alta en nuestro catálogo 
+            de paquetes. Complete toda la información solicitada para poder registrar exitosamente."
+        ];
+    $mPaquetes=new Paquetes();
+    $data3["paquete"]=$mPaquetes->traer_paquetes();
+        $vistas= view('administrador/header', $data2).  
+            view('administrador/navbar').
+            view('administrador/regPaquete').
+            view('administrador/listar_paquetes', $data3).
+            view('administrador/footer').
+            view("inicio");
+        return $vistas;
+
+    }
+         
+        
+    
+ 
+    public function logout() {
+        session_destroy();
+        return redirect()->to('/inicio');
+    }
+
 }
