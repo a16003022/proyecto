@@ -51,9 +51,11 @@ class PackProductos extends Model
         $builder->where('idProducto', $idProducto);
         $builder->delete();
     }
-    
-
-
-    
+  
+    public function eliminarTodasRelaciones($idPaquete) {
+        $builder = $this->db->table($this->table);
+        $builder->where('idPaquete', $idPaquete);
+        $builder->delete();
+        }
 }
 ?>
