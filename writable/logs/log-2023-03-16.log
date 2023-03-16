@@ -47,3 +47,1037 @@ INFO - 2023-03-16 00:54:03 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-03-16 00:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-03-16 00:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-03-16 07:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 14:42:39 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 14:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 14:42:47 --> Undefined array key "name"
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(20): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 14:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 14:48:12 --> "Esteban" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Esteban')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('name', 'name', 'Esteban', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\RegUsuario.php(38): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegUsuario->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegUsuario))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 14:57:53 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 14:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 14:58:22 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 14:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 14:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:04:39 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:15:35 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:17:19 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:17:22 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:17:46 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:18:19 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:28:32 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:29:30 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:29:30 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:29:36 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:29:43 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:31:22 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:32:57 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\administrador\navbar.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'APPPATH\\Views\\administrador\\navbar.php', 1)
+ 2 APPPATH\Views\administrador\navbar.php(1): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 6 APPPATH\Controllers\RegPaquete.php(20): view('administrador/navbar')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:32:58 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\administrador\navbar.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'APPPATH\\Views\\administrador\\navbar.php', 1)
+ 2 APPPATH\Views\administrador\navbar.php(1): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 6 APPPATH\Controllers\RegPaquete.php(20): view('administrador/navbar')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:33:13 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:34:35 --> Undefined variable $_SESSION
+in APPPATH\Views\usuarios\navbar.php on line 41.
+ 1 APPPATH\Views\usuarios\navbar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\usuarios\\navbar.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:35:05 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:36:17 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:36:21 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:37:37 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 1.
+ 1 APPPATH\Views\administrador\navbar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:37:45 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 1.
+ 1 APPPATH\Views\administrador\navbar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:38:19 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:38:21 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:38:26 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:39:49 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:40:06 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\Administrador.php(22): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Administrador->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:40:44 --> Undefined variable $_SESSION
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:43:52 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\proyecto\proyecto\app\Controllers\RegPaquete.php on line 21
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\RegPaquete.php(21): view('administrador/navbar', 'Administrador')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:45:22 --> Undefined variable $data4
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data4', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\RegPaquete.php(21): view('administrador/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegPaquete->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegPaquete))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:51:29 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\RegProducto.php(18): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegProducto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:51:56 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\RegProducto.php(18): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegProducto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:52:30 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\RegProducto.php(18): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\RegProducto->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:53:31 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(24): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:53:48 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:53:52 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:55:43 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 15:56:47 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:56:51 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('18')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:56:56 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:57:59 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 15:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 15:58:45 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 15:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:02:22 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:03:48 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:06:01 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:07:27 --> Undefined variable $session
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:08:11 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:08:15 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:08:31 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:09:48 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:04 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:05 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:06 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:07 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:07 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:08 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:08 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:08 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:09 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:09 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:10:43 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar.php on line 38.
+ 1 APPPATH\Views\administrador\navbar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:12:54 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:13:39 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:13:43 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 16:14:17 --> Undefined variable $_SESSION
+in APPPATH\Controllers\AñaProductos.php on line 23.
+ 1 APPPATH\Controllers\AñaProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'APPPATH\\Controllers\\AñaProductos.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:14:29 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar2.php on line 38.
+ 1 APPPATH\Views\administrador\navbar2.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar2.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar2', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 16:14:30 --> Undefined variable $name
+in APPPATH\Views\administrador\navbar2.php on line 38.
+ 1 APPPATH\Views\administrador\navbar2.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\administrador\\navbar2.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\administrador\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('administrador/navbar2', [], true)
+ 5 APPPATH\Controllers\AñaProductos.php(25): view('administrador/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AñaProductos->index('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AñaProductos))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 16:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 16:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

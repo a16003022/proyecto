@@ -18,10 +18,12 @@ class Administrador extends BaseController
         ];
     $mPaquetes=new Paquetes();
     $data3["paquete"]=$mPaquetes->traer_paquetes();
+    $data4["name"] = $session['name'];
         $vistas= view('administrador/header', $data2).  
-            view('administrador/navbar').
+            view('administrador/navbar',$data4).
             view('administrador/regPaquete').
             view('administrador/listar_paquetes', $data3).
+            view('administrador/añadir_productos').
             view('administrador/footer').
             view("inicio");
         return $vistas;

@@ -38,7 +38,8 @@ class RegUsuario extends BaseController
             $model = new UserModel();
             $data = [
                 'email'    => $this->request->getVar('email'),
-                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
+                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+                'name'    => $this->request->getVar('name')
             ];
             $model->save($data);
             return redirect()->to('/login');

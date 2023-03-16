@@ -25,8 +25,8 @@
                 <h3 class="text-center">Registro</h3>
                 <div class="col-md-6 mb-4">
                   <div class="form-outline">
-                    <label class="form-label" for="inputNombre">Nombre(s)</label>
-                    <input type="text" id="inputNombre" class="form-control" required/>
+                    <label class="form-label" for="name">Nombre(s)</label>
+                    <input type="name" class="form-control" id="name" name="name" value="<?= set_value('name') ?>">
                   </div>
                 </div>
                 <div class="col-md-6 mb-4">

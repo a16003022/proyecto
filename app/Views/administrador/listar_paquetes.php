@@ -4,7 +4,8 @@
             <div class="col-sm-12">
                 <h2>Catalogo de paquetes</h2>
                 <div class="table table-responsive">
-                    <table class="table table-hover table-bordered">
+                    <table id="tabla-ejemplo" class="display table table-hover table-bordered">
+                        <thead>
                         <tr>
                             <th>Nombre</th>
                             <th>Descripcion</th>
@@ -14,6 +15,8 @@
                             <th>Precio</th>
                             <th>Acciones</th>
                         </tr>
+                        <thead>
+                        <tbody>
                         <?php
                         foreach($paquete as $dat){
                             echo "<tr>";
@@ -27,9 +30,20 @@
                             echo "</tr>";
                         }
                         ?>
+                        <tbody>
                     </table>
+
+                    
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+        $('#tabla-ejemplo').DataTable();
+      });
+    </script>
+
+    
