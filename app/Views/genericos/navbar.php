@@ -17,9 +17,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CATÁLOGO</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">PLAYERAS</a></li>
-            <li><a class="dropdown-item" href="#">SUDADERAS</a></li>
-            <li><a class="dropdown-item" href="#">BOLSA TÉRMICA</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url()?>/catalogo">PLAYERAS</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url()?>/catalogo">SUDADERAS</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url()?>/catalogo">BOLSA TÉRMICA</a></li>
           </ul>
         </li>
         
