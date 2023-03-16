@@ -1,54 +1,53 @@
-<section>
-<div class="container registrarPaquete">
-<h2><?= $titulo_seccion; ?></h2>
-<p><?= $descripcion; ?></p>
-    <form method="post" action="<?php echo base_url().'/guardar_paquete'?>">   
-        <div>
-            <div class="form-outline">
-            <label class="form-label" for="nombre">Nombre Paquete</label>
-            <input type="text" id="nombre" name="nombre" class="form-control" required/>
+<div class="container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
+    <div class="row">
+        <div class="col-6">
+            <h2><?= $titulo_seccion; ?></h2>
+            <p><?= $descripcion; ?></p>
+                <form method="post" action="<?php echo base_url().'/guardar_paquete'?>">   
+                    <div>
+                        <div class="form-outline">
+                        <label class="form-label" for="nombre">Nombre Paquete</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required/>
+                    </div>
+                    <div>
+                        <div class="form-outline">
+                        <label class="form-label" for="descripcion">Descripción del paquete</label>
+                        <input type="text" id="descripcion" name="descripcion" class="form-control" required/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="fechaInicio" class="form-label">Fecha de inicio</label>
+                        <input type="date" class="form-control" id="fechaInicio" name="fechaInicio">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fechaTermino" class="form-label">Fecha de término</label>
+                        <input type="date" class="form-control" id="fechaTermino" name="fechaTermino">
+                    </div>
+                    <div class="mb-3">
+                    <label for="estado" class="form-label">Status</label>
+                    <select id="estado" name="estado" class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona un estado</option>
+                        <option value="Activo">Activo</option>
+                        <option value="Inactivo">Inactivo</option>
+                    </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="precio" class="form-label">Precio</label>
+                        <input type="number" class="form-control" id="precio" name="precio">
+                    </div>
+                    </div>
+                    <!-- Submit button -->
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-success btn-jumbotron btn-block" value="Registrar">
+                    </div>
+                </form>
         </div>
-        <div>
-            <div class="form-outline">
-            <label class="form-label" for="descripcion">Descripción del paquete</label>
-            <input type="text" id="descripcion" name="descripcion" class="form-control" required/>
-        </div>
-        <div class="mb-3">
-            <label for="fechaInicio" class="form-label">Fecha de inicio</label>
-            <input type="date" class="form-control" id="fechaInicio" name="fechaInicio">
-        </div>
-        <div class="mb-3">
-            <label for="fechaTermino" class="form-label">Fecha de término</label>
-            <input type="date" class="form-control" id="fechaTermino" name="fechaTermino">
-        </div>
-        <div class="mb-3">
-        <label for="estado" class="form-label">Status</label>
-        <select id="estado" name="estado" class="form-select" aria-label="Default select example">
-            <option selected>Selecciona un estado</option>
-            <option value="Activo">Activo</option>
-            <option value="Inactivo">Inactivo</option>
-        </select>
-        </div>
-        <div class="mb-3">
-            <label for="precio" class="form-label">Precio</label>
-            <input type="number" class="form-control" id="precio" name="precio">
-        </div>
-        </div>
-        <!-- Submit button -->
-        <div class="text-center">
-            <input type="submit" class="btn btn-success btn-jumbotron btn-block" value="Registrar">
-        </div>
-    </form>
-</div>
-</section>
-<div id="contenido_de_la_tabla" class="container">
-        <?php //print_r($datos)?>
-        <div>
-            <div class="col-sm-12">
-                <h2>Catalogo de paquetes</h2>
-                <div class="table table-responsive">
-                    <table id="tabla-ejemplo" class="display table table-hover table-bordered">
-                        <thead>
+    </div>
+    <div class="col-6">
+        <div id="contenido_de_la_tabla" class="container">
+            <h2>Catalogo de paquetes</h2>
+            <div class="table">
+                <table id="tabla-ejemplo" class="display table table-hover table-bordered">
+                    <thead>
                         <tr>
                             <th>Nombre</th>
                             <th>Descripcion</th>
@@ -58,8 +57,8 @@
                             <th>Precio</th>
                             <th>Acciones</th>
                         </tr>
-                        <thead>
-                        <tbody>
+                    <thead>
+                    <tbody>
                         <?php
                         foreach($paquete as $dat){
                             echo "<tr>";
@@ -73,15 +72,13 @@
                             echo "</tr>";
                         }
                         ?>
-                        <tbody>
-                    </table>
-
-                    
-                </div>
+                    <tbody>
+                </table>
             </div>
         </div>
     </div>
 </div>
+
 <script type="text/javascript">
       $(document).ready(function() {
         $('#tabla-ejemplo').DataTable();

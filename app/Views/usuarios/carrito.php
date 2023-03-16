@@ -1,8 +1,10 @@
 <!-- Vista del carrito de compras -->
-<div class="container">
+<div class="container" style="padding-top: 60px;">
   <div class="row">
     <div class="col-md-12">
       <h2 class="mb-4">Carrito de compras</h2>
+      <h2><?= $titulo_seccion; ?></h2>
+      <p><?= $descripcion; ?></p>
       <div class="table-responsive">
         <table class="table table-striped">
           <thead>

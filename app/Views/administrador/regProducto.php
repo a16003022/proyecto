@@ -1,4 +1,4 @@
-<section class="container-fluid" style="padding-top: 100px;">
+<div class="container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
     <div class="row">
         <div class="col-6">
         <h2><?= $titulo_seccion; ?></h2>
@@ -6,34 +6,39 @@
             <form method="post" action="<?php echo base_url().'/guardar_producto'?>">   
                 <div>
                     <div class="form-outline">
-                    <label class="form-label" for="nombre">Nombre Producto</label>
-                    <input type="text" id="nombre" name="nombre" class="form-control" required/>
+                        <label class="form-label" for="nombre">Nombre Producto</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required/>
+                    </div>
                 </div>
                 <div>
                     <div class="form-outline">
-                    <label class="form-label" for="img">Ruta imagen</label>
-                    <input type="text" id="img" name="img" class="form-control" required/>
+                        <label class="form-label" for="img">Ruta imagen</label>
+                        <input type="text" id="img" name="img" class="form-control" required/>
+                    </div>
                 </div>
                 <div>
                     <div class="form-outline">
-                    <label class="form-label" for="modelo">Modelo</label>
-                    <input type="text" id="modelo" name="modelo" class="form-control" required/>
+                        <label class="form-label" for="modelo">Modelo</label>
+                        <input type="text" id="modelo" name="modelo" class="form-control" required/>
+                    </div>
                 </div>
                 <div>
                     <div class="form-outline">
-                    <label class="form-label" for="marca">Marca</label>
-                    <input type="text" id="marca" name="marca" class="form-control" required/>
-                </div>
-                </div>
-                <div>
-                    <div class="form-outline">
-                    <label class="form-label" for="medida">Medida</label>
-                    <input type="text" id="medida" name="medida" class="form-control" required/>
+                        <label class="form-label" for="marca">Marca</label>
+                        <input type="text" id="marca" name="marca" class="form-control" required/>
+                    </div>
                 </div>
                 <div>
                     <div class="form-outline">
-                    <label class="form-label" for="clasificacion">Clasificación</label>
-                    <input type="text" id="clasificacion" name="clasificacion" class="form-control" required/>
+                        <label class="form-label" for="medida">Medida</label>
+                        <input type="text" id="medida" name="medida" class="form-control" required/>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-outline">
+                        <label class="form-label" for="clasificacion">Clasificación</label>
+                        <input type="text" id="clasificacion" name="clasificacion" class="form-control" required/>
+                    </div>
                 </div>
                 <!-- Submit button -->
                 <div class="text-center mb-4">
@@ -44,7 +49,7 @@
         <div class="col-6">
             <div>
                 <h2>Catalogo de productos</h2>
-                <table id="tabla-ejemplo">
+                <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                     <thead>
                         <tr>
                             <th>Nombre</th>
@@ -75,7 +80,7 @@
             </div>
         </div>
     </div>    
-</section>
+</div>
 
 <script type="text/javascript">
       $(document).ready(function() {
