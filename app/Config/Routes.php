@@ -50,6 +50,7 @@ $routes->get('/logout', 'Login::logout', ['filter' => 'authFilter']);
 $routes->get('/usuarios', 'Usuarios::index', ['filter' => 'authFilter']);
 $routes->get('/administrador', 'Administrador::index');/* ['filter' => 'authFilter']);*/
 $routes->get('/catalogo', 'Catalogo::index');
+$routes->get('/carrito', 'Carrito::index');
 
 /*
  * --------------------------------------------------------------------
