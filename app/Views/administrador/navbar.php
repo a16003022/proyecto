@@ -40,7 +40,7 @@
         </li>
         </li>
         <li class="nav-item">
-        <a class="nav-link " aria-current="page" href="<?php echo base_url('/logout'); ?>">Logout</a>
+        <a class="nav-link " aria-current="page" href="<?php echo base_url('/logout'); ?>">Cerrar Sesión</a>
         </li>
       </ul>
     </div>

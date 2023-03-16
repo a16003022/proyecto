@@ -30,7 +30,6 @@ class Login extends BaseController
  
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
-         
         $user = $userModel->where('email', $email)->first();
  
         if(is_null($user)) {

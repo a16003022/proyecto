@@ -4,6 +4,7 @@ use App\Models\Paquetes;
 use App\Models\Productos;
 use App\Models\PackProductos;
 
+
 class AñaProductos extends BaseController
 {
     public function index($idPaquete)
@@ -20,9 +21,10 @@ class AñaProductos extends BaseController
     $data3["productos"]=$mProductos->traer_productos();
     $mRelaciones=new PackProductos();
     $data3["relaciones"]=$mRelaciones->getProductosRelacionados($idPaquete);
-    
+    $session = session();
+    $data4["name"] = $session->get('name');
         $vistas= view('administrador/header', $data2).  
-            view('administrador/navbar2').
+            view('administrador/navbar',$data4).
             view('administrador/añadir_productos', $data3).
             view('administrador/footer').
             view("inicio");

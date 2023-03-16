@@ -3,7 +3,7 @@
     <h3>Paquete: <?php echo $paquete[0]['nombre']; ?></h3>
     <p><?= $descripcion; ?></p>
     <form action="<?php echo base_url('relacionarProd/' . $paquete[0]['idPaquete']); ?>" method="post">
-        <table class="table table-hover table-bordered">
+        <table id="tabla-ejemplo" class="table table-hover table-bordered">
             <thead>
                 <tr>
                     <th></th>
@@ -40,3 +40,9 @@
         <button type="button" class="btn  btn-outline-primary" style="background-color: #9162dd !important; border-style: none;"><a style="text-decoration: none;color: #FFF;" href="<?php echo base_url()?>/registrarPaquete">Regresar</a></button>
     </form>
 </div>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+        $('#tabla-ejemplo').DataTable();
+      });
+</script>
