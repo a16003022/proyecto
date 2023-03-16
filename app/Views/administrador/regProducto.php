@@ -1,6 +1,6 @@
 <div class="container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
     <div class="row">
-        <div class="col-6">
+        <div class="col-lg-5">
         <h2><?= $titulo_seccion; ?></h2>
         <p><?= $descripcion; ?></p>
             <form method="post" action="<?php echo base_url().'/guardar_producto'?>">   
@@ -41,12 +41,12 @@
                     </div>
                 </div>
                 <!-- Submit button -->
-                <div class="text-center mb-4">
+                <div class="text-center">
                     <input type="submit" class="btn btn-success btn-jumbotron btn-block" value="Registrar">
                 </div>
             </form>
         </div>
-        <div class="col-6">
+        <div class="col-lg-7">
             <div>
                 <h2>Catalogo de productos</h2>
                 <table id="tabla-ejemplo" class="display table table-hover table-bordered">
