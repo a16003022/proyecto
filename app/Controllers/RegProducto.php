@@ -17,8 +17,7 @@ class RegProducto extends BaseController
     $data4["name"] = $_SESSION['name'];
         $vistas= view('administrador/header', $data2).  
             view('administrador/navbar',$data4).
-            view('administrador/regProducto').
-            view('administrador/listar_productos', $data3).
+            view('administrador/regProducto',  $data3).
             view('administrador/footer').
             view("inicio");
         return $vistas;

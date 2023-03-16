@@ -19,8 +19,7 @@ class RegPaquete extends BaseController
     $data4["name"] = $_SESSION['name'];
         $vistas= view('administrador/header', $data2).  
             view('administrador/navbar',$data4).
-            view('administrador/regPaquete').
-            view('administrador/listar_paquetes', $data3).
+            view('administrador/regPaquete', $data3).
             view('administrador/footer').
             view("inicio");
         return $vistas;
