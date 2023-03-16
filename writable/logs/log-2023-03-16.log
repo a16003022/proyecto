@@ -1,0 +1,48 @@
+INFO - 2023-03-16 00:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-16 00:36:45 --> Undefined property: App\Controllers\vistaPaquete::$load
+in APPPATH\Controllers\vistaPaquete.php on line 12.
+ 1 APPPATH\Controllers\vistaPaquete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\vistaPaquete::$load', 'APPPATH\\Controllers\\vistaPaquete.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\vistaPaquete->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistaPaquete))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 00:37:49 --> Undefined property: App\Controllers\vistaPaquete::$load
+in APPPATH\Controllers\vistaPaquete.php on line 12.
+ 1 APPPATH\Controllers\vistaPaquete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\vistaPaquete::$load', 'APPPATH\\Controllers\\vistaPaquete.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\vistaPaquete->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistaPaquete))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 00:38:06 --> Undefined property: App\Controllers\vistaPaquete::$load
+in APPPATH\Controllers\vistaPaquete.php on line 12.
+ 1 APPPATH\Controllers\vistaPaquete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\vistaPaquete::$load', 'APPPATH\\Controllers\\vistaPaquete.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\vistaPaquete->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistaPaquete))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 00:39:44 --> Undefined property: App\Controllers\vistaPaquete::$load
+in APPPATH\Controllers\vistaPaquete.php on line 12.
+ 1 APPPATH\Controllers\vistaPaquete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\vistaPaquete::$load', 'APPPATH\\Controllers\\vistaPaquete.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\vistaPaquete->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistaPaquete))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 00:39:45 --> Undefined property: App\Controllers\vistaPaquete::$load
+in APPPATH\Controllers\vistaPaquete.php on line 12.
+ 1 APPPATH\Controllers\vistaPaquete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\vistaPaquete::$load', 'APPPATH\\Controllers\\vistaPaquete.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\vistaPaquete->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistaPaquete))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-16 00:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-16 00:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,6 +1,6 @@
 <footer class="container-fluid text-center">
 <div class="container">
-      <div class="row p-0 mx-0 align-items-center">
+      <div class="row p-2 mx-0 align-items-center" style="padding-top: 2% !important;">
         <div class= "col-lg-4 col-md-12 col-sm-12">
         <img class="logo-footer"  src="<?php echo base_url()?>/imagenes/1.png">
         </div>

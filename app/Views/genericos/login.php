@@ -57,6 +57,7 @@
 
 
 <script type="text/javascript">
+
 function mostrarPassword(){
 		var cambio = document.getElementById("txtPassword");
 		if(cambio.type == "password"){

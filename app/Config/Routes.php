@@ -48,7 +48,8 @@ $routes->get('/login', 'Login::index', ['filter' => 'guestFilter']);
 $routes->post('/login', 'Login::authenticate', ['filter' => 'guestFilter']);
 $routes->get('/logout', 'Login::logout', ['filter' => 'authFilter']);
 $routes->get('/usuarios', 'Usuarios::index', ['filter' => 'authFilter']);
-$routes->get('/administrador', 'Administrador::index', ['filter' => 'authFilter']);
+$routes->get('/administrador', 'Administrador::index');/* ['filter' => 'authFilter']);*/
+$routes->get('/catalogo', 'Catalogo::index');
 
 /*
  * --------------------------------------------------------------------
