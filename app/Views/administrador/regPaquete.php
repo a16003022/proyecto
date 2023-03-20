@@ -37,7 +37,7 @@
                     </div>
                     <!-- Submit button -->
                     <div class="text-center">
-                        <input type="submit" class="btn btn-success btn-jumbotron btn-block" value="Registrar">
+                        <input type="submit" class="btn btn-success btn-jumbotron btn-block mb-4" value="Registrar">
                     </div>
                 </form>
         </div>
@@ -68,7 +68,7 @@
                                 echo "<td>".$dat['fechaTermino']."</td>";
                                 echo "<td>".$dat['estado']."</td>";
                                 echo "<td>".$dat['precio']."</td>";
-                                echo "<td><a href='" . base_url('añadirProductos/')."/".$dat['idPaquete'] . "' class='btn btn-success'>Editar productos</a></td>";
+                                echo "<td><a href='" . base_url('añadirProductos/')."/".$dat['idPaquete'] . "' class='btn btn-success'>Agregar</a></td>";
                             echo "</tr>";
                         }
                         ?>

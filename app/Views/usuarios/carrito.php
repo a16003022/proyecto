@@ -1,8 +1,7 @@
 <!-- Vista del carrito de compras -->
-<div class="container" style="padding-top: 60px;">
+<div class="container" style="padding-top: 100px;">
   <div class="row">
     <div class="col-md-12">
-      <h2 class="mb-4">Carrito de compras</h2>
       <h2><?= $titulo_seccion; ?></h2>
       <p><?= $descripcion; ?></p>
       <div class="table-responsive">
@@ -80,7 +79,7 @@
               </tbody>
             </table>
           </div>
-          <button type="button" class="btn btn-success btn-lg btn-block">Comprar</button>
+          <button type="button" class="btn btn-success btn-lg btn-block mb-4">Comprar</button>
         </div>
       </div>
     </div>

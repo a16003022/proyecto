@@ -93,6 +93,13 @@
   .bg-grey {
     background-color: #f6f6f6;
   }
+
+  .bgCat{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php echo base_url()?> /imagenes/bgCat.png');
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
   .logo-small {
     color: #40B5AD;
     font-size: 50px;

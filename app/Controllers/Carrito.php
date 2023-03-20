@@ -15,11 +15,13 @@ class Carrito extends BaseController
         ];
         $mPaquetes=new Contenido();
         $data2["paquete"]=$mPaquetes->traer_paquetes();
+        $session = session();
+        $data4["name"] = $session->get('name');
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
-        $vistas= view('genericos/header', $data).  
-            view('genericos/navbar').
+        $vistas= view('usuarios/header', $data).  
+            view('usuarios/navbar', $data4).
             view('usuarios/carrito').
-            view('genericos/footer').
+            view('usuarios/footer').
             view("inicio");
         return $vistas;
 

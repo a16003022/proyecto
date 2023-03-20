@@ -1,7 +1,7 @@
 <body>
   <section class="bgCat">
     <div class="container">
-      <div class="row justify-content-center align-items-stretch" style="padding-top:20vh;">
+      <div class="row justify-content-center align-items-stretch" style="padding-top:15vh;">
         <?php
         foreach($producto as $dat){ ?>
           <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4">

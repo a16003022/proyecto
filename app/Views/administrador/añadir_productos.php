@@ -11,6 +11,7 @@
                     <th>Modelo</th>
                     <th>Marca</th>
                     <th>Medida</th>
+                    <th>Precio</th>
                     <th>Clasificación</th>
                 </tr>
             </thead>
@@ -31,6 +32,7 @@
                         <td><?php echo $producto['modelo']; ?></td>
                         <td><?php echo $producto['marca']; ?></td>
                         <td><?php echo $producto['medida']; ?></td>
+                        <td><?php echo $producto['precio']; ?></td>
                         <td><?php echo $producto['clasificacion']; ?></td>
                     </tr>
                 <?php endforeach; ?>
