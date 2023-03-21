@@ -12,8 +12,8 @@
                 </div>
                 <div>
                     <div class="form-outline">
-                        <label class="form-label" for="img">Nombre Imagen</label>
-                        <input type="text" id="img" name="img" class="form-control" required/>
+                        <label class="form-label" for="img">Imagen</label>
+                        <input type="file" id="img" name="img" class="form-control" accept=".jpg, .jpeg, .png, .gif" onchange="document.getElementById('img_text').value = this.value.split('\\').pop()" required/>
                     </div>
                 </div>
                 <div>
