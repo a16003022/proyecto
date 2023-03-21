@@ -40,8 +40,8 @@
     </style>
 
 <!-- Container (Portfolio Section) -->
-<div id="productos" class="container-fluid text-center" style="padding-top: 60px; padding-bottom: 60px;">
-  <h3 style="color: #9162DD">CATÁLOGO</h3><br>
+<div id="productos" class="container-fluid text-center bgCat" style="padding-top: 60px; padding-bottom: 60px;">
+  <h3 class="text-white">CATÁLOGO</h3><br>
   <div class="row text-center ">
     <div class="col-md-4 efecto">
       <div class="thumbnail">
