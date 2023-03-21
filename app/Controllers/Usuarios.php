@@ -15,7 +15,6 @@ class Usuarios extends BaseController
         $data2["paquete"]=$mPaquetes->traer_paquetes();
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar').
-            view('usuarios/jumbotron.php').
             view('usuarios/container', $data2).
             view('usuarios/image').
             view('usuarios/footer').

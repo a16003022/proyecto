@@ -45,6 +45,10 @@
 
 <script type="text/javascript">
       $(document).ready(function() {
-        $('#tabla-ejemplo').DataTable();
+        $('#tabla-ejemplo').DataTable({
+          "language": {
+            "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+        }
+        });
       });
 </script>
