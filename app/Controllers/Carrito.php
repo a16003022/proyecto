@@ -27,6 +27,7 @@ class Carrito extends BaseController
 
         //return view('inicio');
     }
+
 }
 
 ?>

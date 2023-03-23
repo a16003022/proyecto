@@ -1,0 +1,1320 @@
+INFO - 2023-03-23 02:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 02:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:13:57 --> Undefined variable $total_items
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_items', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(20): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:26:29 --> Undefined variable $total_items
+in APPPATH\Controllers\Catalogo.php on line 17.
+ 1 APPPATH\Controllers\Catalogo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_items', 'APPPATH\\Controllers\\Catalogo.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:28:00 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:28:02 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:08 --> Array to string conversion
+in APPPATH\Controllers\Catalogo.php on line 21.
+ 1 APPPATH\Controllers\Catalogo.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Catalogo.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:12 --> Array to string conversion
+in APPPATH\Controllers\Catalogo.php on line 21.
+ 1 APPPATH\Controllers\Catalogo.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Catalogo.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:13 --> Array to string conversion
+in APPPATH\Controllers\Catalogo.php on line 21.
+ 1 APPPATH\Controllers\Catalogo.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Catalogo.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:23 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:24 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:24 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:25 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:25 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:30:32 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:37:09 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:37:16 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:37:46 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:37:46 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:17 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:17 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:18 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:19 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:19 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:20 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:38:34 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:43:16 --> Undefined constant "console"
+in APPPATH\Views\usuarios\catalogo.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:43:40 --> Undefined constant "console"
+in APPPATH\Views\usuarios\catalogo.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:43:41 --> Undefined constant "console"
+in APPPATH\Views\usuarios\catalogo.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:43:42 --> Undefined constant "console"
+in APPPATH\Views\usuarios\catalogo.php on line 52.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:53:29 --> Undefined variable $total_items
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_items', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:54:08 --> Undefined variable $contador
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contador', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 04:54:08 --> Undefined variable $contador
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contador', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 04:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 04:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 05:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 14:31:41 --> Undefined array key "id"
+in APPPATH\Views\usuarios\catalogo.php on line 18.
+ 1 APPPATH\Views\usuarios\catalogo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\usuarios\\catalogo.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 14:35:20 --> Undefined array key "id"
+in APPPATH\Views\usuarios\catalogo.php on line 18.
+ 1 APPPATH\Views\usuarios\catalogo.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\usuarios\\catalogo.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 14:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 14:59:16 --> Undefined variable $cont
+in APPPATH\Views\usuarios\catalogo.php on line 40.
+ 1 APPPATH\Views\usuarios\catalogo.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cont', 'APPPATH\\Views\\usuarios\\catalogo.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 14:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 14:59:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 14:59:52 --> Undefined variable $cont
+in APPPATH\Views\usuarios\catalogo.php on line 43.
+ 1 APPPATH\Views\usuarios\catalogo.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cont', 'APPPATH\\Views\\usuarios\\catalogo.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 14:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 14:59:53 --> Undefined variable $cont
+in APPPATH\Views\usuarios\catalogo.php on line 43.
+ 1 APPPATH\Views\usuarios\catalogo.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cont', 'APPPATH\\Views\\usuarios\\catalogo.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 14:59:54 --> Undefined variable $cont
+in APPPATH\Views\usuarios\catalogo.php on line 43.
+ 1 APPPATH\Views\usuarios\catalogo.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cont', 'APPPATH\\Views\\usuarios\\catalogo.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:00:07 --> Undefined variable $cont
+in APPPATH\Views\usuarios\catalogo.php on line 40.
+ 1 APPPATH\Views\usuarios\catalogo.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cont', 'APPPATH\\Views\\usuarios\\catalogo.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:01:54 --> Undefined variable $cont
+in APPPATH\Views\usuarios\catalogo.php on line 44.
+ 1 APPPATH\Views\usuarios\catalogo.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cont', 'APPPATH\\Views\\usuarios\\catalogo.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:05:12 --> Undefined variable $session
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:05:48 --> Undefined variable $session
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:05:48 --> Undefined variable $session
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:05:49 --> Undefined variable $session
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:06:00 --> Array callback must have exactly two elements
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:06:00 --> Array callback must have exactly two elements
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:06:05 --> Array callback must have exactly two elements
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:06:26 --> Undefined array key "numero"
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numero"', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:06:27 --> Undefined array key "numero"
+in APPPATH\Views\usuarios\catalogo.php on line 19.
+ 1 APPPATH\Views\usuarios\catalogo.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numero"', 'APPPATH\\Views\\usuarios\\catalogo.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/catalogo', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(22): view('usuarios/catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:41:19 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:34 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:34 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:35 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:48 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:49 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:50 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:50 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:50 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:51 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:51 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 15:43:52 --> Undefined array key "valor"
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "valor"', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 15:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 15:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 16:29:18 --> Undefined variable $session
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 16:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 16:29:31 --> Array callback must have exactly two elements
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 16:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 16:29:32 --> Array callback must have exactly two elements
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 16:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 16:30:09 --> Undefined variable $numero
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 16:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 16:30:33 --> Undefined variable $numero
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(21): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 16:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 16:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:06:21 --> Class "App\Controllers\Contador" not found
+in APPPATH\Controllers\Catalogo.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-23 17:06:42 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\Contador.php(19): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Catalogo.php(14): App\Models\Contador->guardar_contenido([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:06:56 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\Contador.php(19): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Catalogo.php(14): App\Models\Contador->guardar_contenido([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:07:26 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Models\Contador.php(19): CodeIgniter\Model->insert([...])
+ 4 APPPATH\Controllers\Catalogo.php(14): App\Models\Contador->guardar_contenido([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:10:20 --> Undefined variable $data5
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data5', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:12:23 --> Undefined variable $data5
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data5', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:12:24 --> Undefined variable $data5
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data5', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [...], true)
+ 5 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:12:25 --> Undefined variable $data5
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data5', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:12:54 --> Undefined variable $data5
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data5', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:15:36 --> Array to string conversion
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-23 17:21:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(*) FROM contador' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query(' COUNT(*) FROM ...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute(' COUNT(*) FROM ...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery(' COUNT(*) FROM ...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Contador.php(14): CodeIgniter\Database\BaseConnection->query(' COUNT(*) FROM ...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(28): App\Models\Contador->contar_contenido()
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-23 17:21:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(*) FROM contador' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Contador.php(14): CodeIgniter\Database\BaseConnection->query(' COUNT(*) FROM contador')
+ 2 APPPATH\Controllers\Catalogo.php(28): App\Models\Contador->contar_contenido()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:26:42 --> Array to string conversion
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:31:06 --> Call to undefined function ar_dump()
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 17:31:08 --> Call to undefined function ar_dump()
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 4 APPPATH\Controllers\Catalogo.php(32): view('usuarios/navbar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 17:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 17:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:03:14 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:03:24 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:03:27 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:03:41 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:06:48 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:06:49 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:06:49 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:06:50 --> Undefined variable $cantidad
+in APPPATH\Views\usuarios\navbar.php on line 34.
+ 1 APPPATH\Views\usuarios\navbar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cantidad', 'APPPATH\\Views\\usuarios\\navbar.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/navbar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(17): view('usuarios/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:07:22 --> Class "App\Controllers\Contador" not found
+in APPPATH\Controllers\Usuarios.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-23 18:07:23 --> Class "App\Controllers\Contador" not found
+in APPPATH\Controllers\Usuarios.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Usuarios->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-23 18:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-23 18:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

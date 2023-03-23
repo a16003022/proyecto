@@ -14,8 +14,11 @@
                 Medida: <?php echo $dat['medida']?></p>
                 <h5 style="font-weight:bold; color:#1BBABA;">$<?php echo $dat['precio']?></h5>
               </div>
-              <div class="card-footer" style="border: none; background-color: transparent;">              
-                <a href="#" class="btn btn-primary btn-jumbotron">Comprar</a>
+              <div class="card-footer" style="border: none; background-color: transparent;">
+              <form action="<?php echo base_url('/catalogoPlayeras'); ?>" method="POST"> 
+              <input id="prodId" name="prodId" type="hidden" value="producto">
+              <button type="submit" class="btn btn-primary btn-jumbotron">Comprar</button>
+              </form>	
               </div>
             </div>
           </div>                     
@@ -24,3 +27,18 @@
     </div>
   </section>
 </body>
+
+<!-- <script>
+  $cont = 0;
+    $(document).ready(function() {
+        $('.sumar').on('click', function(e) {
+            e.preventDefault();
+            $sum = 1;
+              $cont = $cont + $sum;
+              $sum++;
+              return console.log($cont);
+              
+            });
+        });
+</script> -->
+

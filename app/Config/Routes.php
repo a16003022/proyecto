@@ -53,7 +53,7 @@ $routes->get('/carrito', 'Carrito::index', ['filter' => 'authFilter']);
 $routes->get('/catalogoPlayeras', 'Catalogo::Playeras');
 $routes->get('/catalogoSudaderas', 'Catalogo::Sudaderas');
 $routes->get('/catalogoBolsas', 'Catalogo::Bolsas');
-
+$routes->post('/catalogoPlayeras', 'Catalogo::guardar_contenido');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

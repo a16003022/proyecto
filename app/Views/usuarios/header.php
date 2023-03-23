@@ -12,7 +12,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-  <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet" type="text/css"/>  <style>
+  <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet" type="text/css"/>  
+  
+  <style>
 
   @import url(//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO);
 
@@ -339,6 +341,19 @@
   
 }
 
+#lblCartCount {
+    font-size: 12px;
+    background: #9162dd;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  
+}
+
+
  @media screen and (max-width: 767px) {
   #about h6{
     color:#818181!important;
@@ -619,9 +634,10 @@
       font-size: 1.5em;
     }
 
+    
   }
 
-  
+ 
   
   </style>
 </head>
