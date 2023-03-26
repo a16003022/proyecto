@@ -5,6 +5,8 @@ use App\Models\UserModel;
 use App\Models\Contenido;
 use App\Models\Paquetes;
 use App\Models\Productos;
+use App\Models\Carrito;
+
 class Login extends BaseController
 {
     public function index()
@@ -81,6 +83,10 @@ class Login extends BaseController
     
  
     public function logout() {
+        // vaciar el carrito de compras
+        $mCarrito = new Carrito();
+        $mCarrito->borrar_todo();
+        //destruir la sesión
         session_destroy();
         return redirect()->to('/inicio');
     }

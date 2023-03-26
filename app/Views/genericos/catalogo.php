@@ -15,7 +15,7 @@
                 <h5 style="font-weight:bold; color:#1BBABA;">$<?php echo $dat['precio']?></h5>
               </div>
               <div class="card-footer" style="border: none; background-color: transparent;">              
-                <a href="#" class="btn btn-primary btn-jumbotron">Comprar</a>
+                <a href="<?php echo base_url()?>/usuarios" class="btn btn-primary btn-jumbotron">Comprar</a>
               </div>
             </div>
           </div>                     

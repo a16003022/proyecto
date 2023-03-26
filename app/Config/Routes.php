@@ -49,11 +49,14 @@ $routes->post('/login', 'Login::authenticate', ['filter' => 'guestFilter']);
 $routes->get('/logout', 'Login::logout', ['filter' => 'authFilter']);
 $routes->get('/usuarios', 'Usuarios::index', ['filter' => 'authFilter']);
 $routes->get('/administrador', 'Administrador::index');/* ['filter' => 'authFilter']);*/
-$routes->get('/carrito', 'Carrito::index', ['filter' => 'authFilter']);
+$routes->get('/carrito', 'VerCarrito::index', ['filter' => 'authFilter']);
 $routes->get('/catalogoPlayeras', 'Catalogo::Playeras');
 $routes->get('/catalogoSudaderas', 'Catalogo::Sudaderas');
 $routes->get('/catalogoBolsas', 'Catalogo::Bolsas');
 $routes->post('/catalogoPlayeras', 'Catalogo::guardar_contenido');
+$routes->post('/eliminarProducto', 'VerCarrito::eliminarProducto');
+$routes->post('/procesarCompra', 'VerCarrito::procesarCompra');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

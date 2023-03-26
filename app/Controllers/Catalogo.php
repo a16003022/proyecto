@@ -1,16 +1,18 @@
 <?php 
 namespace App\Controllers;
 use App\Models\Productos;
-use App\Models\Contador;
+use App\Models\Carrito;
 
 class Catalogo extends BaseController
 {
 
     public function guardar_contenido(){
         $data=[
-            "contar"=>$_POST["prodId"]
+            "idProducto"=>$_POST["idProducto"],
+            "nombre"=>$_POST["nombre"],
+            "precio"=>$_POST["precio"]
         ];
-        $mregistrar= new Contador();
+        $mregistrar= new Carrito();
         $mregistrar->guardar_contenido($data);
         return redirect()->back();
     }
@@ -23,11 +25,12 @@ class Catalogo extends BaseController
         $mPaquetes=new Productos();
         $data2["producto"]=$mPaquetes->traer_playeras();
         $session = session();
-        $data4["name"] = $session->get('name');
-        $mregistrar= new Contador();
-        $data5["cantidad"]=$mregistrar->contar_contenido();
+        $data3["name"] = $session->get('name');
+        $mCarrito= new Carrito();
+        $data2["carrito"]=$mCarrito->traer_carrito();
+        $data5["cantidad"]=$mCarrito->contar_contenido();
         //si la sesión no ha sido iniciada, se muestra la vista genérica
-        if (!empty($data4["name"])){
+        if (!empty($data3["name"])){
             $vistas= view('usuarios/header', $data).  
                 view('usuarios/navbar',$data5).
                 view('usuarios/catalogo', $data2).
@@ -51,13 +54,14 @@ class Catalogo extends BaseController
         $mPaquetes=new Productos();
         $data2["producto"]=$mPaquetes->traer_sudaderas();
         $session = session();
-        $data4["name"] = $session->get('name');
-        $mregistrar= new Contador();
-        $data5["cantidad"]=$mregistrar->contar_contenido();
+        $data3["name"] = $session->get('name');
+        $mCarrito= new Carrito();
+        $data2["carrito"]=$mCarrito->traer_carrito();
+        $data5["cantidad"]=$mCarrito->contar_contenido();
         //si la sesión no ha sido iniciada, se muestra la vista genérica
-        if (!empty($data4["name"])){
+        if (!empty($data3["name"])){
             $vistas= view('usuarios/header', $data).  
-                view('usuarios/navbar', $data5).
+                view('usuarios/navbar',$data5).
                 view('usuarios/catalogo', $data2).
                 view('usuarios/footer').
                 view("inicio");
@@ -79,13 +83,14 @@ class Catalogo extends BaseController
         $mPaquetes=new Productos();
         $data2["producto"]=$mPaquetes->traer_bolsas();
         $session = session();
-        $data4["name"] = $session->get('name');
-        $mregistrar= new Contador();
-        $data5["cantidad"]=$mregistrar->contar_contenido();
+        $data3["name"] = $session->get('name');
+        $mCarrito= new Carrito();
+        $data2["carrito"]=$mCarrito->traer_carrito();
+        $data5["cantidad"]=$mCarrito->contar_contenido();
         //si la sesión no ha sido iniciada, se muestra la vista genérica
-        if (!empty($data4["name"])){
+        if (!empty($data3["name"])){
             $vistas= view('usuarios/header', $data).  
-                view('usuarios/navbar', $data5).
+                view('usuarios/navbar',$data5).
                 view('usuarios/catalogo', $data2).
                 view('usuarios/footer').
                 view("inicio");
