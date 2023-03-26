@@ -25,11 +25,11 @@
               echo "<tr>";
                 echo "<th scope='row'>".$contador."</th>";
                 echo "<td>".$carrit["nombre"]."</td>";
-                echo "<td>$".$carrit["precio"]."</td>";
+                echo "<td>$".number_format($carrit["precio"], 2)."</td>";
                 echo "<td>";
                   echo "<input type='number' value='1' min='1' max='10' class='cantidad' data-precio='".$carrit["precio"]."'>";
                 echo "</td>";
-                echo "<td class='subtotal'>$".$carrit["precio"]."</td>";
+                echo "<td class='subtotal'>$".number_format($carrit["precio"], 2)."</td>";
                 echo "<td>";
                   echo "<form method='POST' action='".base_url()."/eliminarProducto'>";
                   echo "<input type='hidden' name='idProducto' value='".$carrit["idProducto"]."'>";
@@ -75,14 +75,14 @@
                 </tr>
                 */ ?> 
                 <tr>
-                  <td>Total</td>
-                  <td id="total">$<?php echo $total ?></td>
+                  <td><b>Total</b></td>
+                  <td id="total">$<?php echo number_format($total, 2, '.', ',') ?></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <form method="post" action="<?= base_url()?>/procesarCompra">
-            <input type="hidden" name="total" value="<?= $total ?>" id="total_hidden">
+            <input type="hidden" name="total" value="<?= number_format($total, 2, '.', ',') ?>" id="total_hidden">
             <button type="submit" class="btn btn-success btn-lg btn-block mb-4">Comprar</button>
           </form>
         </div>
@@ -97,21 +97,23 @@ $(document).ready(function() {
     var precio = $(this).data('precio');
     var cantidad = $(this).val();
     var subtotal = precio * cantidad;
-    $(this).parent().next('.subtotal').html('$' + subtotal);
+    $(this).parent().next('.subtotal').html('$' + subtotal.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
     actualizarTotal();
   });
 
   function actualizarTotal() {
-  var total = 0;
-  $('.subtotal').each(function() {
-    total += parseInt($(this).html().replace('$', ''));
-  });
-  $('#total').html('$' + total);
-  $('#total_hidden').val(total); // actualiza el valor real para poder pasarlo a otra vista
-}
+    var total = 0;
+    $('.subtotal').each(function() {
+      total += parseFloat($(this).html().replace('$', '').replace(',', ''));
+    });
+    $('#total').html('$' + total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+    $('#total_hidden').val(total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })); // actualiza el valor real para poder pasarlo a otra vista
+  }
 
 });
 </script>
+
+
 
 
 
