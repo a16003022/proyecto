@@ -1,5 +1,5 @@
 <body>
-  <section class="bgCat">
+  <section class="bgCat" style="height: 95vh;">
     <div class="container">
       <div class="row justify-content-center align-items-stretch" style="padding-top:15vh;">
           

@@ -1,4 +1,4 @@
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center sombrafoot">
 <div class="container">
       <div class="row p-0 mx-0 align-items-center">
         <div class= "col-lg-4 col-md-12 col-sm-12">

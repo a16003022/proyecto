@@ -41,26 +41,26 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="productos" class="container-fluid text-center bgCat" style="padding-top: 60px; padding-bottom: 60px;">
-  <h3 class="text-white">CATÁLOGO</h3><br>
+  <h3 class="text-white" style="font-family: Quicksand, sans-serif; font-size: 40px">CATÁLOGO</h3><br>
   <div class="row text-center ">
     <div class="col-md-4 efecto">
       <div class="thumbnail">
       <a href="<?php echo base_url()?>/catalogoPlayeras"><img class="img-fluid" src="<?php echo base_url()?>/imagenes/playeras.jfif" alt="Playeras" style="max-width:60%;"> </a>
       
-        <p class="subtitle centered"><strong>Playeras</strong></p>
+        <p class="subtitle centered" style="font-family: Quicksand, sans-serif; font-size: 30px"><strong>Playeras</strong></p>
       </div>
     </div>
     <div class="col-md-4 efecto">
       <div class="thumbnail">
       <a href="<?php echo base_url()?>/catalogoSudaderas"><img src="<?php echo base_url()?>/imagenes/sudadera2.jpg" alt="New York" style="max-width:60%;"></a>
-        <p class="subtitle centered"><strong>Sudaderas</strong></p>
+        <p class="subtitle centered" style="font-family: Quicksand, sans-serif; font-size: 30px"><strong>Sudaderas</strong></p>
       </div>
     </div>
     <div class="col-md-4 efecto">
       <div class="thumbnail">
       <a href="<?php echo base_url()?>/catalogoBolsas">
       <img src="<?php echo base_url()?>/imagenes/bolsa3.jpg" alt="San Francisco" style="max-width:68%;"></a>
-        <p class="subtitle centered"><strong>Bolsas térmicas</strong></p>
+        <p class="subtitle centered" style="font-family: Quicksand, sans-serif; font-size: 30px;"><strong>Bolsas térmicas</strong></p>
       </div>
     </div>
   </div>

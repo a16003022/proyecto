@@ -1,5 +1,5 @@
 <!-- Vista del carrito de compras -->
-<section style="padding-top: 100px;">
+<section style="padding-top: 15vh; height: 95vh;">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -84,7 +84,7 @@
             </div>
             <form method="post" action="<?= base_url()?>/procesarCompra">
               <input type="hidden" name="total" value="<?= number_format($total, 2, '.', ',') ?>" id="total_hidden">
-              <button type="submit" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4">Comprar</button>
+              <button type="submit" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4">Pagar</button>
             </form>
           </div>
         </div>

@@ -1,5 +1,5 @@
-<div class="container-fluid" style="padding-top: 120px; padding-bottom: 60px;">
-    <div class="row">
+<div class="container-fluid" style="padding-top: 130px;">
+    <div class="row" style="height: 80vh;">
         <div class="col-lg-5">
         <h2><?= $titulo_seccion; ?></h2>
         <p><?= $descripcion; ?></p>

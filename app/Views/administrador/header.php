@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="//cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
   <style>
   
 
@@ -183,6 +184,12 @@
   position: fixed; 
   z-index: 100; 
   width: 100%;
+}
+
+.sombrafoot{
+  box-shadow:
+             0 0  0 2px rgb(255,255,255),
+             0 -0.3em 1em rgba(0,0,0,0.3); 
 }
 
 
@@ -503,7 +510,7 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
-  .registrarPaquete{min-height: 100vh; padding-top: 15%; padding-left: 15%;  padding-right: 15%;padding-bottom: 5%;}
+  .registrarPaquete{min-height: 100vh; padding-top: 8%; padding-left: 5%;  padding-right: 5%;padding-bottom: 5%;}
   @media screen and (max-width: 500px) {
     .registrarPaquete{min-height: 100vh; padding-top: 35%}
   }
