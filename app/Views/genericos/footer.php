@@ -1,4 +1,4 @@
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center sombrafoot">
 <div class="container">
       <div class="row p-2 mx-0 align-items-center" style="padding-top: 2% !important;">
         <div class= "col-lg-4 col-md-12 col-sm-12">

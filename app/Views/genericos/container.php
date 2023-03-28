@@ -58,7 +58,7 @@
   </div>
 </div>-->
 <!--Carousel-->
-<div id="promoCarousel" class="carousel slide" data-bs-ride="carousel" >
+<div id="promoCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#promoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -77,7 +77,7 @@
             </div>
             <div class="carousel-item" data-bs-interval='3000'>
                 <img src="<?php echo base_url()?>/imagenes/carousel1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
+                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7" sytle="bottom: 50px;">
                     <h2 class="text-white text-left col-8 mr-auto">Misión</h2>
                     <p>
                      Proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
@@ -87,7 +87,7 @@
             </div>
             <div class="carousel-item" data-bs-interval='5000'>
                 <img src="<?php echo base_url()?>/imagenes/cr1.jfif" class="d-block w-100" alt="...">
-                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
+                <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7" sytle="bottom: 50px;">
                     <h2 class="text-white text-justify">Visión</h2>
                     <p>
                     Reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
@@ -499,8 +499,8 @@
           <input class="form-control" id="email" name="email" placeholder="Correo" type="email" required>
         </div>
       </div>
-      <textarea class="form-control p-4" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
-      <p>0 caracteres/144</p>
+      <textarea class="form-control p-4" id="comments" name="comments" placeholder="Comentario" rows="3"></textarea><br>
+      <p id="char-count">0 caracteres/144</p>
       <div class="row">
         <div class="col-sm-12 form-group">
           <!-- <img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/79wsjD0Xy7FmmYvR0sCncy/5b732b7e26adb7d6c06d943d14dc4acd/not-a-robot.png" style="max-width:35%;"> -->
@@ -520,4 +520,20 @@
   </div>
 </div>
 
+<script>
+const maxChars = 144;
+const charCount = document.getElementById("char-count");
+const comments = document.getElementById("comments");
+let prevValue = "";
+
+comments.addEventListener("input", () => {
+  if (comments.value.length > maxChars) {
+    comments.value = prevValue;
+  } else {
+    prevValue = comments.value;
+  }
+  charCount.textContent = `${comments.value.length} caracteres/${maxChars}`;
+});
+
+</script>
 <script src="https://www.google.com/recaptcha/api.js"></script>

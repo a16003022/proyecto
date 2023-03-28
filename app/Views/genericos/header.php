@@ -183,6 +183,16 @@
   position: fixed; 
   z-index: 100; 
   width: 100%;
+  top: 0;
+  box-shadow:
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3); 
+}
+
+.sombrafoot{
+  box-shadow:
+             0 0  0 2px rgb(255,255,255),
+             0 -0.3em 1em rgba(0,0,0,0.3); 
 }
 
 
@@ -383,7 +393,7 @@
     background-color: #0E6655;
   }
   .carousel-text{
-    font-size: 25px;
+    font-size: 20px;
   }
   .cnt-txt{
     margin-top: 10vh;
