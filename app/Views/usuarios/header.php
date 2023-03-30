@@ -15,6 +15,9 @@
   <link href="//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO" rel="stylesheet" type="text/css"/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="//cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
   
   <style>
 
@@ -388,6 +391,7 @@
   width: 25%;
   }
   }
+
 
   .logo-footer {
     width: 30%;

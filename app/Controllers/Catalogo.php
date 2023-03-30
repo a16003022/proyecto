@@ -2,6 +2,7 @@
 namespace App\Controllers;
 use App\Models\Productos;
 use App\Models\Carrito;
+use App\Models\Listas;
 
 class Catalogo extends BaseController
 {
@@ -29,6 +30,14 @@ class Catalogo extends BaseController
         $mCarrito= new Carrito();
         $data2["carrito"]=$mCarrito->traer_carrito();
         $data5["cantidad"]=$mCarrito->contar_contenido();
+        
+        
+        $session = session();
+        $user_id = $session->get('id');
+        $mLista=new Listas();
+        $data2["lista"]=$mLista->traer_lista($user_id);
+
+
         //si la sesión no ha sido iniciada, se muestra la vista genérica
         if (!empty($data3["name"])){
             $vistas= view('usuarios/header', $data).  
@@ -58,6 +67,11 @@ class Catalogo extends BaseController
         $mCarrito= new Carrito();
         $data2["carrito"]=$mCarrito->traer_carrito();
         $data5["cantidad"]=$mCarrito->contar_contenido();
+
+        $session = session();
+        $user_id = $session->get('id');
+        $mLista=new Listas();
+        $data2["lista"]=$mLista->traer_lista($user_id);
         //si la sesión no ha sido iniciada, se muestra la vista genérica
         if (!empty($data3["name"])){
             $vistas= view('usuarios/header', $data).  
@@ -87,6 +101,12 @@ class Catalogo extends BaseController
         $mCarrito= new Carrito();
         $data2["carrito"]=$mCarrito->traer_carrito();
         $data5["cantidad"]=$mCarrito->contar_contenido();
+
+        $session = session();
+        $user_id = $session->get('id');
+        $mLista=new Listas();
+        $data2["lista"]=$mLista->traer_lista($user_id);
+
         //si la sesión no ha sido iniciada, se muestra la vista genérica
         if (!empty($data3["name"])){
             $vistas= view('usuarios/header', $data).  

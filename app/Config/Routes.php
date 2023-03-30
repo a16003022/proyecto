@@ -56,7 +56,11 @@ $routes->get('/catalogoBolsas', 'Catalogo::Bolsas');
 $routes->post('/catalogoPlayeras', 'Catalogo::guardar_contenido');
 $routes->post('/eliminarProducto', 'VerCarrito::eliminarProducto');
 $routes->post('/procesarCompra', 'VerCarrito::procesarCompra');
-
+$routes->get('/lista', 'verListas::index', ['filter' => 'authFilter']);
+$routes->post('/crearLista', 'verListas::crearLista');
+$routes->post('/agregarLista', 'verListas::AgregarALista');
+$routes->post('/eliminarProductoLista', 'verListas::EliminarProductoLista');
+$routes->post('/lista', 'verListas::EliminarLista');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
