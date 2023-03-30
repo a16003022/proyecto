@@ -68,7 +68,7 @@
                       <small class="text-danger"><?= $validation->getError('confirm_password') ?></small>
                    <?php endif;?>
                   <div class="input-group-append">
-                    <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword()">
+                    <button id="show_password_2" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword()">
                       <span class="fa fa-eye-slash icon"></span> 
                     </button>
                   </div>
@@ -115,42 +115,28 @@
   </div>
 </section>
 
+<script type="text/javascript">
+function mostrarPassword(id){
+  var cambio = document.getElementById(id);
+  if(cambio.type == "password"){
+    cambio.type = "text";
+    $('#' + id + '_icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+  }else{
+    cambio.type = "password";
+    $('#' + id + '_icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+  }
+} 
 
-
-
-
-
-
-
-<!-- Section: Design Block 
-<div class=" row centrar-marca text-center p-3">
-    <div class="col-4 col-sm-12 col-md-4 caja">
-    <img src="<?php echo base_url()?>/imagenes/nike.png" class="marcas ">
-    </div>
-    <div class="col-4 col-sm-12 col-md-4  caja">
-    <img src="<?php echo base_url()?>/imagenes/Adidas.png" class="marcas" >
-    </div>
-    <div class="col-4 col-sm-12 col-md-4  caja">
-    <img src="<?php echo base_url()?>/imagenes/puma.png" class="marcas" >
-    </div>
-</div>-->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<!-- <script type="text/javascript">
-function mostrarPassword(){
-		var cambio = document.getElementById("txtPassword");
-		if(cambio.type == "password"){
-			cambio.type = "text";
-			$('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
-		}else{
-			cambio.type = "password";
-			$('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
-		}
-	} 
-	
-	$(document).ready(function () {
-	//CheckBox mostrar contraseña
-	$('#ShowPassword').click(function () {
-		$('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
-	});
+$(document).ready(function () {
+  //CheckBox mostrar contraseña
+  $('#show_password').click(function () {
+    mostrarPassword('password');
+  });
+  
+  $('#show_password_2').click(function () {
+    mostrarPassword('confirm_password');
+  });
 });
-</script> -->
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
