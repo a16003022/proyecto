@@ -53,7 +53,7 @@
                       <small class="text-danger"><?= $validation->getError('password') ?></small>
                     <?php endif;?>
                   <div class="input-group-append">
-                    <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword()"> 
+                    <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password')"> 
                       <span class="fa fa-eye-slash icon"></span> 
                     </button>
                   </div>
@@ -68,7 +68,7 @@
                       <small class="text-danger"><?= $validation->getError('confirm_password') ?></small>
                    <?php endif;?>
                   <div class="input-group-append">
-                    <button id="show_password_2" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword()">
+                    <button id="show_password_2" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password_2')">
                       <span class="fa fa-eye-slash icon"></span> 
                     </button>
                   </div>
@@ -116,16 +116,14 @@
 </section>
 
 <script type="text/javascript">
-function mostrarPassword(id){
-  var cambio = document.getElementById(id);
-  if(cambio.type == "password"){
-    cambio.type = "text";
-    $('#' + id + '_icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
-  }else{
-    cambio.type = "password";
-    $('#' + id + '_icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
-  }
-} 
+function mostrarPassword(idBoton) {
+  var passwordField = document.getElementById(idBoton).parentNode.previousElementSibling;
+  var type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+  passwordField.setAttribute('type', type);
+  var icon = document.getElementById(idBoton).getElementsByTagName('span')[0];
+  icon.classList.toggle('fa-eye-slash');
+  icon.classList.toggle('fa-eye');
+}
 
 $(document).ready(function () {
   //CheckBox mostrar contraseña
