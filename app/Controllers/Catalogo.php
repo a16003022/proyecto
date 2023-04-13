@@ -3,6 +3,7 @@ namespace App\Controllers;
 use App\Models\Productos;
 use App\Models\Carrito;
 use App\Models\Listas;
+use App\Models\Inventarios;
 
 class Catalogo extends BaseController
 {
@@ -11,10 +12,19 @@ class Catalogo extends BaseController
         $data=[
             "idProducto"=>$_POST["idProducto"],
             "nombre"=>$_POST["nombre"],
-            "precio"=>$_POST["precio"]
+            "precio"=>$_POST["precio"],
+            "stock"=>$_POST["stock"],
+            "cantidad"=>$_POST["cantidad"]
         ];
         $mregistrar= new Carrito();
         $mregistrar->guardar_contenido($data);
+
+        //restar el inventario correspondiente a ese producto
+        $mregistrar= new Inventarios();
+        $idProducto = $this->request->getPost('idProducto');
+        $cantidad = $this->request->getPost('cantidad');
+        $mregistrar->restar_inventario($cantidad,$idProducto);
+
         return redirect()->back();
     }
 

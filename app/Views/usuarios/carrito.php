@@ -28,12 +28,13 @@
                   echo "<td>".$carrit["nombre"]."</td>";
                   echo "<td>$".number_format($carrit["precio"], 2)."</td>";
                   echo "<td>";
-                    echo "<input type='number' value='1' min='1' max='10' class='cantidad' data-precio='".$carrit["precio"]."'>";
+                    echo "<input type='number' value='".$carrit["cantidad"]."' min='1' max='".$carrit["stock"]."' class='cantidad' data-precio='".$carrit["precio"]."' onkeydown='return false;'>";
                   echo "</td>";
                   echo "<td class='subtotal'>$".number_format($carrit["precio"], 2)."</td>";
                   echo "<td>";
                     echo "<form method='POST' action='".base_url()."/eliminarProducto'>";
                     echo "<input type='hidden' name='idProducto' value='".$carrit["idProducto"]."'>";
+                    echo "<input type='hidden' name='cantidad' value='1'>";
                     echo "<button type='submit' class='btn btn-danger btn-sm btn-jumbotron'><i class='fa fa-trash'></i></button>";
                     echo "</form>";
                     echo "</td>";

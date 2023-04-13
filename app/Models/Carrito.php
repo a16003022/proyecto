@@ -6,10 +6,10 @@ class Carrito extends Model
 {
     protected $table    = 'carrito';
     protected $returnType = 'array';
-    protected $allowedFields = ['idProducto', 'nombre', 'precio'];
+    protected $allowedFields = ['idProducto', 'nombre', 'precio', 'stock', 'cantidad'];
 
     public function traer_carrito(){
-        $query=$this->db->query("select idProducto, nombre, precio from carrito");
+        $query=$this->db->query("select idProducto, nombre, precio, stock, cantidad from carrito");
         return $query->getResultArray();
     }
 

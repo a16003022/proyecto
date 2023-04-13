@@ -1,6 +1,7 @@
 <?php 
 namespace App\Controllers;
 use App\Models\Carrito;
+use App\Models\Inventarios;
 
 class VerCarrito extends BaseController
 {
@@ -31,6 +32,12 @@ class VerCarrito extends BaseController
         $idProducto = $this->request->getPost('idProducto');
         $mCarrito=new Carrito();
         $mCarrito->eliminar_del_carrito($idProducto);
+
+        //devuelve el stock correspondiente a ese producto
+        $cantidad = $this->request->getPost('cantidad');
+        $mInventario=new Inventarios();
+        $mInventario->agregar_inventario($cantidad, $idProducto);
+
         return redirect()->back();
     }
 

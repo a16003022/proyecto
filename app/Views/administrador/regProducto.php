@@ -1,5 +1,5 @@
 <div class="container-fluid" style="padding-top: 130px;">
-    <div class="row" style="height: 80vh;">
+    <div class="row">
         <div class="col-lg-4">
         <h2><?= $titulo_seccion; ?></h2>
         <p><?= $descripcion; ?></p>
@@ -49,8 +49,14 @@
                             <option value="Bolsa">Bolsa</option>
                         </select>
                 </div>
-                <!-- Submit button -->
                 <div class="text-center">
+                    <div class="form-outline">
+                        <label class="form-label" for="stock">Inventario inicial: </label>
+                        <input type="number" id="stock" name="stock" min="1" max="999999" required/>
+                    </div>
+                </div>
+                <!-- Submit button -->
+                <div class="text-center"><br>
                     <input type="submit" class="btn btn-success btn-jumbotron btn-block mb-4" value="Registrar">
                 </div>
             </form>
@@ -96,7 +102,7 @@
 <script type="text/javascript">
       $(document).ready(function() {
         $('#tabla-ejemplo').DataTable({
-            pageLength : 5,
+            pageLength : 10,
             lengthMenu: [[5, 10, 20, -1], [5, 10, 20, 'Todos']],
           "language": {
             "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"

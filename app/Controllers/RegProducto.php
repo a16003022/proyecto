@@ -1,6 +1,7 @@
 <?php
 namespace App\Controllers;
 use App\Models\Productos;
+use App\Models\Inventarios;
 
 class RegProducto extends BaseController
 {
@@ -10,7 +11,7 @@ class RegProducto extends BaseController
             'titulo'=>"Registrar productos",
             'titulo_seccion'=>"Registro para los productos",
             'descripcion'=>"Los siguientes datos son requeridos para poder darlos de alta en nuestro catálogo 
-            de productos. Complete toda la información solicitada para poder registrar exitosamente."
+            de productos."
         ];
     $mProductos=new Productos();
     $data3["producto"]=$mProductos->traer_productos();
@@ -35,6 +36,17 @@ class RegProducto extends BaseController
         ];
         $mregistrar= new Productos();
         $mregistrar->guardar_producto($data);
+
+        //guardo el inventario correspondiente a ese producto
+        $idProducto = $mregistrar->insertID();
+        $data2=[
+            "idProducto"=>$idProducto,
+            "clasificacion"=>$_POST["clasificacion"],
+            "cantidad"=>$_POST["stock"]
+        ];
+        $mregistrar= new Inventarios();
+        $mregistrar->insertar_inventario($data2);
+
         return redirect()->back();
     }
 }
