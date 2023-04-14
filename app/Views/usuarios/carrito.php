@@ -30,7 +30,7 @@
                   echo "<td>".$carrit["nombre"]."</td>";
                   echo "<td>$".number_format($carrit["precio"], 2)."</td>";
                   echo "<td>";
-                    echo "<input type='number' value='".$carrit["cantidad"]."' min='1' max='".$carrit["stock"]."' class='cantidad' data-precio='".$carrit["precio"]."' onkeydown='return false;'>";
+                    echo "<input type='number' value='".$carrit["cantidad"]."' min='1' max='".$carrit["stock"]+$carrit["cantidad"]."' class='cantidad' data-precio='".$carrit["precio"]."' onkeydown='return false;'>";
                   echo "</td>";
                   echo "<td class='subtotal'>$".number_format($subtotal, 2)."</td>";
                   echo "<td>";
