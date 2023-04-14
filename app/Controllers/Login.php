@@ -6,6 +6,7 @@ use App\Models\Contenido;
 use App\Models\Paquetes;
 use App\Models\Productos;
 use App\Models\Carrito;
+use App\Models\Inventarios;
 
 class Login extends BaseController
 {
@@ -85,6 +86,15 @@ class Login extends BaseController
     public function logout() {
         // vaciar el carrito de compras
         $mCarrito = new Carrito();
+        $data = $mCarrito->traer_carrito();
+        if (!empty($data)){
+            $mInventario = new Inventarios();
+            foreach ($data as $dat){
+                $idProducto = $dat['idProducto'];
+                $cantidad = $dat['cantidad'];
+                $mInventario->agregar_inventario($cantidad, $idProducto);
+            }
+        }
         $mCarrito->borrar_todo();
         //destruir la sesión
         session_destroy();
