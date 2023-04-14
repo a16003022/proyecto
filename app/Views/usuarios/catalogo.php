@@ -136,7 +136,7 @@
                       <input id="idProducto" name="idProducto" type="hidden" value=<?php echo $dat['idProducto']?>>
                       <input id="nombre" name="nombre" type="hidden" value="<?php echo $dat['nombre']?>">
                       <input id="precio" name="precio" type="hidden" value="<?php echo $dat['precio']?>">
-                      <input id="stock" name="stock" type="hidden" value="<?php echo $dat['cantidad']?>">
+                      <input id="stock" name="stock" type="hidden" value="<?php echo $dat['cantidad']-1?>">
                       <?php $prodAñadido = false; 
                         foreach($carrito as $prod):
                           if ($prod["idProducto"] == $dat["idProducto"]){
@@ -156,49 +156,27 @@
                             <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
                           </svg>
                         </button>
-                        <input class="cantidad-input" name="cantidad" type="number" min="1" max="<?php echo $dat['cantidad']?>" value="1" oninput="validarCantidad(this)">  
+                        <input name="cantidad" type="number" min="1" max="<?php echo $dat['cantidad']?>" value="1" onblur="restarStock(this)">
+ 
                         <?php } ?>
                     </form>	
                   </div>                  
                 </div>
               </div>
             </div>                     
-          <?php endforeach; ?>
-                  
+          <?php endforeach; ?>     
       </div>
     </div>
   </section>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-  // validar la cantidad ingresada en cada input
-  function validarCantidad(input) {
-    var cantidadMaxima = input.max;
-    var cantidadIngresada = input.value;
-    if (cantidadIngresada > cantidadMaxima) {
-      alert("La cantidad ingresada es mayor que el máximo permitido.");
-      input.value = cantidadMaxima;
-    }
-    input.value = Math.min(input.value, cantidadMaxima);
-  }
-
-  $(document).ready(function() {
-    // Obtenemos el valor inicial de la cantidad
-    var cantidad = $("#cantidad").val();
-    // Calculamos el stock inicial restando la cantidad
-    var stock = <?php echo $dat['cantidad'] - $cantidad ?>;
-    // Actualizamos el valor del input con el stock inicial
-    $("#stock").val(stock);
-    
-    // Añadimos un listener al input con id=cantidad
-    $("#cantidad").on("change", function() {
-      // Obtenemos el nuevo valor de la cantidad
-      cantidad = $(this).val();
-      // Calculamos el nuevo valor del stock restando la cantidad
-      stock = <?php echo $dat['cantidad'] ?> - cantidad;
-      // Actualizamos el valor del input con el nuevo stock
-      $("#stock").val(stock);
-    });
-  });
+function restarStock(inputCantidad) {
+  var stockInput = document.getElementById('stock');
+  var stockValue = parseInt(stockInput.value);
+  var cantidadValue = parseInt(inputCantidad.value);
+  var stockRestante = stockValue - cantidadValue;
+  stockInput.value = stockRestante+1;
+}
 </script>
+
