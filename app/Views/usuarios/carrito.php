@@ -6,45 +6,46 @@
         <h2 class="stars"><?= $titulo_seccion; ?></h2>
         <p><?= $descripcion; ?></p>
         <div class="table-responsive">
-          <table class="table table-striped" id="tabla-carrito">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Producto</th>
-                <th scope="col">Precio</th>
-                <th scope="col">Cantidad</th>
-                <th scope="col">Subtotal</th>
-                <th scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <?php 
-              $contador = 0;
-              $subtotal = 0;
-              $total = 0;
-              foreach($carrito as $carrit): 
-                $contador=$contador+1;
-                $subtotal=$carrit["precio"]*$carrit["cantidad"];
-                echo "<tr>";
-                  echo "<th scope='row'>".$contador."</th>";
-                  echo "<td>".$carrit["nombre"]."</td>";
-                  echo "<td>$".number_format($carrit["precio"], 2)."</td>";
-                  echo "<td>";
-                    echo "<input type='number' value='".$carrit["cantidad"]."' min='1' max='".$carrit["stock"]."' class='cantidad' data-precio='".$carrit["precio"]."' onkeydown='return false;'>";
+        <table class="table table-striped" id="tabla-carrito">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Producto</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Subtotal</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php 
+            $contador = 0;
+            $subtotal = 0;
+            $total = 0;
+            foreach($carrito as $carrit): 
+              $contador=$contador+1;
+              $subtotal=$carrit["precio"]*$carrit["cantidad"];
+              echo "<tr>";
+                echo "<th scope='row'>".$contador."</th>";
+                echo "<td>".$carrit["nombre"]."</td>";
+                echo "<td>$".number_format($carrit["precio"], 2)."</td>";
+                echo "<td>";
+                  echo "<input type='number' value='".$carrit["cantidad"]."' min='1' max='".$carrit["stock"]."' class='cantidad' data-precio='".$carrit["precio"]."'>";
+                echo "</td>";
+                echo "<td class='subtotal'>$".number_format($subtotal, 2)."</td>";
+                echo "<td>";
+                  echo "<form method='POST' action='".base_url()."/eliminarProducto'>";
+                  echo "<input type='hidden' name='idProducto' value='".$carrit["idProducto"]."'>";
+                  echo "<input type='hidden' name='cantidad' value='".$carrit["cantidad"]."'>";
+                  echo "<button type='submit' class='btn btn-danger btn-sm btn-jumbotron'><i class='fa fa-trash'></i></button>";
+                  echo "</form>";
                   echo "</td>";
-                  echo "<td class='subtotal'>$".number_format($subtotal, 2)."</td>";
-                  echo "<td>";
-                    echo "<form method='POST' action='".base_url()."/eliminarProducto'>";
-                    echo "<input type='hidden' name='idProducto' value='".$carrit["idProducto"]."'>";
-                    echo "<input type='hidden' name='cantidad' value='".$carrit["cantidad"]."'>";
-                    echo "<button type='submit' class='btn btn-danger btn-sm btn-jumbotron'><i class='fa fa-trash'></i></button>";
-                    echo "</form>";
-                    echo "</td>";
-                echo "</tr>";
-                $total = $total + $subtotal;
-              endforeach; ?>
-            </tbody>
-          </table>
+              echo "</tr>";
+              $total = $total + $subtotal;
+            endforeach; ?>
+          </tbody>
+        </table>
+
         </div>
         <div class="row">
           <div class="col-md-8">
@@ -86,6 +87,22 @@
 </section>
 
 <script>
+// Obtener todos los input number con la clase "cantidad"
+var cantidadInputs = document.querySelectorAll(".cantidad");
+
+// Agregar un event listener para cada input number
+cantidadInputs.forEach(function(cantidadInput) {
+  cantidadInput.addEventListener("input", function() {
+    var cantidadMaxima = this.max;
+    var cantidadIngresada = this.value;
+    if (cantidadIngresada > cantidadMaxima) {
+      alert("La cantidad ingresada es mayor que el máximo permitido.");
+      this.value = cantidadMaxima;
+    }
+    this.value = Math.min(this.value, cantidadMaxima);
+  });
+});
+
 $(document).ready(function() {
   $('.cantidad').on('input', function() {
     var precio = $(this).data('precio');
@@ -124,7 +141,6 @@ $(document).ready(function() {
       }
     });
   });  
-  
 });
 </script>
 
