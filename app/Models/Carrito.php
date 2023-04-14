@@ -27,6 +27,11 @@ class Carrito extends Model
         $this->insert($param);
     }
 
+    public function actualizar_carrito($idProducto, $stock, $cantidad){
+        $query = $this->db->query("UPDATE carrito SET stock = $stock, cantidad = $cantidad WHERE idProducto = $idProducto");
+        return $query;
+    }
+
     //al desconectar la sesión, el carrito se vacía automáticamente
     public function borrar_todo() {
         $this->db->table($this->table)->truncate();

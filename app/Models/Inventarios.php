@@ -8,6 +8,11 @@ class Inventarios extends Model
     protected $returnType = 'array';
     protected $allowedFields = ['idProducto', 'clasificacion', 'cantidad'];
 
+    public function traer_inventario($idProducto){
+        $query=$this->db->query("SELECT idProducto, clasificacion, cantidad from inventarios WHERE idProducto = $idProducto");
+        return $query->getResultArray();
+    }
+
     public function insertar_inventario($param){
         $this->insert($param);
     }

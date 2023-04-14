@@ -41,11 +41,48 @@ class VerCarrito extends BaseController
         return redirect()->back();
     }
 
-    public function procesarCompra(){
-        $total = $this->request->getPost('total'); //recuperar el valor total real del carrito
-        echo "El total de la compra fue: $".$total;
-    }
+    public function procesarCarrito(){
+        //actualiza el contenido de inventarios
+        $carrito = $this->request->getPost('carrito');
+        $mCarrito= new Carrito();
+        $data = $mCarrito->traer_carrito();
+        $mInventario = new Inventarios();
+        foreach ($data as $productoData) {
+            foreach ($carrito as $productoCarrito) {
+                if ($productoData['idProducto'] == $productoCarrito['idProducto']) {
+                    if ($productoData['cantidad'] != $productoCarrito['cantidad']) {
+                        // La cantidad ha cambiado, realizar actualización en inventarios
+                        $cantidadAnterior = $productoData['cantidad'];
+                        $cantidadNueva = $productoCarrito['cantidad'];
+                        $cantidad = $cantidadAnterior - $cantidadNueva;
+                        $idProducto = $productoData['idProducto'];
+                        if ($cantidad < 0){
+                            $cantidad = $cantidad*-1;
+                            $mInventario->restar_inventario($cantidad, $idProducto);
+                        } else {
+                            $mInventario->agregar_inventario($cantidad, $idProducto);
+                        }
+                        break;
+                    }
+                }
+            }
+        }
 
+        //actualiza el contenido del carrito
+        $mCarrito= new Carrito();
+        foreach ($carrito as $item) {
+            $idProducto = $item['idProducto'];
+            $cantidad = $item['cantidad'];
+            $mInventario = new Inventarios();
+            $data2=$mInventario->traer_inventario($idProducto);
+            $idInventario=$data2[0]['idProducto'];
+            $nuevoStock=$data2[0]['cantidad'];
+            if ($idProducto == $idInventario){
+                // Actualizar registro en la tabla "carrito"
+                $mCarrito->actualizar_carrito($idProducto, $nuevoStock, $cantidad);
+            }
+        }
+    }
 }
 
 ?>

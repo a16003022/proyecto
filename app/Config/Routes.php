@@ -55,7 +55,7 @@ $routes->get('/catalogoSudaderas', 'Catalogo::Sudaderas');
 $routes->get('/catalogoBolsas', 'Catalogo::Bolsas');
 $routes->post('/catalogoPlayeras', 'Catalogo::guardar_contenido');
 $routes->post('/eliminarProducto', 'VerCarrito::eliminarProducto');
-$routes->post('/procesarCompra', 'VerCarrito::procesarCompra');
+$routes->post('/procesarCarrito', 'VerCarrito::procesarCarrito'); /* solo procesa el carrito, no muestra una vista*/
 $routes->get('/lista', 'verListas::index', ['filter' => 'authFilter']);
 $routes->post('/crearLista', 'verListas::crearLista');
 $routes->post('/agregarLista', 'verListas::AgregarALista');

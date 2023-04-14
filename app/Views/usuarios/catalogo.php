@@ -106,7 +106,7 @@
                       <input id="idProducto" name="idProducto" type="hidden" value=<?php echo $dat['idProducto']?>>
                       <input id="nombre" name="nombre" type="hidden" value="<?php echo $dat['nombre']?>">
                       <input id="precio" name="precio" type="hidden" value="<?php echo $dat['precio']?>">
-                      <input id="stock" name="stock" type="hidden" value="<?php echo $dat['cantidad']?>">
+                      <input id="stock" name="stock" type="hidden" value="<?php echo $dat['cantidad']-1?>">
                       <input id="cantidad" name="cantidad" type="hidden" value="1">
                       <?php $prodAñadido = false; 
                         foreach($carrito as $prod):

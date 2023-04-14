@@ -6,7 +6,7 @@
         <h2 class="stars"><?= $titulo_seccion; ?></h2>
         <p><?= $descripcion; ?></p>
         <div class="table-responsive">
-          <table class="table table-striped">
+          <table class="table table-striped" id="tabla-carrito">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -20,9 +20,11 @@
             <tbody>
               <?php 
               $contador = 0;
+              $subtotal = 0;
               $total = 0;
               foreach($carrito as $carrit): 
                 $contador=$contador+1;
+                $subtotal=$carrit["precio"]*$carrit["cantidad"];
                 echo "<tr>";
                   echo "<th scope='row'>".$contador."</th>";
                   echo "<td>".$carrit["nombre"]."</td>";
@@ -30,16 +32,16 @@
                   echo "<td>";
                     echo "<input type='number' value='".$carrit["cantidad"]."' min='1' max='".$carrit["stock"]."' class='cantidad' data-precio='".$carrit["precio"]."' onkeydown='return false;'>";
                   echo "</td>";
-                  echo "<td class='subtotal'>$".number_format($carrit["precio"], 2)."</td>";
+                  echo "<td class='subtotal'>$".number_format($subtotal, 2)."</td>";
                   echo "<td>";
                     echo "<form method='POST' action='".base_url()."/eliminarProducto'>";
                     echo "<input type='hidden' name='idProducto' value='".$carrit["idProducto"]."'>";
-                    echo "<input type='hidden' name='cantidad' value='1'>";
+                    echo "<input type='hidden' name='cantidad' value='".$carrit["cantidad"]."'>";
                     echo "<button type='submit' class='btn btn-danger btn-sm btn-jumbotron'><i class='fa fa-trash'></i></button>";
                     echo "</form>";
                     echo "</td>";
                 echo "</tr>";
-                $total = $total + $carrit["precio"];
+                $total = $total + $subtotal;
               endforeach; ?>
             </tbody>
           </table>
@@ -65,17 +67,7 @@
                   <tr>
                     <td>Envío</td>
                     <td>$0.00</td>
-                  </tr>
-                <?php /*
-                  <tr>
-                    <td>Subtotal</td>
-                    <td>$25.00</td>
-                  </tr>
-                  <tr>
-                    <td>Descuento</td>
-                    <td>$0.00</td>
-                  </tr>
-                  */ ?> 
+                  </tr> 
                   <tr>
                     <td><b>Total</b></td>
                     <td id="total">$<?php echo number_format($total, 2, '.', ',') ?></td>
@@ -84,8 +76,7 @@
               </table>
             </div>
             <form method="post" action="<?= base_url()?>/procesarCompra">
-              <input type="hidden" name="total" value="<?= number_format($total, 2, '.', ',') ?>" id="total_hidden">
-              <button type="submit" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4">Pagar</button>
+              <button type="button" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4" id="btn-pagar">Pagar</button>
             </form>
           </div>
         </div>
@@ -110,9 +101,30 @@ $(document).ready(function() {
       total += parseFloat($(this).html().replace('$', '').replace(',', ''));
     });
     $('#total').html('$' + total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
-    $('#total_hidden').val(total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 })); // actualiza el valor real para poder pasarlo a otra vista
   }
 
+  $('#btn-pagar').click(function() {
+    var data = [];
+    $('#tabla-carrito tbody tr').each(function() {
+      var idProducto = $(this).find('input[name="idProducto"]').val();
+      var cantidad = $(this).find('.cantidad').val();
+      data.push({ idProducto: idProducto, cantidad: cantidad });
+    });
+    $.ajax({
+      type: 'POST',
+      url: '<?= base_url()?>/procesarCarrito',
+      data: { carrito: data },
+      success: function(response) {
+        // Manejar respuesta del servidor
+        window.location.href = '<?php echo base_url();?>/carrito'; //AQUÍ PONDRÁN LA RUTA DE LA VISTA DEL PAGO
+      },
+      error: function() {
+        // Manejar error
+        alert('Hubo un error al procesar la petición. Por favor, inténtelo de nuevo más tarde.');
+      }
+    });
+  });  
+  
 });
 </script>
 
