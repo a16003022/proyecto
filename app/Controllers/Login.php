@@ -84,9 +84,9 @@ class Login extends BaseController
     
  
     public function logout() {
-        // vaciar el carrito de compras
         $mCarrito = new Carrito();
         $data = $mCarrito->traer_carrito();
+        // recuperar stock del carrito
         if (!empty($data)){
             $mInventario = new Inventarios();
             foreach ($data as $dat){
@@ -95,6 +95,7 @@ class Login extends BaseController
                 $mInventario->agregar_inventario($cantidad, $idProducto);
             }
         }
+        // vaciar el carrito de compras
         $mCarrito->borrar_todo();
         //destruir la sesión
         session_destroy();
