@@ -61,6 +61,9 @@ $routes->post('/crearLista', 'verListas::crearLista');
 $routes->post('/agregarLista', 'verListas::AgregarALista');
 $routes->post('/eliminarProductoLista', 'verListas::EliminarProductoLista');
 $routes->post('/lista', 'verListas::EliminarLista');
+$routes->get('revisarInventario', 'Inventariado::index', ['filter' => 'authFilter']);
+$routes->post('/actualizarInventario', 'Inventariado::actualizarInventario');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

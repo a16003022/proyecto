@@ -41,7 +41,7 @@ class RegProducto extends BaseController
         $idProducto = $mregistrar->insertID();
         $data2=[
             "idProducto"=>$idProducto,
-            "clasificacion"=>$_POST["clasificacion"],
+            "nombre"=>$_POST["nombre"],
             "cantidad"=>$_POST["stock"]
         ];
         $mregistrar= new Inventarios();

@@ -61,7 +61,7 @@ class Login extends BaseController
         if ($rol != 'administrador') {
             return redirect()->to(base_url('/usuarios'));
         }
-        return redirect()->to(base_url('/registrarPaquete'));
+        return redirect()->to(base_url('/revisarInventario'));
     //     $data2=[
     //         'titulo'=>"Registrar paquetes",
     //         'titulo_seccion'=>"Registro para los paquetes",

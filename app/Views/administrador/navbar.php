@@ -9,10 +9,13 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item" >
-          <a class="nav-link" href="<?php echo base_url()?>/registrarPaquete">Registrar Paquetes</a>
+          <a class="nav-link" href="<?php echo base_url()?>/revisarInventario">Inventarios</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="<?php echo base_url()?>/registrarPaquete">Paquetes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url()?>/registrarProducto">Registrar Producto</a>
+          <a class="nav-link" href="<?php echo base_url()?>/registrarProducto">Productos</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CATÁLOGO</a>
