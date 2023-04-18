@@ -4,6 +4,7 @@ namespace App\Controllers;
 use App\Models\Contenido;
 use App\Controllers\BaseController;
 use App\Models\Carrito;
+use App\Models\Listas;
 
 class Usuarios extends BaseController
 {
@@ -16,6 +17,8 @@ class Usuarios extends BaseController
         $data2["paquete"]=$mPaquetes->traer_paquetes();
         $mregistrar= new Carrito();
         $data5["cantidad"]=$mregistrar->contar_contenido();
+        $mLista=new Listas();
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/container', $data2).

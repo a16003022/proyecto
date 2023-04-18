@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="//cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+  <script src="https://kit.fontawesome.com/90b70c7a3b.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   
   <style>
 
@@ -358,6 +360,20 @@
 }
 
 #lblCartCount {
+  margin-left: 2px;
+    font-size: 12px;
+    background: #9162dd;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  
+}
+
+#lblCartCount2 {
+    margin-left: -8px;
     font-size: 12px;
     background: #9162dd;
     color: #fff;

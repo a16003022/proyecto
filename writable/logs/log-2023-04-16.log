@@ -1,0 +1,464 @@
+INFO - 2023-04-16 00:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:04:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM l...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:04:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM listas WHERE idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:05:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM l...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:05:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM listas WHERE idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:17:19 --> Undefined array key "img"
+in APPPATH\Views\usuarios\lista.php on line 489.
+ 1 APPPATH\Views\usuarios\lista.php(489): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "img"', 'APPPATH\\Views\\usuarios\\lista.php', 489)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\lista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/lista', [], true)
+ 5 APPPATH\Controllers\verListas.php(33): view('usuarios/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:18:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*,.p*, FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WH...' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT .l*,.p*,...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT .l*,.p*,...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT .l*,.p*,...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT .l*,.p*,...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\verListas.php(29): App\Models\Listas->traer_lista('15')
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\verListas->index()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:18:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*,.p*, FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WH...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT .l*,.p*, FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = 15')
+ 2 APPPATH\Controllers\verListas.php(29): App\Models\Listas->traer_lista('15')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:19:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.i...' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.*,...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.*,...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.*,...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.*,...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\verListas.php(29): App\Models\Listas->traer_lista('15')
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\verListas->index()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:19:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.i...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.*, FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = 15')
+ 2 APPPATH\Controllers\verListas.php(29): App\Models\Listas->traer_lista('15')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:19:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.i...' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.*,...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.*,...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.*,...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.*,...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\verListas.php(29): App\Models\Listas->traer_lista('15')
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\verListas->index()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:19:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.i...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.*, FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = 15')
+ 2 APPPATH\Controllers\verListas.php(29): App\Models\Listas->traer_lista('15')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:21:24 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\VerCarrito.php on line 73.
+ 1 APPPATH\Controllers\VerCarrito.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\VerCarrito.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VerCarrito->procesarCarrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerCarrito))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:27:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.* ...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.* ...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.* ...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* ...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:27:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:34:08 --> Undefined array key "stock"
+in APPPATH\Controllers\Catalogo.php on line 16.
+ 1 APPPATH\Controllers\Catalogo.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stock"', 'APPPATH\\Controllers\\Catalogo.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:35:53 --> Undefined array key "cantidad"
+in APPPATH\Controllers\Catalogo.php on line 17.
+ 1 APPPATH\Controllers\Catalogo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Controllers\\Catalogo.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-16 00:36:29 --> Undefined array key "cantidad"
+in APPPATH\Controllers\Catalogo.php on line 17.
+ 1 APPPATH\Controllers\Catalogo.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Controllers\\Catalogo.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->guardar_contenido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:36:47 --> Undefined array key "stock"
+in APPPATH\Views\usuarios\lista.php on line 509.
+ 1 APPPATH\Views\usuarios\lista.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stock"', 'APPPATH\\Views\\usuarios\\lista.php', 509)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\lista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/lista', [], true)
+ 5 APPPATH\Controllers\verListas.php(33): view('usuarios/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:36:51 --> Undefined array key "stock"
+in APPPATH\Views\usuarios\lista.php on line 509.
+ 1 APPPATH\Views\usuarios\lista.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stock"', 'APPPATH\\Views\\usuarios\\lista.php', 509)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\lista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/lista', [], true)
+ 5 APPPATH\Controllers\verListas.php(33): view('usuarios/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:38:03 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\lista.php on line 509.
+ 1 APPPATH\Views\usuarios\lista.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\lista.php', 509)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\lista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/lista', [], true)
+ 5 APPPATH\Controllers\verListas.php(33): view('usuarios/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:39:00 --> Class "App\Controllers\Productos" not found
+in APPPATH\Controllers\verListas.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-16 00:39:10 --> Undefined array key "cantidad"
+in APPPATH\Views\usuarios\lista.php on line 509.
+ 1 APPPATH\Views\usuarios\lista.php(509): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\usuarios\\lista.php', 509)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\lista.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('usuarios/lista', [], true)
+ 5 APPPATH\Controllers\verListas.php(36): view('usuarios/lista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:50:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.* ...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.* ...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.* ...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* ...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(118): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Bolsas()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:50:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(118): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Bolsas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:50:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.* ...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.* ...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.* ...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* ...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:50:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(48): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Playeras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:56:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.* ...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.* ...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.* ...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* ...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(119): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Bolsas()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:56:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(119): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Bolsas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 00:57:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT l.*,p.* ...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT l.*,p.* ...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT l.*,p.* ...')
+#3 C:\xampp\htdocs\proyecto\proyecto\app\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* ...')
+#4 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\Catalogo.php(119): App\Models\Listas->traer_lista(NULL)
+#5 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\Catalogo->Bolsas()
+#6 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+#7 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-16 00:57:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Listas.php(16): CodeIgniter\Database\BaseConnection->query('SELECT l.*,p.* FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = ')
+ 2 APPPATH\Controllers\Catalogo.php(119): App\Models\Listas->traer_lista(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Catalogo->Bolsas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Catalogo))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 00:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 00:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-16 01:31:47 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto\proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `li...', 0)
+#1 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `li...')
+#2 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `li...')
+#3 C:\xampp\htdocs\proyecto\proyecto\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `li...', Array, false)
+#4 C:\xampp\htdocs\proyecto\proyecto\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto\proyecto\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto\proyecto\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\proyecto\proyecto\app\Controllers\verListas.php(64): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(934): App\Controllers\verListas->AgregarALista()
+#10 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+#11 C:\xampp\htdocs\proyecto\proyecto\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto\proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-16 01:31:47 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `listas` (`idUsuario`, `idProducto`, `fecha`, `updated_at`) VALUES (:idUsuario:, :idProducto:, :fecha:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\verListas.php(64): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\verListas->AgregarALista()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\verListas))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-16 01:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-16 01:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -64,6 +64,15 @@ $routes->post('/lista', 'verListas::EliminarLista');
 $routes->get('revisarInventario', 'Inventariado::index', ['filter' => 'authFilter']);
 $routes->post('/actualizarInventario', 'Inventariado::actualizarInventario');
 
+$routes->get('/pagos', 'Pago::index', ['filter' => 'authFilter']);
+$routes->post('/registrardireccion', 'Pago::guardarDireccion', ['filter' => 'authFilter']);
+$routes->post('/eliminarDireccion', 'Pago::BorrarDireccion', ['filter' => 'authFilter']);
+$routes->post('/registrarventa', 'Pago::RegistrarVenta', ['filter' => 'authFilter']);
+$routes->post('/registrarventa', 'Pago::RegistrarDetalleVenta', ['filter' => 'authFilter']);
+$routes->get('/ticket', 'Pago::Ticket', ['filter' => 'authFilter']);
+$routes->get('/ticket/(:num)', 'Pago::imprimirTicket/$1');
+$routes->get('/enviarEmail', 'Pago::Email', ['filter' => 'authFilter']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

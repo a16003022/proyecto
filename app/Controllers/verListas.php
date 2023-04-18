@@ -3,7 +3,7 @@ namespace App\Controllers;
 use App\Models\Carrito;
 use App\Models\Listas;
 use App\Models\ProdLista;
-
+use App\Models\Productos;
 
 class verListas extends BaseController
 {
@@ -27,6 +27,9 @@ class verListas extends BaseController
 
         $mLista=new Listas();
         $data3["lista"]=$mLista->traer_lista($user_id);
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();  
+        $mPaquetes=new Productos();
+        $data3["producto"]=$mPaquetes->traer_playeras();
 
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar', $data5).
@@ -55,10 +58,7 @@ class verListas extends BaseController
         $mLista= new Listas();
         $data=[
             "idUsuario" => $user_id,
-            "nombre"=>$_POST["nombre"],
             "idProducto"=>$_POST["idProducto"],
-            "precio"=>$_POST["precio"],
-            "img"=>$_POST["img"]
         ];
         
         $mLista->save($data);

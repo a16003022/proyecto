@@ -506,6 +506,10 @@
                                                     echo "<input type='hidden' name='idProducto' value='".$dat["idProducto"]."'>";
                                                     echo "<input type='hidden' name='nombre' value='".$dat["nombre"]."'>";
                                                     echo "<input type='hidden' name='precio' value='".$dat["precio"]."'>";
+                                                    foreach($producto as $prod){
+                                                    echo "<input type='hidden' name='stock' value='".$prod["cantidad"]."'>";
+                                                    }
+                                                    echo "<input type='hidden' name='cantidad' value='1'>";
                                                         $prodAñadido = false; 
                                                         foreach($carrito as $prod):
                                                         if ($prod["idProducto"] == $dat["idProducto"]){

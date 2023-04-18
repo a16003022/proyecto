@@ -100,9 +100,6 @@
                   <div class="col-4">
                   <form action="<?php echo base_url('/agregarLista'); ?>" method="POST">
                       <input id="idProducto" name="idProducto" type="hidden" value=<?php echo $dat['idProducto']?>>
-                      <input id="nombre" name="nombre" type="hidden" value="<?php echo $dat['nombre']?>">
-                      <input id="precio" name="precio" type="hidden" value="<?php echo $dat['precio']?>">
-                      <input id="img" name="img" type="hidden" value="<?php echo $dat['img']?>">
                               <?php $prodAñadido2 = false; 
                         foreach($lista as $list):
                           if ($list["idProducto"] == $dat["idProducto"]){

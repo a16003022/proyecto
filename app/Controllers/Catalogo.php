@@ -44,12 +44,14 @@ class Catalogo extends BaseController
         
         $session = session();
         $user_id = $session->get('id');
-        $mLista=new Listas();
-        $data2["lista"]=$mLista->traer_lista($user_id);
+        
 
 
         //si la sesión no ha sido iniciada, se muestra la vista genérica
         if (!empty($data3["name"])){
+            $mLista=new Listas();
+            $data2["lista"]=$mLista->traer_lista($user_id);
+            $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
             $vistas= view('usuarios/header', $data).  
                 view('usuarios/navbar',$data5).
                 view('usuarios/catalogo', $data2).
@@ -80,10 +82,12 @@ class Catalogo extends BaseController
 
         $session = session();
         $user_id = $session->get('id');
-        $mLista=new Listas();
-        $data2["lista"]=$mLista->traer_lista($user_id);
+        
         //si la sesión no ha sido iniciada, se muestra la vista genérica
         if (!empty($data3["name"])){
+            $mLista=new Listas();
+            $data2["lista"]=$mLista->traer_lista($user_id);
+            $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
             $vistas= view('usuarios/header', $data).  
                 view('usuarios/navbar',$data5).
                 view('usuarios/catalogo', $data2).
@@ -114,11 +118,13 @@ class Catalogo extends BaseController
 
         $session = session();
         $user_id = $session->get('id');
-        $mLista=new Listas();
-        $data2["lista"]=$mLista->traer_lista($user_id);
+        
 
         //si la sesión no ha sido iniciada, se muestra la vista genérica
         if (!empty($data3["name"])){
+            $mLista=new Listas();
+            $data2["lista"]=$mLista->traer_lista($user_id);
+            $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
             $vistas= view('usuarios/header', $data).  
                 view('usuarios/navbar',$data5).
                 view('usuarios/catalogo', $data2).

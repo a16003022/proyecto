@@ -116,7 +116,7 @@ $(document).ready(function() {
       data: { carrito: data },
       success: function(response) {
         // Manejar respuesta del servidor
-        window.location.href = '<?php echo base_url();?>/carrito'; //AQUÍ PONDRÁN LA RUTA DE LA VISTA DEL PAGO
+        window.location.href = '<?php echo base_url();?>/pagos'; //AQUÍ PONDRÁN LA RUTA DE LA VISTA DEL PAGO
       },
       error: function() {
         // Manejar error

@@ -6,14 +6,18 @@ class Listas extends Model
 {
     protected $table    = 'listas';
     protected $returnType = 'array';
-    protected $allowedFields = ['idLista','idUsuario','nombre','idProducto','precio','img'];
-
+    protected $allowedFields = ['idLista','idUsuario','idProducto'];
+    protected $useTimestamps        = true;
+    protected $dateFormat           = 'datetime';
+    protected $createdField         = 'fecha';
+    protected $updatedField         = '';
+    protected $deletedField         = '';
     // public function crear_lista(){
     //     $this->insert($param);
     // }
 
     public function traer_lista($user_id){
-        $query=$this->db->query("SELECT * FROM listas WHERE idUsuario = $user_id");
+        $query=$this->db->query("SELECT l.*,p.* FROM listas l INNER JOIN productos p ON l.idProducto = p.idProducto WHERE l.idUsuario = $user_id");
         return $query->getResultArray();
     }
 
@@ -29,6 +33,11 @@ class Listas extends Model
     public function EliminarLista($idUsuario){
         $query = $this->db->query("DELETE FROM listas WHERE idUsuario = $idUsuario ");
         return $query;
+    }
+
+    public function contar_contenido_Lista() {
+        $query = $this->db->query("SELECT * FROM listas");
+        return $query->getNumRows();
     }
 
 }
