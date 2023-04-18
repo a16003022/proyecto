@@ -93,6 +93,9 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
   }
+  .title{
+    font-family: adineue PRO, sans-serif;
+  }
   .container-fluid {
     
   }
@@ -564,6 +567,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php echo base_url()?> /imagenes/bgCat.png');
     background-attachment: fixed;
     background-size: cover;
+  
   }
   @media screen and (max-width: 480px) {
     /* .logo {
