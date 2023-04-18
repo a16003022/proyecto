@@ -35,8 +35,8 @@ class Listas extends Model
         return $query;
     }
 
-    public function contar_contenido_Lista() {
-        $query = $this->db->query("SELECT * FROM listas");
+    public function contar_contenido_Lista($user_id) {
+        $query = $this->db->query("SELECT * FROM listas WHERE idUsuario = $user_id ");
         return $query->getNumRows();
     }
 

@@ -27,7 +27,7 @@ class verListas extends BaseController
 
         $mLista=new Listas();
         $data3["lista"]=$mLista->traer_lista($user_id);
-        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();  
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);  
         $mPaquetes=new Productos();
         $data3["producto"]=$mPaquetes->traer_playeras();
 

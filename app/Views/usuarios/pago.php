@@ -353,7 +353,6 @@
             <div class="form-group row">
                 <div class="col-12">
                     <div class="card-deck">
-                        
                         <?php 
                         $contador = 0;
                         $total = 0;

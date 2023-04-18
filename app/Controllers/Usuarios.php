@@ -18,7 +18,9 @@ class Usuarios extends BaseController
         $mregistrar= new Carrito();
         $data5["cantidad"]=$mregistrar->contar_contenido();
         $mLista=new Listas();
-        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
+        $session = session();
+        $user_id = $session->get('id');
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/container', $data2).

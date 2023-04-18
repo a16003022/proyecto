@@ -19,7 +19,9 @@ class VerCarrito extends BaseController
         $mCarrito=new Carrito();
         $data3["carrito"]=$mCarrito->traer_carrito();
         $mLista=new Listas();
-        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();  
+        $session = session();
+        $user_id = $session->get('id');
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);  
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar', $data5).

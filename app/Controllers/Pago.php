@@ -47,7 +47,7 @@ class Pago extends BaseController
         $user_id = $session->get('id');
         $mLista=new Listas();
         $data["lista"]=$mLista->traer_lista($user_id);
-        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/pago', $data).
@@ -228,7 +228,7 @@ class Pago extends BaseController
         $user_id = $session->get('id');
         $mLista=new Listas();
         $data["lista"]=$mLista->traer_lista($user_id);
-        $data5["cantidadLista"]=$mLista->contar_contenido_Lista();
+        $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/ticket', $data).
