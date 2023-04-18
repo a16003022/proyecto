@@ -92,7 +92,8 @@
                   <h5 class="card-title"><?php echo $dat['nombre']?></h5>
                   <p class="card-text">Marca: <?php echo $dat['marca']?><br> 
                   Modelo: <?php echo $dat['modelo']?><br>
-                  Medida: <?php echo $dat['medida']?></p>
+                  Medida: <?php echo $dat['medida']?><br>
+                  <b>Disponible: <?php echo $dat['cantidad']?></b></p>
                   <h5 style="font-weight:bold; color:#1BBABA;">$<?php echo $dat['precio']?></h5>
                 </div>
                 <div class=" row card-footer" style="border: none; background-color: transparent;">
