@@ -275,7 +275,7 @@
                         <hr class="line">
                         <p>Tarjetas bancarias participantes</p>
                         <hr class="line">
-                    </div>
+                    </div>  
                     <div class="credit-card-info--form">
                         <div class="input_container">
                         <label for="password_field" class="input_label">Nombre completo</label>
@@ -421,23 +421,23 @@
             </div>
 <script>
 
-    // var countdownElement = document.getElementById("countdown");
-    // var progressBarElement = document.querySelector(".progress-bar");
+    var countdownElement = document.getElementById("countdown");
+    var progressBarElement = document.querySelector(".progress-bar");
 
-    // var totalTime = 120; // tiempo en segundos
-    // var remainingTime = totalTime;
+    var totalTime = 120; // tiempo en segundos
+    var remainingTime = totalTime;
 
-    // var interval = setInterval(function() {
-    //     remainingTime--;
-    //     if (remainingTime <= 0) {
-    //     clearInterval(interval);
-    //     window.location.href = document.referrer; // redirigir a la página anterior
-    //     } else {
-    //     var progress = (totalTime - remainingTime) / totalTime;
-    //     progressBarElement.style.width = progress * 100 + "%";
-    //     countdownElement.innerHTML = Math.round(remainingTime) + " segundos restantes";
-    //     }
-    // }, 1000);
+    var interval = setInterval(function() {
+        remainingTime--;
+        if (remainingTime <= 0) {
+        clearInterval(interval);
+        window.location.href = document.referrer; // redirigir a la página anterior
+        } else {
+        var progress = (totalTime - remainingTime) / totalTime;
+        progressBarElement.style.width = progress * 100 + "%";
+        countdownElement.innerHTML = Math.round(remainingTime) + " segundos restantes";
+        }
+    }, 1000);
 
 
 
