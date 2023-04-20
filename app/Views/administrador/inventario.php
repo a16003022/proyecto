@@ -8,17 +8,21 @@
                     <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                         <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>#</th>
                                 <th>Nombre</th>
+                                <th>Medida</th>
                                 <th>Cantidad</th>
                             </tr>
                         <thead>
                         <tbody>
                             <?php
+                            $contador = 0;
                             foreach($producto as $dat){
+                              $contador++;
                                 echo "<tr>";
-                                    echo "<td>".$dat['idProducto']."</td>";
+                                    echo "<td>".$contador."</td>";
                                     echo "<td>".$dat['nombre']."</td>";
+                                    echo "<td>".$dat['medida']."</td>";
                                     echo "<td><input class='cantidad' type='number' value='".$dat["cantidad"]."' min='1' max='999'></td>";
                                 echo "</tr>";
                             }

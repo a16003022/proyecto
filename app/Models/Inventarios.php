@@ -14,7 +14,9 @@ class Inventarios extends Model
     }
 
     public function producto_inventario(){
-        $query=$this->db->query("SELECT * FROM inventarios");
+        $query=$this->db->query("SELECT p.nombre, p.modelo, p.marca, p.medida, p.precio, p.clasificacion, p.idProducto, i.cantidad 
+        FROM productos p 
+        INNER JOIN inventarios i ON p.idProducto = i.idProducto");
         return $query->getResultArray();
     }
 
