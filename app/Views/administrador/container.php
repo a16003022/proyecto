@@ -29,7 +29,7 @@
         <div class="col-12 col-lg-6 col-md-12 col-sm-12 centrado" id="about">
             <div class="mx-auto">
                 <div class="container p-5 text-about">
-                    <h3 class="text-about">Sobre nosotros</h3>
+                    <h3 class="text-about" style="font-family: adineue PRO, sans-serif;">Sobre nosotros</h3>
                     <h6>Somos Tec-Shirts, una empresa ubicada en Mérida, Yucatán, dedicada a la producción y venta de ropa de alta calidad. Nos enorgullece ofrecer productos con un estilo fresco y moderno, hechos con materiales de la más alta calidad.<br> <br>Además de nuestra amplia gama de ropa, en Tec-Shirts también ofrecemos una línea de bolsas térmicas de alta calidad. Estas bolsas están diseñadas para mantener tus alimentos y bebidas a la temperatura perfecta, ya sea en el trabajo, en un picnic o en un viaje.
                     <br><br> <div class="cel-text"> Nos esforzamos por utilizar materiales duraderos y respetuosos con el medio ambiente en la fabricación de nuestras bolsas térmicas, y por ofrecer una amplia variedad de tamaños y estilos para satisfacer las necesidades de todos nuestros clientes.</div></h6>
                     <br><button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="#contact">Contáctanos</a></button>
@@ -68,7 +68,7 @@
           <div class="carousel-item active text-center" data-bs-interval='5000'>
                 <img src="<?php echo base_url()?>/imagenes/cr2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
-                    <h3 class="text-white">¡Registrate!</h3>
+                    <h3 class="text-white" style="font-family: adineue PRO, sans-serif;">¡Registrate!</h3>
                     <p class="carousel-text">
                     ¡Obtén un 15% de descuento en tu primera compra!
                     </p>
@@ -78,7 +78,7 @@
             <div class="carousel-item" data-bs-interval='3000'>
                 <img src="<?php echo base_url()?>/imagenes/carousel1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
-                    <h2 class="text-white text-left col-8 mr-auto">Misión</h2>
+                    <h2 class="text-white text-left col-8 mr-auto" style="font-family: adineue PRO, sans-serif;">Misión</h2>
                     <p>
                      Proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
                     </p>
@@ -88,7 +88,7 @@
             <div class="carousel-item" data-bs-interval='5000'>
                 <img src="<?php echo base_url()?>/imagenes/cr1.jfif" class="d-block w-100" alt="...">
                 <div class="carousel-caption px-4 col-7 col-lg-5 col-md-5 col-sm-7">
-                    <h2 class="text-white text-justify">Visión</h2>
+                    <h2 class="text-white text-justify" style="font-family: adineue PRO, sans-serif;">Visión</h2>
                     <p>
                     Reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
                     </p>
@@ -162,25 +162,25 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="productos" class="container-fluid text-center">
-  <h3 style="color: #9162DD">Nuestros productos</h3><br>
+  <h3 style="color: #9162DD" style="font-family: adineue PRO, sans-serif;">Nuestros productos</h3><br>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img class="img-fluid" src="<?php echo base_url()?>/imagenes/playeras.jfif" alt="Playeras" style="max-width:60%;">
+        <img class="img-fluid" src="<?php echo base_url()?>/imagenes/playeras.jfif" alt="Playeras" style="max-width:60%; border-radius:5%">
         <p class="subtitle"><strong>Playeras</strong></p>
         <p>¡Consigue el estilo que buscas con nuestras playeras!</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="<?php echo base_url()?>/imagenes/sudadera2.jpg" alt="New York" style="max-width:60%;">
+        <img src="<?php echo base_url()?>/imagenes/sudadera2.jpg" alt="New York" style="max-width:60%; border-radius:5%">
         <p class="subtitle"><strong>Sudaderas</strong></p>
         <p>¡Brilla con estilo en cualquier ocasión con nuestras sudaderas!</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="<?php echo base_url()?>/imagenes/bolsa.jpg" alt="San Francisco" style="max-width:68%;">
+        <img src="<?php echo base_url()?>/imagenes/bolsa.jpg" alt="San Francisco" style="max-width:68%; border-radius:5%;">
         <p class="subtitle"><strong>Bolsas térmicas</strong></p>
         <p>¡Mantén tus alimentos frescos y tus bebidas calientes donde quiera que vayas con nuestras bolsas térmicas!</p>
       </div>
@@ -227,7 +227,7 @@
   <div class="container py-5">
     <div class="row d-flex justify-content-center">
       <div class="col-md-10 col-xl-8 text-center">
-        <h3 style="color: #9162DD" class="fw-bold mb-4">Comentarios de nuestros clientes</h3>
+        <h3 style="color: #9162DD; font-family: adineue PRO, sans-serif;" class="fw-bold mb-4">Comentarios de nuestros clientes</h3>
       </div>
     </div>
 
@@ -479,7 +479,7 @@
 </div>
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid text-center contact p-2">
-  <h1 class="text-center cnt-txt">CONTACTO</h1>
+  <h1 class="text-center cnt-txt" style="font-family: adineue PRO, sans-serif;">CONTACTO</h1>
   <div class="row">
     <div class="col-sm-5 mapouter">
       <div class="gmap_canvas">

@@ -16,7 +16,7 @@
         <p class="lead mb-0 text-10 text-video">¡Inscribete a la 10° carrera 10k-Yucatán y recibe tu kit TEC-SHIRTS! </p>
         <form class="form col-lg-6 col-sm-12 center">
           <div>
-          <button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="<?php echo base_url()?>/registro">Inscribirme</a></button>
+          <button type="button" class="btn btn-dark btn_contacto"><a class="btn-contact" href="<?php echo base_url()?>/registro" style="font-family: Quicksand, sans-serif; font-weight:bold;">Inscribirme</a></button>
           </div>
         </form>
       </div>
@@ -166,21 +166,21 @@
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img class="img-fluid" src="<?php echo base_url()?>/imagenes/playeras.jfif" alt="Playeras" style="max-width:60%;">
+        <img class="img-fluid" src="<?php echo base_url()?>/imagenes/playeras.jfif" alt="Playeras" style="max-width:60%; border-radius: 5%;">
         <p class="subtitle"><strong>Playeras</strong></p>
         <p>¡Consigue el estilo que buscas con nuestras playeras!</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="<?php echo base_url()?>/imagenes/sudadera2.jpg" alt="New York" style="max-width:60%;">
+        <img src="<?php echo base_url()?>/imagenes/sudadera2.jpg" alt="New York" style="max-width:60%; border-radius: 5%;">
         <p class="subtitle"><strong>Sudaderas</strong></p>
         <p>¡Brilla con estilo en cualquier ocasión con nuestras sudaderas!</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="<?php echo base_url()?>/imagenes/bolsa.jpg" alt="San Francisco" style="max-width:68%;">
+        <img src="<?php echo base_url()?>/imagenes/bolsa.jpg" alt="San Francisco" style="max-width:68%; border-radius: 5%;">
         <p class="subtitle"><strong>Bolsas térmicas</strong></p>
         <p>¡Mantén tus alimentos frescos y tus bebidas calientes donde quiera que vayas con nuestras bolsas térmicas!</p>
       </div>

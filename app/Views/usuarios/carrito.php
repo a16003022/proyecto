@@ -1,10 +1,10 @@
 <!-- Vista del carrito de compras -->
-<section style="padding-top: 15vh; height: 95vh;">
+<section style="padding-top: 15vh; min-height: 95vh;">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="stars"><?= $titulo_seccion; ?></h2>
-        <p><?= $descripcion; ?></p>
+        <h2 class="stars" style="font-family: adineue PRO, sans-serif;"><?= $titulo_seccion; ?></h2>
+        <p style="font-family: 'Quicksand', sans-serif;"><?= $descripcion; ?></p>
         <div class="table-responsive">
           <table class="table table-striped" id="tabla-carrito">
             <thead>
@@ -76,7 +76,7 @@
               </table>
             </div>
             <form method="post" action="<?= base_url()?>/procesarCompra">
-              <button type="button" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4" id="btn-pagar">Pagar</button>
+              <button type="button" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4" style="font-family: 'Quicksand', sans-serif; font-weight:bold; font-size: 16px;" id="btn-pagar">Pagar</button>
             </form>
           </div>
         </div>

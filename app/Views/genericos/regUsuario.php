@@ -22,7 +22,7 @@
           <form  action="<?php echo base_url('/RegUsuario'); ?>" method="post">
               <!-- 2 column grid layout with text inputs for the first and last names -->
               <div class="row">
-                <h3 class="text-center">Registro</h3>
+                <h3 class="text-center" style="font-family: adineue PRO, sans-serif;">Registro</h3>
                 <div class="col-md-6 mb-4">
                   <div class="form-outline">
                     <label class="form-label" for="name">Nombre(s)</label>

@@ -1,7 +1,7 @@
 <div class="container-fluid" style="padding-top: 130px;">
     <div class="row">
         <div class="col-lg-4">
-        <h2><?= $titulo_seccion; ?></h2>
+        <h2 style="font-family: adineue PRO, sans-serif;"><?= $titulo_seccion; ?></h2>
         <p><?= $descripcion; ?></p>
             <form method="post" action="<?php echo base_url().'/guardar_producto'?>">   
                 <div>

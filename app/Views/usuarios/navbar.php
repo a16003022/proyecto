@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fijado">
   <div class="container-fluid">
     
-    <a class="logo" href="<?php echo base_url()?>/usuarios"><img class="logo" src="<?php echo base_url()?>/imagenes/1.png"></a>
+    <a class="logo" href="<?php echo base_url()?>/usuarios"><img class="logo" src="<?php echo base_url()?>/imagenes/2.png"></a>
     
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>

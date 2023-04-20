@@ -426,11 +426,11 @@
 
 </style>
 
-<section style="padding-top: 15vh; height: 95vh; ">
+<section style="padding-top: 15vh; min-height: 95vh; ">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="stars" style="text-align:center;"><?= $titulo; ?></h1>
+                <h1 class="stars" style="text-align:center;font-family: adineue PRO, sans-serif;"><?= $titulo; ?></h1>
             </div>
         </div>
         <!-- <button class="cssbuttons-io-button" data-bs-toggle="modal" data-bs-target="#exampleModal"> Crear Lista
@@ -475,7 +475,7 @@
                                             <th class="text-center">
                                                 <form action="<?php echo base_url('/lista'); ?>" method="POST">
                                                 <input id="idUsuario" name="idUsuario" type="hidden" value=<?php echo $_SESSION['id']?>>             
-                                                <button type="submit" class="btn btn-sm btn-outline-danger">Limpiar Lista</button>
+                                                <button type="submit" class="btn btn-sm btn-outline-danger" style="font-family: 'Quicksand', sans-serif; font-weight:bold;">Limpiar Lista</button>
                                                 </form>
                                             </th>
                                         </tr>

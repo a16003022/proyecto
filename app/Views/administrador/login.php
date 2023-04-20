@@ -12,7 +12,7 @@
             <form action="<?php echo base_url('/login'); ?>" method="post">
               <!-- Inicio-->
             <div class="row">
-                <h3 class="text-center">Iniciar Sesión</h3>
+                <h3 class="text-center" style="font-family: adineue PRO, sans-serif;">Iniciar Sesión</h3>
                 <div class="form-outline mb-4">
                     <div class="form-outline">
                         <label for="email" class="form-label">Correo electrónico</label>
