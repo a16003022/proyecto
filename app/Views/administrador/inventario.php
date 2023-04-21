@@ -15,19 +15,20 @@
                             </tr>
                         <thead>
                         <tbody>
-                            <?php
-                            $contador = 0;
-                            foreach($producto as $dat){
-                              $contador++;
-                                echo "<tr>";
-                                    echo "<td>".$contador."</td>";
-                                    echo "<td>".$dat['nombre']."</td>";
-                                    echo "<td>".$dat['medida']."</td>";
-                                    echo "<td><input class='cantidad' type='number' value='".$dat["cantidad"]."' min='1' max='999'></td>";
-                                echo "</tr>";
-                            }
-                            ?>
-                        <tbody>
+                        <?php
+                        $contador = 0;
+                        foreach($producto as $dat){
+                          $contador++;
+                            echo "<tr data-id='" . $dat['idProducto'] . "'>";
+                                echo "<td>".$contador."</td>";
+                                echo "<td>".$dat['nombre']."</td>";
+                                echo "<td>".$dat['medida']."</td>";
+                                echo "<td><input class='cantidad' type='number' value='".$dat["cantidad"]."' min='1' max='999'></td>";
+                            echo "</tr>";
+                        }
+                        ?>
+                        </tbody>
+
                     </table>
                     <button type="button" class="btn btn-success btn-lg btn-block btn-jumbotron mb-4 actualizar-btn" id="btn-pagar" disabled>Actualizar</button>
                 </div>
@@ -56,7 +57,7 @@
           var datos = [];
           $('.cantidad').each(function() {
             datos.push({
-              idProducto: $(this).closest('tr').find('td:eq(0)').text(),
+              idProducto: $(this).closest('tr').data('id'),
               cantidad: $(this).val()
             });
           });
