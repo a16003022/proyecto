@@ -49,14 +49,15 @@
                 <label for="password" class="form-label">Contraseña</label>                
                 <div class="input-group">
                 <input type="password" class="form-control" id="password" name="password">
-                    <?php if(isset($validation)):?>
-                      <small class="text-danger"><?= $validation->getError('password') ?></small>
-                    <?php endif;?>
+                    <?php //if(isset($validation)):?>
+                     <!-- <small class="text-danger"><?//= $validation->getError('password') ?></small> -->
+                    <?php //endif;?>
                   <div class="input-group-append">
                     <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password')"> 
                       <span class="fa fa-eye-slash icon"></span> 
                     </button>
                   </div>
+                  <div id="passwordHelp" class="form-text"></div>
                 </div>
               </div>
               <!-- Password input -->
@@ -116,6 +117,45 @@
 </section>
 
 <script type="text/javascript">
+// Seleccione el campo de contraseña y el elemento de ayuda
+var password = $("#password");
+var passwordHelp = $("#passwordHelp");
+
+// Verificar la contraseña en tiempo real
+password.on("input", function() {
+  var value = password.val();
+  var validLength = value.length >= 8;
+  var hasNumber = /\d/.test(value);
+  var hasUppercase = /[A-Z]/.test(value);
+  var hasLowercase = /[a-z]/.test(value);
+  var validPassword = validLength && hasNumber && hasUppercase && hasLowercase;
+  if (validPassword) {
+    passwordHelp.html("");
+  } else {
+    var helpText = "La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
+    passwordHelp.html(helpText);
+  }
+});
+
+// Seleccione el formulario y agregue un controlador de eventos para el evento "submit"
+var form = $("form");
+form.on("submit", function(event) {
+  // Verificar la contraseña
+  var value = password.val();
+  var validLength = value.length >= 8;
+  var hasNumber = /\d/.test(value);
+  var hasUppercase = /[A-Z]/.test(value);
+  var hasLowercase = /[a-z]/.test(value);
+  var validPassword = validLength && hasNumber && hasUppercase && hasLowercase;
+  if (!validPassword) {
+    // Mostrar una alerta si la contraseña es inválida
+    event.preventDefault();
+    var alertText = "La contraseña no es válida. Debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
+    alert(alertText);
+  }
+});
+
+
 function mostrarPassword(idBoton) {
   var passwordField = document.getElementById(idBoton).parentNode.previousElementSibling;
   var type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
