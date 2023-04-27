@@ -279,20 +279,24 @@
                     <div class="credit-card-info--form">
                         <div class="input_container">
                         <label for="password_field" class="input_label">Nombre completo</label>
-                        <input id="password_field" class="input_field" type="text" name="input-name" title="Inpit title" placeholder="Ingresa tu nombre completo" required>
+                        <input id="password_field" class="input_field" type="text" name="input-name" title="Inpit title" placeholder="Ingresa tu nombre completo" value="<?php echo isset($_COOKIE['pago_nombre']) ? $_COOKIE['pago_nombre'] : ''; ?>" required>
                         </div>
                         <div class="input_container">
                         <label for="password_field" class="input_label">Número de tarjeta</label>
-                        <input  class="input_field" type="text" name="numTarjeta" placeholder="0000 0000 0000 0000" size="18" id="cr_no" minlength="19" maxlength="19" required>
+                        <input  class="input_field" type="text" name="numTarjeta" placeholder="0000 0000 0000 0000" size="18" id="cr_no" minlength="19" maxlength="19" value="<?php echo isset($_COOKIE['pago_tarjeta']) ? $_COOKIE['pago_tarjeta'] : ''; ?>" required>
                         </div>
                         <div class="input_container">
                         <label for="password_field" class="input_label">Fecha de expiración / CVV</label>
                         <div class="split">
-                        <input class="input_field" type="text" name="exp" placeholder="MM/YY" size="6" id="exp" minlength="5" maxlength="5" required>
-                        <input type="password" name="cvv" class="input_field" size="1" minlength="3" maxlength="3" placeholder="000" required>
+                        <input class="input_field" type="text" name="exp" placeholder="MM/YY" size="6" id="exp" minlength="5" maxlength="5" value="<?php echo isset($_COOKIE['pago_fecha']) ? $_COOKIE['pago_fecha'] : ''; ?>" required>
+                        <input type="password" name="cvv" class="input_field" size="1" minlength="3" maxlength="3" placeholder="000" value="<?php echo isset($_COOKIE['pago_cvv']) ? $_COOKIE['pago_cvv'] : ''; ?>" required>
                         <input type="hidden" name="numero_venta" value="<?php echo $numeroVenta; ?>">
                         </div>
                         </div>
+                    </div>
+                    <div class="mt-4 form-check">
+                          <input type="checkbox" class="form-check-input" id="rememberPago" name="rememberPago" value="1" <?php if(isset($_COOKIE['pago_nombre']) && isset($_COOKIE['pago_tarjeta'])&& isset($_COOKIE['pago_fecha'])&& isset($_COOKIE['pago_cvv'])) echo 'checked'; ?>>
+                          <label class="form-check-label" for="remember">Recuerda mis datos</label>
                     </div>
                         <?php
                             $subtotal = 0;

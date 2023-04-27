@@ -15,14 +15,14 @@
                 <div class="form-outline mb-4">
                     <div class="form-outline">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
+                        <input type="email" class="form-control" id="email" name="email" value="<?php echo isset($_COOKIE['login_email']) ? $_COOKIE['login_email'] : ''; ?>" required>
                     </div>
                 </div>
               <!-- Password input -->
                 <div class="form-outline mb-4">
                     <label for="password" class="form-label">Contraseña</label>
                     <div class="input-group">
-                     <input type="password" class="form-control" id="password" name="password">
+                     <input type="password" class="form-control" id="password" name="password" value="<?php echo isset($_COOKIE['login_password']) ? $_COOKIE['login_password'] : ''; ?>">
                         <div class="input-group-append">
                             <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword()"> 
                             <span class="fa fa-eye-slash icon"></span> 
@@ -35,8 +35,8 @@
                   <div class="col d-flex justify-content-center">
                     <!-- Checkbox -->
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="form2Example31"/>
-                      <label class="form-check-label" for="form2Example31"> Recordarme </label>
+                    <input type="checkbox" class="form-check-input" id="remember" name="remember" value="1" <?php if(isset($_COOKIE['login_email']) && $_COOKIE['login_password']) echo 'checked'; ?>>
+                    <label class="form-check-label" for="remember">Recuerdame</label>
                     </div>
                   </div>
                 </div>

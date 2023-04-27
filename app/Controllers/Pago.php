@@ -38,7 +38,14 @@ class Pago extends BaseController
         $identificador = base_convert(md5($numero_aleatorio), 16, 10);
         $data["numeroVenta"]= substr($identificador, 0, 8);
 
-
+        // Verificar si la cookie existe
+        if (isset($_COOKIE['pago_nombre']) && isset($_COOKIE['pago_tarjeta'])&& isset($_COOKIE['pago_fecha'])&& isset($_COOKIE['pago_cvv'])) {
+            // Establecer los valores de los campos del formulario con los valores almacenados en las cookies
+            $data['input-name'] = $_COOKIE['pago_nombre'];
+            $data['numTarjeta'] = $_COOKIE['pago_tarjeta'];
+            $data['exp'] = $_COOKIE['pago_fecha'];
+            $data['cvv'] = $_COOKIE['pago_cvv'];
+        }
       
         $mCarrito= new Carrito();
         $data["carrito"]=$mCarrito->traer_carrito();
@@ -113,6 +120,19 @@ class Pago extends BaseController
                 'total'    => $car['precio']
            ];
             $mDetalle->save($data2);
+        }
+
+        if ($this->request->getVar('rememberPago')) {
+            setcookie('pago_nombre', $this->request->getVar('input-name'), time()+60*60*24*30, '/');
+            setcookie('pago_tarjeta', $this->request->getVar('numTarjeta'), time()+60*60*24*30, '/');
+            setcookie('pago_fecha', $this->request->getVar('exp'), time()+60*60*24*30, '/');
+            setcookie('pago_cvv', $this->request->getVar('cvv'), time()+60*60*24*30, '/');
+        }else {
+            // Si la opción de recordar no fue seleccionada, borrar las cookies existentes
+            setcookie('pago_nombre', '', time() - 3600, "/");
+            setcookie('pago_tarjeta', '', time() - 3600, "/");
+            setcookie('pago_fecha', '', time() - 3600, "/");
+            setcookie('pago_cvv', '', time() - 3600, "/");
         }
         
         //Enviar correo de la venta

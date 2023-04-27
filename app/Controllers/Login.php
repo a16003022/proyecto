@@ -12,13 +12,24 @@ class Login extends BaseController
 {
     public function index()
     {
+
+        $data2 = [];
+
         $data=[
             "titulo"=>"Iniciar sesión"
         ];
+
+        // Verificar si la cookie existe
+        if (isset($_COOKIE['login_email']) && isset($_COOKIE['login_password'])) {
+            // Establecer los valores de los campos del formulario con los valores almacenados en las cookies
+            $data2['email'] = $_COOKIE['login_email'];
+            $data2['password'] = $_COOKIE['login_password'];
+        }
+
     //la funcion view rsta conformada por 2 parametros: donde se encuentra la vista y el arreglo asociativo
         $vistas= view('genericos/header', $data).  
             view('genericos/navbar').
-            view('genericos/login').
+            view('genericos/login',$data2).
             view('genericos/footer').
             view("inicio");
         return $vistas;
@@ -34,6 +45,15 @@ class Login extends BaseController
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
         $user = $userModel->where('email', $email)->first();
+
+        if ($this->request->getVar('remember')) {
+            setcookie('login_email', $this->request->getVar('email'), time()+60*60*24*30, '/');
+            setcookie('login_password', $this->request->getVar('password'), time()+60*60*24*30, '/');
+        }else {
+            // Si la opción de recordar no fue seleccionada, borrar las cookies existentes
+            setcookie('login_email', '', time() - 3600, "/");
+            setcookie('login_password', '', time() - 3600, "/");
+        }
  
         if(is_null($user)) {
             return redirect()->back()->withInput()->with('error', 'Correo o contraseña incorrecta.');
@@ -61,6 +81,10 @@ class Login extends BaseController
         if ($rol != 'administrador') {
             return redirect()->to(base_url('/usuarios'));
         }
+        
+
+        
+
         return redirect()->to(base_url('/revisarInventario'));
     //     $data2=[
     //         'titulo'=>"Registrar paquetes",
