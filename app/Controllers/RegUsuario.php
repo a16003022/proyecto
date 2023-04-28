@@ -171,9 +171,9 @@ class RegUsuario extends BaseController
              $data2=[
                 "titulo"=>"Registrarse"
             ];
-             $vistas= view('genericos/header', $data2,$data).  
+             $vistas= view('genericos/header', $data2).  
              view('genericos/navbar').
-             view('genericos/regUsuario').
+             view('genericos/regUsuario',$data).
              view('genericos/footer').
              view("inicio");
          return $vistas;

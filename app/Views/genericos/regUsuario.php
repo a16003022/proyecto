@@ -49,15 +49,15 @@
                 <label for="password" class="form-label">Contraseña</label>                
                 <div class="input-group">
                 <input type="password" class="form-control" id="password" name="password">
-                    <?php //if(isset($validation)):?>
-                     <!-- <small class="text-danger"><?//= $validation->getError('password') ?></small> -->
-                    <?php //endif;?>
                   <div class="input-group-append">
                     <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password')"> 
                       <span class="fa fa-eye-slash icon"></span> 
                     </button>
                   </div>
                   <div id="passwordHelp" class="form-text"></div>
+                  <?php if(isset($validation)):?>
+                      <small class="text-danger"><?= $validation->getError('password') ?></small>
+                    <?php endif;?>
                 </div>
               </div>
               <!-- Password input -->
@@ -65,15 +65,16 @@
                 <label for="confirm_password" class="form-label">Confirmar contraseña</label>
                 <div class="input-group">
                 <input type="password" class="form-control" id="confirm_password" name="confirm_password">
-                   <?php if(isset($validation)):?>
-                      <small class="text-danger"><?= $validation->getError('confirm_password') ?></small>
-                   <?php endif;?>
                   <div class="input-group-append">
                     <button id="show_password_2" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password_2')">
                       <span class="fa fa-eye-slash icon"></span> 
                     </button>
                   </div>
                 </div>
+                <div id="passwordMatch" class="form-text"></div>
+                <?php if(isset($validation)):?>
+                  <small class="text-danger"><?= $validation->getError('confirm_password') ?></small>
+                <?php endif;?>
               </div>
 
               <!-- Checkbox -->
@@ -132,29 +133,26 @@ password.on("input", function() {
   if (validPassword) {
     passwordHelp.html("");
   } else {
-    var helpText = "La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
+    var helpText = "Alerta: La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
     passwordHelp.html(helpText);
   }
 });
 
-// Seleccione el formulario y agregue un controlador de eventos para el evento "submit"
-var form = $("form");
-form.on("submit", function(event) {
-  // Verificar la contraseña
-  var value = password.val();
-  var validLength = value.length >= 8;
-  var hasNumber = /\d/.test(value);
-  var hasUppercase = /[A-Z]/.test(value);
-  var hasLowercase = /[a-z]/.test(value);
-  var validPassword = validLength && hasNumber && hasUppercase && hasLowercase;
-  if (!validPassword) {
-    // Mostrar una alerta si la contraseña es inválida
-    event.preventDefault();
-    var alertText = "La contraseña no es válida. Debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
-    alert(alertText);
-  }
-});
+  // Obtener referencias a los elementos de los inputs
+  const passwordInput = document.getElementById('password');
+  const confirmPasswordInput = document.getElementById('confirm_password');
+  const passwordHelpText = document.getElementById('passwordMatch');
 
+  // Agregar listener al evento "input" del input de confirmación de contraseña
+  confirmPasswordInput.addEventListener('input', function() {
+    if (confirmPasswordInput.value !== passwordInput.value) {
+      // Mostrar alerta si las contraseñas no coinciden
+      passwordHelpText.textContent = 'Alerta: Las contraseñas no coinciden.';
+    } else {
+      // Borrar alerta si las contraseñas coinciden
+      passwordHelpText.textContent = '';
+    }
+  });
 
 function mostrarPassword(idBoton) {
   var passwordField = document.getElementById(idBoton).parentNode.previousElementSibling;
