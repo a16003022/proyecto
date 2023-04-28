@@ -48,17 +48,17 @@
               <div class="form-outline mb-4">
                 <label for="password" class="form-label">Contraseña</label>                
                 <div class="input-group">
-                <input type="password" class="form-control" id="password" name="password">
-                  <div class="input-group-append">
-                    <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password')"> 
-                      <span class="fa fa-eye-slash icon"></span> 
-                    </button>
-                  </div>
-                  <div id="passwordHelp" class="form-text"></div>
-                  <?php if(isset($validation)):?>
-                      <small class="text-danger"><?= $validation->getError('password') ?></small>
-                    <?php endif;?>
+                  <input type="password" class="form-control" id="password" name="password">
+                    <div class="input-group-append">
+                      <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password')"> 
+                        <span class="fa fa-eye-slash icon"></span> 
+                      </button>
+                    </div>
+                    <div id="passwordHelp" class="form-text"></div>
                 </div>
+                <?php if(isset($validation)):?>
+                      <small class="text-danger"><?= $validation->getError('password') ?></small>
+                <?php endif;?>
               </div>
               <!-- Password input -->
               <div class="form-outline mb-4">
