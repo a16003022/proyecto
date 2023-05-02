@@ -60,8 +60,7 @@ class RegUsuario extends BaseController
         // Verificar el captcha
         $captcha = $_POST['g-recaptcha-response'];
         $secretkey = '6Lf8L8MlAAAAADkr6k5AEMBfyuk3MR2suNVNF_kn';
-        $respuesta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&response=
-        $captcha");
+        $respuesta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&response=$captcha");
         $atributos = json_decode($respuesta, TRUE);
            
         if($this->validate($rules) && $atributos['success']){
