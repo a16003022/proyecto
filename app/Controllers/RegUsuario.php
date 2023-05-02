@@ -45,7 +45,8 @@ class RegUsuario extends BaseController
             'password' => [
                 'rules' => 'required|min_length[8]|max_length[255]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]+$/]',
                 'errors' => [
-                    'regex_match' => 'Error: La contraseña debe tener al menos una letra mayúscula, una letra minúscula y un número.'
+                    'regex_match' => 'Error: La contraseña debe cumplir mínimo con 8 caracteres, mayúsculas, minúsculas y un número.',
+                    'min_length' => 'Error: La contraseña debe cumplir mínimo con 8 caracteres, mayúsculas, minúsculas y un número.'
                 ]
             ],
             'confirm_password' => [
