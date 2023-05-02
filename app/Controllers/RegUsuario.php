@@ -35,13 +35,36 @@ class RegUsuario extends BaseController
     public function register()
     {
         $rules = [
-            'email' => ['rules' => 'required|min_length[4]|max_length[255]|valid_email|is_unique[users.email]'],
-            'password' => ['rules' => 'required|min_length[8]|max_length[255]'],
-            'confirm_password'  => [ 'label' => 'confirm password', 'rules' => 'matches[password]']
+            'email' => [
+                'rules' => 'required|min_length[4]|max_length[255]|valid_email|is_unique[users.email]',
+                'errors' => [
+                    'valid_email' => 'Error: El correo electrónico no es válido.',
+                    'is_unique' => 'Error: El correo electrónico ya está en uso.'
+                ]
+            ],
+            'password' => [
+                'rules' => 'required|min_length[8]|max_length[255]|regex_match[/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]+$/]',
+                'errors' => [
+                    'regex_match' => 'Error: La contraseña debe tener al menos una letra mayúscula, una letra minúscula y un número.'
+                ]
+            ],
+            'confirm_password' => [
+                'label' => 'confirm password',
+                'rules' => 'matches[password]',
+                'errors' => [
+                    'matches' => 'Error: Las contraseñas no coinciden.'
+                ]
+            ]
         ];
+
+        // Verificar el captcha
+        $captcha = $_POST['g-recaptcha-response'];
+        $secretkey = '6Lf8L8MlAAAAADkr6k5AEMBfyuk3MR2suNVNF_kn';
+        $respuesta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretkey&response=
+        $captcha");
+        $atributos = json_decode($respuesta, TRUE);
            
- 
-        if($this->validate($rules)){
+        if($this->validate($rules) && $atributos['success']){
             $model = new UserModel();
             $data = [
                 'email'    => $this->request->getVar('email'),
@@ -168,6 +191,7 @@ class RegUsuario extends BaseController
             return redirect()->to('/login');
         }else{
              $data['validation'] = $this->validator;
+             $data['captcha_error'] = 'Por favor, resuelve el captcha correctamente.';
              $data2=[
                 "titulo"=>"Registrarse"
             ];

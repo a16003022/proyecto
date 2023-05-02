@@ -19,7 +19,7 @@
 
         <div class="card bg-glass">
           <div class="card-body px-4 py-5 px-md-5">
-          <form  action="<?php echo base_url('/RegUsuario'); ?>" method="post">
+            <form  action="<?php echo base_url('/RegUsuario'); ?>" method="post">
               <!-- 2 column grid layout with text inputs for the first and last names -->
               <div class="row">
                 <h3 class="text-center" style="font-family: adineue PRO, sans-serif;">Registro</h3>
@@ -41,7 +41,11 @@
               <div class="form-outline mb-4">
                 <label for="email" class="form-label">Correo electrónico</label>
                 <input type="email" class="form-control" id="email" name="email" value="<?= set_value('email') ?>">
-                
+                <?php if(isset($validation)){?>
+                    <div id="emailHelp" class="text-danger"><?= $validation->getError('email')?></div>
+                    <?php } else{ ?>
+                    <div id="emailHelp" class="text-danger"></div>
+                    <?php };?>
               </div>
 
               <!-- Password input -->
@@ -54,11 +58,12 @@
                         <span class="fa fa-eye-slash icon"></span> 
                       </button>
                     </div>
-                    <div id="passwordHelp" class="form-text"></div>
+                    <?php if(isset($validation)){?>
+                    <div id="passwordHelp" class="text-danger"><?= $validation->getError('password')?></div>
+                    <?php } else{ ?>
+                    <div id="passwordHelp" class="text-danger"></div>
+                    <?php };?>
                 </div>
-                <?php if(isset($validation)):?>
-                      <small class="text-danger"><?= $validation->getError('password') ?></small>
-                <?php endif;?>
               </div>
               <!-- Password input -->
               <div class="form-outline mb-4">
@@ -71,10 +76,11 @@
                     </button>
                   </div>
                 </div>
-                <div id="passwordMatch" class="form-text"></div>
-                <?php if(isset($validation)):?>
-                  <small class="text-danger"><?= $validation->getError('confirm_password') ?></small>
-                <?php endif;?>
+                <?php if(isset($validation)){?>
+                <div id="passwordMatch" class="text-danger"><?= $validation->getError('confirm_password') ?></div>
+                <?php }else{ ?>
+                <div id="passwordMatch" class="text-danger"></div>
+                <?php } ;?>
               </div>
 
               <!-- Checkbox -->
@@ -84,9 +90,15 @@
                   Acepto términos y condiciones
                 </label>
               </div>
-
-              <div class="d-flex justify-content-center mb-4 g-recaptcha brochure__form__captcha" data-sitekey="6Lfqa3okAAAAAFeDDk0pDfN9TZJ3DrL57bCICsxI" style="display: inline-block;"></div>
-
+              
+              <!-- Captcha -->
+              <?php if(isset($captcha_error)){?>
+              <div style="text-align: center;">
+                <div id="captchaError" class="text-danger"><?php echo $captcha_error ?></div>
+              </div>
+              <?php } ?>
+              <div class="d-flex justify-content-center mb-4 g-recaptcha" data-sitekey="6Lf8L8MlAAAAAPeWtV9JjVtDpz9Hmjv-dgTc-QV1"></div>
+  
               <!-- Submit button -->
               <div class="text-center">
                 <button type="submit" class="btn btn-primary btn-jumbotron btn-block mb-4">
