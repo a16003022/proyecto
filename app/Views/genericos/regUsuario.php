@@ -145,7 +145,7 @@ password.on("input", function() {
   if (validPassword) {
     passwordHelp.html("");
   } else {
-    var helpText = "Alerta: La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
+    var helpText = "Cuidado: La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula y un número.";
     passwordHelp.html(helpText);
   }
 });
@@ -159,7 +159,7 @@ password.on("input", function() {
   confirmPasswordInput.addEventListener('input', function() {
     if (confirmPasswordInput.value !== passwordInput.value) {
       // Mostrar alerta si las contraseñas no coinciden
-      passwordHelpText.textContent = 'Alerta: Las contraseñas no coinciden.';
+      passwordHelpText.textContent = 'Cuidado: Las contraseñas no coinciden.';
     } else {
       // Borrar alerta si las contraseñas coinciden
       passwordHelpText.textContent = '';
