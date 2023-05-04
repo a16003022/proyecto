@@ -39,7 +39,7 @@ class RegUsuario extends BaseController
                 'rules' => 'required|min_length[4]|max_length[255]|valid_email|is_unique[users.email]',
                 'errors' => [
                     'valid_email' => 'Error: El correo electrónico no es válido.',
-                    'is_unique' => 'Error: El correo electrónico ya está en uso.'
+                    'is_unique' => 'Error: El correo electrónico ya está registrado.'
                 ]
             ],
             'password' => [
@@ -183,14 +183,28 @@ class RegUsuario extends BaseController
                 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
-                $response = ['success' => true, 'mensaje' => 'Correo electrónico enviado con éxito.'];
+               // $response = ['success' => true, 'mensaje' => 'Correo electrónico enviado con éxito.'];
 
 
             } catch (Exception $e) {
                 
-                $response = ['success' => False, 'mensaje' => 'Hubo un error al enviar el Correo electrónico.'];
-            }   
-            return $this->response->setJSON($response);
+                //$response = ['success' => False, 'mensaje' => 'Hubo un error al enviar el Correo electrónico.'];
+            }
+            
+            
+            //return $this->response->setJSON($response); 
+            
+            // Regresa a la vista con el mensaje de que el correo ha sido enviado.
+            $data=[
+                "titulo"=>"Iniciar sesión"
+            ];
+            $data2['confirmacion'] = 'Correo de confirmación enviado. Revise su bandeja de spam.';
+            $vistas= view('genericos/header', $data).  
+            view('genericos/navbar').
+            view('genericos/login',$data2).
+            view('genericos/footer').
+            view("inicio");
+            return $vistas;
         }else{
              $data['validation'] = $this->validator;
              $data['captcha_error'] = 'Por favor, resuelve el captcha correctamente.';
