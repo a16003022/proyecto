@@ -19,7 +19,7 @@
 
         <div class="card bg-glass">
           <div class="card-body px-4 py-5 px-md-5">
-            <form  action="<?php echo base_url('/RegUsuario'); ?>" method="post">
+            <form id="miFormulario" action="<?php echo base_url('/RegUsuario'); ?>" method="post">
               <!-- 2 column grid layout with text inputs for the first and last names -->
               <div class="row">
                 <h3 class="text-center" style="font-family: adineue PRO, sans-serif;">Registro</h3>
@@ -85,9 +85,8 @@
 
               <!-- Checkbox -->
               <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="terms" required/>
                 <label class="form-check-label" for="terms">
-                  Acepto términos y condiciones
+                Este sitio se encuentra protegió por el servicio de CAPTCHA versión 2
                 </label>
               </div>
               
@@ -105,6 +104,7 @@
                   Registrar
                 </button>
               </div>
+              <div id="mensaje"></div>
 
               <!-- Register buttons -->
               <div class="text-center">
@@ -130,6 +130,7 @@
 </section>
 
 <script type="text/javascript">
+
 // Seleccione el campo de contraseña y el elemento de ayuda
 var password = $("#password");
 var passwordHelp = $("#passwordHelp");
@@ -183,6 +184,33 @@ $(document).ready(function () {
   
   $('#show_password_2').click(function () {
     mostrarPassword('confirm_password');
+  });
+});
+
+$('#miFormulario').submit(function(event) {
+    var form = $('#miFormulario');
+  event.preventDefault(); // previene la acción por defecto del formulario (recargar la página)
+  var formData = form.serialize(); // obtiene los datos del formulario
+  $.ajax({
+    url: $(this).attr('action'), // la URL a la que se enviarán los datos del formulario
+    type: $(this).attr('method'), // el método HTTP utilizado para enviar los datos del formulario (POST)
+    data: formData, // los datos del formulario
+    success: function(response) {
+        console.log(response);
+      if (response.success) {
+        // Mensaje de éxito
+        $('#mensaje').html('<div class="alert alert-success">' + response.mensaje + '</div>');
+        setTimeout(function() {
+        window.location.href = '<?php echo base_url('/login'); ?>';
+    }, 3500);
+      } else {
+        // Mensaje de error
+        $('#mensaje').html('<div class="alert alert-danger">' + response.mensaje + '</div>');
+      }
+    },
+    error: function(jqXHR, textStatus, errorThrown) {
+      console.log(textStatus, errorThrown);
+    }
   });
 });
 </script>

@@ -80,7 +80,7 @@ class RegUsuario extends BaseController
             $mail->CharSet = 'UTF-8';
             try{
                 //Server settings
-                $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+                // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
                 $mail->isSMTP();                                            //Send using SMTP
                 $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
@@ -183,12 +183,14 @@ class RegUsuario extends BaseController
                 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
                 $mail->send();
-            
+                $response = ['success' => true, 'mensaje' => 'Correo electrónico enviado con éxito.'];
+
 
             } catch (Exception $e) {
-                echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                
+                $response = ['success' => False, 'mensaje' => 'Hubo un error al enviar el Correo electrónico.'];
             }   
-            return redirect()->to('/login');
+            return $this->response->setJSON($response);
         }else{
              $data['validation'] = $this->validator;
              $data['captcha_error'] = 'Por favor, resuelve el captcha correctamente.';
