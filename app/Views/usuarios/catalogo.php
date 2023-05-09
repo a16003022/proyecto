@@ -89,7 +89,7 @@
           <?php
           foreach($producto as $dat): ?>
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4" >
-              <div class="card h-100" >
+              <div class="card h-100" id="card">
                 <img src="<?php echo base_url()?>/imagenes/<?php echo $dat['img']?>" style="width: 100%; height: 30vh; border-radius:5%" class="card-img-top img-fluid d-block" alt="Producto 1">
                 <div class="card-body">
                   <h5 class="card-title title" style="color:#1BBABA;"><?php echo $dat['nombre']?></h5>
@@ -152,7 +152,7 @@
                             </svg> Añadido
                           </button>
                         <?php }else{ ?>
-                        <button type="submit" class="btn btn-primary btn-jumbotron">
+                        <button type="submit" class="btn btn-primary btn-jumbotron botonComprar">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
                             <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
                           </svg>
@@ -180,6 +180,39 @@
             cantidadInputs[i].parentNode.querySelector("input[id^='stock']").value = stock - cantidad + 1;
         }
     }
+
+  introJs().start();
+  introJs().setOptions({
+  steps: [
+  {
+    element: document.querySelector('.card'),
+    intro: '¡Hola! Este es un tour por nuestro catálogo',
+    position: 'left'
+  },
+  {
+    element: document.querySelector('.card-title'),
+    intro: 'Aquí se puede ver el nombre del producto',
+    position: 'left'
+  },
+  {
+    element: document.querySelector('.card-text'),
+    intro: 'Aquí se ven los detalles del producto',
+    position: 'bottom'
+  },
+  {
+    element: document.querySelector('.botonComprar'),
+    intro: 'Aquí puede agregarlo al carrito',
+    position: 'top'
+  },
+  {
+    element: document.querySelector('.container-corazon'),
+    intro: 'Aquí puede agregarlo a su lista de deseos',
+    position: 'top'
+  }]
+
+}).start();
 </script>
+
+
 
 
