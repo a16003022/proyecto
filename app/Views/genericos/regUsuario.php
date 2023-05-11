@@ -32,7 +32,7 @@
                 <div class="col-md-6 mb-4">
                   <div class="form-outline">
                     <label class="form-label" for="inputApellido">Apellido</label>
-                    <input type="text" id="inputApellido" class="form-control" required/>
+                    <input type="text" id="apellido" name="apellido" class="form-control" value="<?= set_value('apellido') ?>" required/>
                   </div>
                 </div>
               </div>

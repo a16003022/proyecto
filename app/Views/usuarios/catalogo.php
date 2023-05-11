@@ -183,6 +183,8 @@
 
   introJs().start();
   introJs().setOptions({
+  dontShowAgainLabel: "No mostrar de nuevo",
+  dontShowAgain: true,
   steps: [
   {
     element: document.querySelector('.card'),

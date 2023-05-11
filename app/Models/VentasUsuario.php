@@ -11,7 +11,7 @@ class VentasUsuario extends Model
     protected $returnType           = 'array';
     protected $useSoftDeletes       = false;
     protected $protectFields        = true;
-    protected $allowedFields        = ['idVenta', 'idUsuario','totalPagar','idDireccion','numTarjeta'];
+    protected $allowedFields        = ['idVenta', 'idUsuario','totalPagar','idDireccion','idTarjeta'];
     protected $useTimestamps        = true;
     protected $dateFormat           = 'datetime';
     protected $createdField         = 'fecha';

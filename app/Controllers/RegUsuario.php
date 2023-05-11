@@ -69,13 +69,16 @@ class RegUsuario extends BaseController
             $data = [
                 'email'    => $this->request->getVar('email'),
                 'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
-                'name'    => $this->request->getVar('name')
+                'name'    => $this->request->getVar('name'),
+                'apellido'    => $this->request->getVar('apellido')
+                
             ];
             $model->save($data);
 
             // Enviar correo electrónico con instrucciones para restablecer contraseña
             $email = $this->request->getVar('email');
             $name = $this->request->getVar('name');
+            $apellido = $this->request->getVar('apellido');
             $mail = new PHPMailer(true);
             $mail->CharSet = 'UTF-8';
             try{
@@ -128,7 +131,7 @@ class RegUsuario extends BaseController
                                         <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
                                             <tr>
                                             <td style="padding:0 0 36px 0;">
-                                                <h1 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif; color:#153643;">Hola, '. $name.'</h1>
+                                                <h1 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif; color:#153643;">Hola, '. $name.' '.$apellido.'</h1>
                                                 <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">¡Muchas gracias por registrarte con nosotros!</p>
                                                 <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Tu información de registro es la siguiente:</p>
                                                 <ul>
@@ -198,7 +201,7 @@ class RegUsuario extends BaseController
             $data=[
                 "titulo"=>"Iniciar sesión"
             ];
-            $data2['confirmacion'] = 'Correo de confirmación enviado. Revise su bandeja de spam.';
+            $data2['confirmacion'] = 'Correo de confirmación enviado. Revise su bandeja de entrada o spam.';
             $vistas= view('genericos/header', $data).  
             view('genericos/navbar').
             view('genericos/login',$data2).

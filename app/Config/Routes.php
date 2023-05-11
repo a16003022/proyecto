@@ -35,6 +35,7 @@ $routes->add('/articulos', 'articulos::mensaje');
 $routes->add('inicio', 'Inicio::index');
 
 $routes->add('registro', 'RegUsuario::index');
+$routes->get('RegUsuario', 'RegUsuario::index');
 $routes->post('RegUsuario', 'RegUsuario::register');
 
 $routes->add('login', 'Login::index');
@@ -72,6 +73,7 @@ $routes->post('/registrarventa', 'Pago::RegistrarDetalleVenta', ['filter' => 'au
 $routes->get('/ticket', 'Pago::Ticket', ['filter' => 'authFilter']);
 $routes->get('/ticket/(:num)', 'Pago::imprimirTicket/$1');
 $routes->get('/enviarEmail', 'Pago::Email', ['filter' => 'authFilter']);
+$routes->post('/registrartarjeta', 'Pago::guardarTarjeta', ['filter' => 'authFilter']);
 
 /*
  * --------------------------------------------------------------------

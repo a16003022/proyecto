@@ -90,7 +90,7 @@
                     <div class="metodo-pago">
                         <ul class="list-unstyled">
                             <?php
-                                foreach ($Ticket as $Tick){
+                                foreach ($Tarjeta as $Tick){
                                     $numTarjeta = $Tick['numTarjeta'];
                                     $ultimosCuatro = substr($numTarjeta, -4);
                                     $asteriscos = str_repeat('*', 12);

@@ -8,6 +8,7 @@ use App\Models\VentasUsuario;
 use App\Models\DetalleVenta;
 use App\Models\Carrito;
 use App\Models\Listas;
+use App\Models\TarjetasUsuario;
 use TCPDF;
 
 
@@ -55,6 +56,8 @@ class Pago extends BaseController
         $mLista=new Listas();
         $data["lista"]=$mLista->traer_lista($user_id);
         $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);
+        $TarjetaUsuario = new TarjetasUsuario();
+        $data["Tarjeta"]=$TarjetaUsuario->TraerTarjetas($user_id);
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/pago', $data).
@@ -80,6 +83,53 @@ class Pago extends BaseController
 
     }
 
+    public function guardarTarjeta(){
+        $model = new TarjetasUsuario();
+        $session = session();
+        $user_id = $session->get('id');
+        $Tipo = '';
+        $numero_tarjeta = $this->request->getVar('numTarjeta');
+        
+        $numero_tarjeta_sin_espacios = str_replace(' ', '', $numero_tarjeta);
+
+        $rules = [
+            'Tarjeta' => [
+                'rules' => 'required|regex_match[/^(4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13})$/]',
+                'errors' => [
+                    'regex_match' => 'Error: Ingresa una tarjeta Visa, Mastercard o American Express válida.'
+                ]
+            ]
+            
+            
+        ];
+        
+        if (preg_match('/^4[0-9]{12}(?:[0-9]{3})?$/', $numero_tarjeta_sin_espacios)) {
+            $Tipo = 'Visa';
+        } elseif (preg_match('/^(5[1-5][0-9]{14}|2(22[1-9]|2[3-9][0-9]|2[1-2][0-9]{2}|27[01][0-9]|2720)[0-9]{12})$/', $numero_tarjeta_sin_espacios)) {
+            $Tipo = 'Mastercard';
+        } elseif (preg_match('/^3[47][0-9]{13}$/', $numero_tarjeta_sin_espacios)) {
+            $Tipo = 'AmericanE';
+        } else {
+            $Tipo = 'Desconocido';
+            
+        }
+
+        
+        $data = [
+            'idUsuario'    => $user_id,
+            'numTarjeta'    => $this->request->getVar('numTarjeta'),
+            'NombreTarjeta'    => $this->request->getVar('input-name'),
+            'FechaTarjeta'    => $this->request->getVar('exp'),
+            'Tipo' => $Tipo
+        ];
+        $model->save($data);
+
+        
+
+        
+        return redirect()->back();
+    }
+
     public function BorrarDireccion($id){
         // $id = $this->request->getPost('id_direccion');
         $DatosUsuario = new DatosUsuario();
@@ -98,7 +148,7 @@ class Pago extends BaseController
             'idVenta'    => $idVenta,
             'idUsuario'    => $user_id,
             'idDireccion'    => $this->request->getVar('direccionselect'),
-            'numTarjeta'    => $this->request->getVar('numTarjeta'),
+            'idTarjeta'    => $this->request->getVar('tarjetaselect'),
             'totalPagar'    => $this->request->getVar('totalPagar'),
         
         ];
@@ -142,6 +192,13 @@ class Pago extends BaseController
         $mail = new PHPMailer(true);
         $VentasUsuario = new VentasUsuario();
         $data=$VentasUsuario->TraerVenta($idVenta);
+        $model = new TarjetasUsuario();
+        $idTarjeta = '';
+        foreach($data as $dat){
+            $idTarjeta = $dat['idTarjeta'];
+        }
+        
+        $data2=$model->TraerTarjeta($idTarjeta);
         try {
             //Server settings
             $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
@@ -199,7 +256,7 @@ class Pago extends BaseController
             $mail->Body .= '<td style="text-align:center;"><strong>' . $total . '</strong></td>';
             $mail->Body .= '</tr>';
            
-            foreach ($data as $Tick){
+            foreach ($data2 as $Tick){
                 $numTarjeta = $Tick['numTarjeta'];
                 $ultimosCuatro = substr($numTarjeta, -4);
                 $asteriscos = str_repeat('*', 12);
@@ -237,6 +294,14 @@ class Pago extends BaseController
         ];
         $VentasUsuario = new VentasUsuario();
         $data["Ticket"]=$VentasUsuario->TraerVenta($idVenta);
+        $Tarjeta=$VentasUsuario->TraerVenta($idVenta);
+        $model = new TarjetasUsuario();
+        $idTarjeta = '';
+        foreach($Tarjeta as $dat){
+            $idTarjeta = $dat['idTarjeta'];
+        }
+        
+        $data['Tarjeta']=$model->TraerTarjeta($idTarjeta);
         
         $mDetalle=new DetalleVenta();
         $data["Ventas"]=$mDetalle->Traer_Detalle_Venta($idVenta);
@@ -261,6 +326,15 @@ class Pago extends BaseController
 
         $VentasUsuario = new VentasUsuario();
         $data=$VentasUsuario->TraerVenta($idPedido);
+
+        $Tarjeta=$VentasUsuario->TraerVenta($idPedido);
+        $model = new TarjetasUsuario();
+        $idTarjeta = '';
+        foreach($Tarjeta as $dat){
+            $idTarjeta = $dat['idTarjeta'];
+        }
+        
+        $Tarjeta=$model->TraerTarjeta($idTarjeta);
         
         $mDetalle=new DetalleVenta();
         $data2 = $mDetalle->Traer_Detalle_Venta($idPedido);
@@ -374,7 +448,7 @@ class Pago extends BaseController
         $pdf->SetFont('helvetica', '', 12); // Fuente normal y tamaño 12
         $direccion_info = '<span style="font-weight:bold">Método de pago: </span>';
         $pdf->writeHTMLCell(0, 5, '', '', $direccion_info, 0, 1, false, true, 'L');
-        foreach ($data as $dat){
+        foreach ($Tarjeta as $dat){
             $numTarjeta = $dat['numTarjeta'];
             $ultimosCuatro = substr($numTarjeta, -4);
             
