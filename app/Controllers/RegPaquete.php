@@ -89,5 +89,15 @@ class RegPaquete extends BaseController
             return redirect()->to(base_url('registrarPaquete'));
             }
         }
+    public function eliminar_paquete($id){
+        // eliminar el paquete
+        $mPaquetes = new Paquetes();
+        $mPaquetes->eliminar_paquete($id);
+
+        // eliminar el contenido
+        $mContenido = new Contenido();
+        $mContenido->eliminar_contenido($id);
+    return redirect()->back();
+    }
 }
 ?>

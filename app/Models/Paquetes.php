@@ -27,6 +27,11 @@ class Paquetes extends Model
         $this->set($param);
         $this->where('idPaquete', $idPaquete);
         $this->update();
-    }    
+    }
+    
+    public function eliminar_paquete($id) {
+        $query=$this->db->query("delete from paquetes where idPaquete=$id");
+        return $query;
+    }
 }
 ?>

@@ -23,5 +23,11 @@ class Contenido extends Model
         $this->where('idPaquete', $idPaquete);
         $this->update();
     }
+
+    public function eliminar_contenido($id) {
+        $query=$this->db->query("delete from contenido where idPaquete=$id");
+        return $query;
+    }
+
 }
 ?>
