@@ -49,5 +49,13 @@ class RegProducto extends BaseController
 
         return redirect()->back();
     }
+
+    public function buscar()
+    {
+    $mProducto= new Productos();
+    $searchTerm = $this->request->getGet('q');
+    $productos = $mProducto->buscar($searchTerm);
+    return json_encode($productos);
+    }
 }
 ?>

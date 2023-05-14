@@ -3,7 +3,8 @@ namespace App\Controllers;
 use App\Models\Carrito;
 use App\Models\Inventarios;
 use App\Models\Listas;
-
+use App\Models\Cupones;
+use App\Models\ConfigPedido;
 class VerCarrito extends BaseController
 {
     public function index()
@@ -73,6 +74,24 @@ class VerCarrito extends BaseController
             }
         }
 
+        // foreach($carrito as $car){
+        //     echo $car['total'];
+        //     echo $car['envio'];
+        // }
+
+        $costoEnvio = $this->request->getPost('costoEnvio');
+        $totalPagar = $this->request->getPost('totalPagar');
+        $totalPagar = number_format($totalPagar, 2);
+        
+        $mConfig= new ConfigPedido();
+        $config_data=[
+            'TotalPagar' => $totalPagar,
+            'Envio' => $costoEnvio
+        ];
+        $mConfig->insert($config_data);
+
+        
+
         //actualiza el contenido del carrito
         $mCarrito= new Carrito();
         foreach ($carrito as $item) {
@@ -87,6 +106,39 @@ class VerCarrito extends BaseController
                 $mCarrito->actualizar_carrito($idProducto, $nuevoStock, $cantidad);
             }
         }
+    }
+
+    public function AplicarCupon(){
+        
+        $cuponIngresado = $this->request->getPost('cupon');
+        $cupon = new Cupones();
+        $CuponBD = $cupon->obtenerCupon($cuponIngresado);
+        if($CuponBD){
+            foreach($CuponBD as $Cup){
+                if($Cup['usado'] ==0){
+                    //No se ha usado
+                    $descuento = $Cup['descuento'];
+                    $cupon->actualizarCupon($cuponIngresado, 1); //Actualizar estado a "usado"
+                    $session = session();
+                    $session->set('descuento', $descuento);
+                    return redirect()->back();
+                }else{
+                    //Ya se usó
+                    $session = session();
+                    $session->setFlashdata('error', 'El cupon no es valido o ya se ha utilizado.');
+
+                    return redirect()->back();
+                }
+            }
+        }else{
+            //No existe
+            $session = session();
+            $session->setFlashdata('error', 'El cupon no es valido o ya se ha utilizado.');
+
+            return redirect()->back();
+        }
+
+        return redirect()->back();
     }
 }
 

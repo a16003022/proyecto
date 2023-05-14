@@ -75,6 +75,18 @@ $routes->get('/ticket/(:num)', 'Pago::imprimirTicket/$1');
 $routes->get('/enviarEmail', 'Pago::Email', ['filter' => 'authFilter']);
 $routes->post('/registrartarjeta', 'Pago::guardarTarjeta', ['filter' => 'authFilter']);
 
+$routes->get('/recuperarcontraseña', 'Login::RecuperarContraseña');
+$routes->post('/recuperarcontraseña', 'Login::RecuperarContraseña');
+
+$routes->get('/recuperar/(:num)/(:any)', 'Login::Recuperar/$1/$2');
+$routes->post('/recuperarcontra', 'Login::Recuperar');
+
+$routes->post('/aplicarcupon', 'VerCarrito::AplicarCupon', ['filter' => 'authFilter']);
+
+$routes->get('/revisarCupones', 'CuponesUsuarios::index', ['filter' => 'authFilter']);
+
+$routes->get('/buscarProductos', 'RegProducto::buscar');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -37,4 +37,19 @@ class UserModel extends Model
     protected $afterFind            = [];
     protected $beforeDelete         = [];
     protected $afterDelete          = [];
+
+    public function ActualizarContra($id, $data)
+    {
+        $password = $data['password'];
+        $password = password_hash($password, PASSWORD_DEFAULT);
+        $query = $this->db->query("UPDATE users SET password = '" . $password . "' WHERE user_id = '" . $id . "'");
+        return $query;
+    }
+
+    public function TraerUsuario($email)
+    {
+        $query = $this->db->prepare("SELECT * FROM users WHERE email = ?");
+        $query->execute([$email]);
+        return $query->getResultArray();
+    }
 }

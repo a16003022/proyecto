@@ -9,6 +9,7 @@ use App\Models\DetalleVenta;
 use App\Models\Carrito;
 use App\Models\Listas;
 use App\Models\TarjetasUsuario;
+use App\Models\ConfigPedido;
 use TCPDF;
 
 
@@ -28,8 +29,13 @@ class Pago extends BaseController
 
     public function index()
     {
+
         $session = session();
         $user_id = $session->get('id');
+
+        // Borra la variable de sesión que almacena el valor del descuento
+        $session->remove('descuento');
+
         $data=[
             "titulo"=>"Catálogo de Playeras"
         ];
@@ -58,6 +64,14 @@ class Pago extends BaseController
         $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);
         $TarjetaUsuario = new TarjetasUsuario();
         $data["Tarjeta"]=$TarjetaUsuario->TraerTarjetas($user_id);
+        $data["NumeroTarjetas"]=$TarjetaUsuario->ContarTarjetasUsuario($user_id);
+        $mConfig= new ConfigPedido();
+        $config = $mConfig->traer_configPedido();
+        foreach($config as $conf){
+            $data['TotalPago'] = $conf['TotalPagar'];
+            $data['Envio'] = $conf['Envio'];
+        }
+
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/pago', $data).
@@ -300,6 +314,13 @@ class Pago extends BaseController
         foreach($Tarjeta as $dat){
             $idTarjeta = $dat['idTarjeta'];
         }
+
+        $mConfig= new ConfigPedido();
+        $config = $mConfig->traer_configPedido();
+        foreach($config as $conf){
+            $data['TotalPago'] = $conf['TotalPagar'];
+            $data['Envio'] = $conf['Envio'];
+        }
         
         $data['Tarjeta']=$model->TraerTarjeta($idTarjeta);
         
@@ -314,6 +335,10 @@ class Pago extends BaseController
         $mLista=new Listas();
         $data["lista"]=$mLista->traer_lista($user_id);
         $data5["cantidadLista"]=$mLista->contar_contenido_Lista($user_id);
+
+        
+
+
         $vistas= view('usuarios/header', $data).  
             view('usuarios/navbar',$data5).
             view('usuarios/ticket', $data).
@@ -457,17 +482,24 @@ class Pago extends BaseController
         $pdf->writeHTMLCell(0, 5, '', '', $direccion_info, 0, 1, false, true, 'L');
         $pdf->Ln();
         
-        
+        // AGREGAR CAMBIO ENVIO
+        $mConfig= new ConfigPedido();
+        $config = $mConfig->traer_configPedido();
+        foreach($config as $conf){
+            $TotalPago= $conf['TotalPagar'];
+            $Envio = $conf['Envio'];
+        }
+
         $direccion_info = '<span>Productos: $'.$total.'</span>';
         $pdf->writeHTMLCell(0, 5, '', '', $direccion_info, 0, 1, false, true, 'L');
 
-        $direccion_info = '<span>Envío: $0</span>';
+        $direccion_info = '<span>Envío: $'.$Envio.'</span>';
         $pdf->writeHTMLCell(0, 5, '', '', $direccion_info, 0, 1, false, true, 'L');
 
         $direccion_info = '<span>----------------------------</span>';
         $pdf->writeHTMLCell(0, 5, '', '', $direccion_info, 0, 1, false, true, 'L');
 
-        $direccion_info = '<span>Total: $'.$total.'</span>';
+        $direccion_info = '<span>Total: $'.$TotalPago.'</span>';
         $pdf->writeHTMLCell(0, 5, '', '', $direccion_info, 0, 1, false, true, 'L');
         }
         

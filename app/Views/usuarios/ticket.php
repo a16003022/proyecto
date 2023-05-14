@@ -105,12 +105,12 @@
                     <h5>Resumen del pedido</h5>
                         <div class="resumen-pedido">
                             <table>
-                                
+                            <!-- AGREGAR CAMBIO ENVIO -->
                                 <?php
                                     foreach ($Ticket as $Tick){
                                         echo "<tr><td>Productos:</td><td style='padding-left: 2vw'> $".$Tick['totalPagar']."</td></tr>";
-                                        echo "<tr><td>Envío:</td><td style='padding-left: 2vw'>$0</td></tr>";
-                                        echo "<tr><td><strong>Total (IVA incluido, en <br> caso de ser aplicable):</td><td style='padding-left: 2vw'> $".$Tick['totalPagar']."</strong></td></tr>";
+                                        echo "<tr><td>Envío:</td><td style='padding-left: 2vw'>$".$Envio."</td></tr>";
+                                        echo "<tr><td><strong>Total (IVA incluido, en <br> caso de ser aplicable):</td><td style='padding-left: 2vw'> $".$TotalPago."</strong></td></tr>";
                                     }
                                 ?>
                                 

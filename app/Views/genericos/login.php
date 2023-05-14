@@ -57,11 +57,36 @@
 
                 <div class="text-center">
                 <p>¿Todavía no eres miembro? <br> <a href="<?php echo base_url()?>/registro">Regístrate gratis ahora</a></p>
-
+                <p class="text-center"><a href="<?php echo base_url('/'); ?>" data-bs-toggle="modal" data-bs-target="#exampleModal">¿Olvidaste tu contraseña?</a><p>
                 </form>
           </div>
 </section>
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">RESTABLECER TU CONTRASEÑA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Ingresa tu dirección de correo electrónico y te enviaremos instrucciones para restablecer la contraseña.</p>
+        <form id="miFormulario" action="<?php echo base_url('/recuperarcontraseña');?>" method="POST">
+            <input type="email" name="email" placeholder="Dirección de correo electrónico" style="WIDTH: 100%;" required>
+            <?php if(session()->getFlashdata('message')):?>
+                        <div class="alert alert-danger">
+                            <?= session()->getFlashdata('message') ?>
+                        </div>
+                <?php endif;?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Restablecer</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
 
 <script type="text/javascript">
 
@@ -82,6 +107,37 @@ function mostrarPassword(){
 		$('#Password').attr('type', $(this).is(':checked') ? 'text' : 'password');
 	});
 });
+
+$('#miFormulario').submit(function(event) {
+    var form = $('#miFormulario');
+  event.preventDefault(); // previene la acción por defecto del formulario (recargar la página)
+  var formData = form.serialize(); // obtiene los datos del formulario
+  $.ajax({
+    url: $(this).attr('action'), // la URL a la que se enviarán los datos del formulario
+    type: $(this).attr('method'), // el método HTTP utilizado para enviar los datos del formulario (POST)
+    data: formData, // los datos del formulario
+    success: function(response) {
+        console.log(response);
+      if (response.success) {
+        // Mensaje de éxito
+        $('#miFormulario').append('<div class="alert alert-success">' + response.mensaje + '</div>');
+      } else {
+        // Mensaje de error
+        $('#miFormulario').append('<div class="alert alert-danger">' + response.mensaje + '</div>');
+      }
+    },
+    error: function(jqXHR, textStatus, errorThrown) {
+      console.log(textStatus, errorThrown);
+    }
+  });
+});
+
+$('#exampleModal').on('hidden.bs.modal', function () {
+    $(this).find('form').trigger('reset');
+    $('.modal-body').find('.alert').remove();
+    $('.modal-body').find('.alert-success').remove();
+})
+
 </script>
 
 <style scoped>

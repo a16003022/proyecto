@@ -44,5 +44,14 @@ class Productos extends Model
         $this->insert($param);
     }
 
+    public function buscar($searchTerm)
+{
+  return $this->db->table('productos')
+    ->like('nombre', $searchTerm)
+    ->orLike('marca', $searchTerm)
+    ->get()
+    ->getResult();
+}
+
 }
 ?>

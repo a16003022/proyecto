@@ -27,6 +27,11 @@ class TarjetasUsuario extends Model
         return $query->getResultArray();
     }
 
-
+    public function ContarTarjetasUsuario($user_id)
+    {
+        $query = $this->db->query("SELECT * FROM tarjetas WHERE idUsuario = $user_id");
+        return $query->getNumRows();
+    }
+    
     
 }

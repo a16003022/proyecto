@@ -1,3 +1,32 @@
+<style>
+  #FormCupon {
+  float: right;
+}
+
+#submitForm {
+  color: #9162dd;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+#FormCupon .input-group-append {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+
+@media screen and (max-width: 767px) {
+    #FormCupon {
+    float: none;
+    }
+
+}
+
+
+</style>
+
 <!-- Vista del carrito de compras -->
 <section style="padding-top: 15vh; min-height: 95vh;">
   <div class="container">
@@ -48,17 +77,35 @@
         </div>
         <div class="row">
           <div class="col-md-8">
-          <?php /*
-            <div class="form-group">
-              <label>Código de descuento</label>
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Ingrese código de descuento">
-                <div class="input-group-append">
-                  <button type="button" class="btn btn-primary">Aplicar</button>
+            <form class="" id="FormCupon" method='POST' action='<?= base_url()."/aplicarcupon" ?>'>
+              <div class="form-group">
+                <label>Código de descuento</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" name="cupon" id="cupon" placeholder="Ingrese código">
+                  <div class="input-group-append  ms-2">
+                  <a class="" href="#" id="submitForm" onclick="document.getElementById('FormCupon').submit(); return false;">Aplicar</a>
+                </div>
                 </div>
               </div>
-            </div>
-            */ ?>
+              <?php if (session()->getFlashdata('error')) : ?>
+                <div class="mt-3 alert alert-danger" role="alert">
+                  <?= session()->getFlashdata('error') ?>
+                </div>
+              <?php endif; ?>
+            </form>
+
+            <?php
+            // AGREGAR CAMBIO ENVIO
+                  $total_pago = $total; // Aquí iría el total de pago del usuario
+                  $porcentajes = array(0.05, 0.1, 0.15); // Opciones de porcentaje
+                  $random_index = rand(0, count($porcentajes) - 1); // Genera un índice aleatorio del array
+                  $porcentaje = $porcentajes[$random_index]; // Obtiene el porcentaje correspondiente
+                  $precio_envio = $total_pago * $porcentaje; // Calcula el precio del envío
+                  $precio_envio = number_format($precio_envio, 2);
+            ?>
+            
+            <input type='text' name='envio' id="envio" value='<?php echo $precio_envio ?>' hidden>
+          
           </div>
           <div class="col-md-4">
             <div class="table-responsive">
@@ -66,12 +113,27 @@
                 <tbody>
                   <tr>
                     <td>Envío</td>
-                    <td>$0.00</td>
+                    <td><?php echo '$'.$precio_envio ?></td>
                   </tr> 
+                  <?php 
+                      $session = session();
+                      $descuento = $session->get('descuento');
+                      $descuento_decimal = $descuento / 100;
+                      $descuento_aplicado = $total * $descuento_decimal;
+                      $total_con_descuento = $total - $descuento_aplicado; // calcula el total con el descuento aplicado
+                      $descuento_aplicado = number_format($descuento_aplicado, 2);
+                      if($descuento) {
+                          echo "<tr><td>Descuento aplicado: " . $descuento."%</td>";
+                          echo "<td> $".$descuento_aplicado."</td></tr>";
+                      }
+
+                      $totalpedido=$total_con_descuento+$precio_envio;
+                  ?>
                   <tr>
                     <td><b>Total</b></td>
-                    <td id="total">$<?php echo number_format($total, 2, '.', ',') ?></td>
+                    <td id="total2">$<?php  echo number_format($totalpedido, 2, '.', ',') ?></td>
                   </tr>
+                  <input type='text' name='total' id="total" value='<?php echo $totalpedido ?>'hidden>
                 </tbody>
               </table>
             </div>
@@ -100,30 +162,47 @@ $(document).ready(function() {
     $('.subtotal').each(function() {
       total += parseFloat($(this).html().replace('$', '').replace(',', ''));
     });
-    $('#total').html('$' + total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+    $('#total2').html('$' + total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
   }
 
   $('#btn-pagar').click(function() {
-    var data = [];
+    // Obtener los datos de los productos del carrito
+    var productos = [];
     $('#tabla-carrito tbody tr').each(function() {
-      var idProducto = $(this).find('input[name="idProducto"]').val();
-      var cantidad = $(this).find('.cantidad').val();
-      data.push({ idProducto: idProducto, cantidad: cantidad });
+        var idProducto = $(this).find('input[name="idProducto"]').val();
+        var cantidad = $(this).find('.cantidad').val();
+        productos.push({ idProducto: idProducto, cantidad: cantidad });
     });
+
+    // Obtener el costo de envío y el total a pagar
+    var costoEnvio = $('#envio').val();
+    var totalPagar = $('#total').val();
+    
+    // Enviar los datos como objeto JSON
+    var data = {
+        carrito: productos,
+        costoEnvio: costoEnvio,
+        totalPagar: totalPagar
+    };
+
     $.ajax({
-      type: 'POST',
-      url: '<?= base_url()?>/procesarCarrito',
-      data: { carrito: data },
-      success: function(response) {
-        // Manejar respuesta del servidor
-        window.location.href = '<?php echo base_url();?>/pagos'; //AQUÍ PONDRÁN LA RUTA DE LA VISTA DEL PAGO
-      },
-      error: function() {
-        // Manejar error
-        alert('Hubo un error al procesar la petición. Por favor, inténtelo de nuevo más tarde.');
-      }
+        type: 'POST',
+        url: '<?= base_url()?>/procesarCarrito',
+        data: data,
+        success: function(response) {
+            // Manejar respuesta del servidor
+            window.location.href = '<?php echo base_url();?>/pagos'; //AQUÍ PONDRÁN LA RUTA DE LA VISTA DEL PAGO
+        },
+        error: function() {
+            // Manejar error
+            alert('Hubo un error al procesar la petición. Por favor, inténtelo de nuevo más tarde.');
+        }
     });
-  });  
+});
+ 
+
+  
+  
   
 });
 </script>

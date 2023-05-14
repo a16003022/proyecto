@@ -5,6 +5,7 @@ use App\Models\UserModel;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
+use App\Models\Cupones;
 require 'App/Libraries/PHPMailer/src/Exception.php';
 require 'App/Libraries/PHPMailer/src/PHPMailer.php';
 require 'App/Libraries/PHPMailer/src/SMTP.php';  
@@ -75,6 +76,17 @@ class RegUsuario extends BaseController
             ];
             $model->save($data);
 
+
+            $usuario_id = $model->insertID();
+            $cupon = new Cupones();
+                $cupon_data = [
+                    'codigo' => 'TS' . strtoupper(substr(uniqid(), 7, 5)), // Código de cupón aleatorio con prefijo 'TECSHIRTS'
+                    'descuento' => 10, // Descuento del 10%
+                    'usado' => false, // El cupón aún no ha sido utilizado
+                    'idUsuario' => $usuario_id // ID del usuario al que se asignará el cupón
+                ];
+            $cupon->insert($cupon_data);
+
             // Enviar correo electrónico con instrucciones para restablecer contraseña
             $email = $this->request->getVar('email');
             $name = $this->request->getVar('name');
@@ -133,6 +145,7 @@ class RegUsuario extends BaseController
                                             <td style="padding:0 0 36px 0;">
                                                 <h1 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif; color:#153643;">Hola, '. $name.' '.$apellido.'</h1>
                                                 <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">¡Muchas gracias por registrarte con nosotros!</p>
+                                                <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Como agradecimiento, te regalamos un cupón de descuento del 10% en tu primera compra. El código de tu cupón es: <span style="font-weight: bold; color:#9162dd">'.$cupon_data['codigo'].'</span></p>
                                                 <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Tu información de registro es la siguiente:</p>
                                                 <ul>
                                                     <li style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Nombre de usuario: '.$name.'</li>
