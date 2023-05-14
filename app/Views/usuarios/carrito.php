@@ -113,7 +113,7 @@
                 <tbody>
                   <tr>
                     <td>Envío</td>
-                    <td><?php echo '$'.$precio_envio ?></td>
+                    <td id="envio-total"><?php echo '$'.$precio_envio ?></td>
                   </tr> 
                   <?php 
                       $session = session();
@@ -154,6 +154,7 @@ $(document).ready(function() {
     var cantidad = $(this).val();
     var subtotal = precio * cantidad;
     $(this).parent().next('.subtotal').html('$' + subtotal.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+    actualizarEnvio();
     actualizarTotal();
   });
 
@@ -161,9 +162,27 @@ $(document).ready(function() {
     var total = 0;
     $('.subtotal').each(function() {
       total += parseFloat($(this).html().replace('$', '').replace(',', ''));
+      // Obtener el costo de envío
+      var costoEnvio = parseFloat($('#envio-total').html().replace('$', '').replace(',', ''));
+      // Sumar el costo de envío al total
+      total += costoEnvio;
     });
     $('#total2').html('$' + total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
   }
+
+  function actualizarEnvio() {
+    // Obtener el total de la compra
+    var total = 0;
+    $('.subtotal').each(function() {
+      total += parseFloat($(this).html().replace('$', '').replace(',', ''));
+    });
+    // Calcular el costo de envío
+    var porcentajeEnvio = 0.1; // porcentaje aleatorio del 10%
+    var costoEnvio = total * porcentajeEnvio;
+    // Actualizar el campo del costo de envío
+    $('#envio-total').html('$' + costoEnvio.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+  }
+
 
   $('#btn-pagar').click(function() {
     // Obtener los datos de los productos del carrito
