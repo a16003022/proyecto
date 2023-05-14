@@ -18,10 +18,11 @@
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
   <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
   <style>
   
-
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
   @import url(//db.onlinewebfonts.com/c/1938eca97ab5576ba37b537143f552ef?family=adineue+PRO);
 
     @font-face {font-family: "adineue PRO"; src: url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.eot"); src: url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.woff") format("woff"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1938eca97ab5576ba37b537143f552ef.svg#adineue PRO") format("svg"); }

@@ -6,18 +6,22 @@ class Contenido extends Model
 {
     protected $table    = 'contenido';
     protected $returnType = 'array';
-    protected $allowedFields = ['idPaquete','codigo'];
+    protected $allowedFields = ['idPaquete','codigo', 'clasificacion'];
 
     //solo va a traer el contenido de los paquetes activos
     public function traer_paquetes() {
-    $query = $this->db->query("SELECT c.codigo, c.idPaquete FROM contenido c
-        INNER JOIN paquetes p ON c.idPaquete = p.idPaquete AND p.estado = 'Activo'");
+    $query = $this->db->query("SELECT c.codigo, c.idPaquete, c.clasificacion FROM contenido c
+        INNER JOIN paquetes p ON c.idPaquete = p.idPaquete WHERE p.estado = 'Activo' AND c.clasificacion ='paquetes'");
     return $query->getResultArray();
     }
-
     public function guardar_contenido($param){
         $this->insert($param);
     }
 
+    public function actualizar_contenido($param, $idPaquete) {
+        $this->set($param);
+        $this->where('idPaquete', $idPaquete);
+        $this->update();
+    }
 }
 ?>

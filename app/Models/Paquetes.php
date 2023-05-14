@@ -22,5 +22,11 @@ class Paquetes extends Model
     public function guardar_paquete($param){
         $this->insert($param);
     }
+
+    public function actualizar_paquete($param, $idPaquete) {
+        $this->set($param);
+        $this->where('idPaquete', $idPaquete);
+        $this->update();
+    }    
 }
 ?>
