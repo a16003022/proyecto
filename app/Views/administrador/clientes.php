@@ -79,15 +79,15 @@ ul.tabs li a .tab-text{
             <div class="wrap">
                 <ul class="tabs">
                     <li><a href="#tab1"><span class="bi bi bi-people-fill"></span><span class="tab-text">Clientes</span></a></li>
-                    <li><a href="#tab2"><span class="bi bi-box2-fill"></span><span class="tab-text">Pedidos</span></a></li>
+                    <li><a href="#tab2"><span class="bi bi-wallet-fill"></span><span class="tab-text">Ventas</span></a></li>
                     <li><a href="#tab3"><span class="bi bi-card-checklist"></span><span class="tab-text">Cupones</span></a></li>
                 </ul>
 
                 <div class="secciones">
                     <!-- sección clientes --> 
                     <article id="tab1">
-                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Gestionar clientes</h2>
-                        <p style="text-align:center">La siguiente tabla todos los clientes registrados.</p>
+                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Visualizar clientes</h2>
+                        <p style="text-align:center">La siguiente tabla muestra todos los clientes registrados.</p>
                             <div class="table">
                                 <table id="tabla-ejemplo2" class="display table table-hover table-bordered">
                                     <thead>
@@ -122,13 +122,44 @@ ul.tabs li a .tab-text{
 
                     <!-- sección pedidos --> 
                     <article id="tab2">
-                        <h1>Nosotros</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates unde, consequuntur aliquid architecto rem numquam expedita minima dolorem pariatur recusandae, eius quod quia aspernatur id impedit, tenetur! Aspernatur incidunt molestiae dolores animi ea praesentium ipsam tenetur voluptas cupiditate perspiciatis eum nihil, natus exercitationem libero earum fuga dignissimos impedit numquam, quasi, placeat officiis voluptates, ad reprehenderit fugiat? Fugiat aperiam et magni, molestiae, numquam consectetur vitae sapiente cupiditate totam laboriosam voluptate obcaecati, aliquam placeat? Suscipit dolores fuga laudantium sed, qui magni iusto dolore quia. Quis fugit exercitationem porro. Rerum nihil omnis recusandae ratione fuga alias eligendi, earum sunt veritatis praesentium eum perspiciatis. Molestias deserunt, iure neque animi quod! Impedit reprehenderit cumque, numquam velit quae cum eius quidem similique laudantium hic deleniti!</p>
+                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Visualizar ventas</h2>
+                        <p style="text-align:center">La siguiente tabla muestra todas las ventas realizadas.</p>
+                            <div class="table">
+                                <table id="tabla-ejemplo3" class="display table table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>No. Venta</th>
+                                            <th>Cliente</th>
+                                            <th>Fecha y Hora</th>
+                                            <th>Direccion</th>
+                                            <th>No. Productos</th>
+                                            <th>Total</th>
+                                            <th>Tarjeta</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <?php
+                                    foreach($ventas as $dat){
+                                        echo "<tr>";
+                                            echo "<td>".$dat['idVenta']."</td>";
+                                            echo "<td>".$dat['name']." ".$dat['apellido']."</td>";
+                                            echo "<td>".$dat['fecha']."</td>";
+                                            echo "<td>".$dat['direccion']."</td>";
+                                            echo "<td>".$dat['totalProductos']."</td>";
+                                            echo "<td>$".$dat['totalPagar']."</td>";
+                                            echo "<td>".$dat['numTarjeta']."</td>";
+                                        echo "</tr>";
+                                    }
+                                    ?>
+                                    </tbody>
+                                </table>
+                            </div>  
+
                     </article>
 
                     <!-- sección cupones --> 
                     <article id="tab3">
-                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Gestionar cupones</h2>
+                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Visualizar cupones</h2>
                         <p style="text-align:center">La siguiente tabla muestra todos los cupones disponibles.</p>
                         <div class="table">
                             <table id="tabla-ejemplo" class="display table table-hover table-bordered">
@@ -187,6 +218,11 @@ $(document).ready(function() {
          }
     });
     $('#tabla-ejemplo2').DataTable({
+        "language": {
+        "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+         }
+    });
+    $('#tabla-ejemplo3').DataTable({
         "language": {
         "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
          }

@@ -31,4 +31,17 @@ class VentasUsuario extends Model
         return $query;
     }
 
+    public function traer_ventas(){
+        $query = $this->db->query("
+            SELECT ventas.idVenta, users.name, users.apellido, ventas.fecha, datos_usarios.direccion, SUM(detalle_ventas.cantidad) as totalProductos, ventas.totalPagar, tarjetas.numTarjeta
+            FROM ventas
+            INNER JOIN detalle_ventas ON ventas.idVenta = detalle_ventas.idVenta
+            INNER JOIN users ON ventas.idUsuario = users.user_id
+            INNER JOIN datos_usarios on ventas.idDireccion = datos_usarios.id
+            INNER JOIN tarjetas on ventas.idTarjeta = tarjetas.id
+            GROUP BY ventas.idVenta
+        ");
+        return $query->getResultArray();
+    }
+
 }
