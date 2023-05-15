@@ -1,6 +1,7 @@
 <?php 
 namespace App\Controllers;
 use App\Models\Cupones;
+use App\Models\UserModel;
 
 class Clientes extends BaseController
 {
@@ -11,6 +12,8 @@ class Clientes extends BaseController
         ];
     $mCupones=new Cupones();
     $data3["Cupon"]=$mCupones->obtenerCupones();
+    $mClientes=new UserModel;
+    $data3["clientes"]=$mClientes->traer_clientes();
     $data4["name"] = $_SESSION['name'];
         $vistas= view('administrador/header', $data2).  
             view('administrador/navbar',$data4).

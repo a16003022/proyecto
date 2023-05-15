@@ -1,8 +1,7 @@
 <style>
 .wrap{
-	width: 800px;
 	max-width: 90%;
-	margin: 30px auto;
+	margin: 15px auto;
 }
 
 ul.tabs{
@@ -42,7 +41,7 @@ ul.tabs li a .tab-text{
 }
 
 .secciones article{
-	padding: 30px;
+	padding: 20px;
 }
 
 .secciones article p{
@@ -68,14 +67,14 @@ ul.tabs li a .tab-text{
 	}
 
 	.secciones article{
-		padding: 20px;
+		padding: 15px;
 	}
 }
 </style>
 
 <div class="container-fluid" style="padding-top: 100px;">
     <div class="row" style="min-height: 100vh;">
-        <div class="col-lg-8 mx-auto text-center">
+        <div class="col-lg-10 mx-auto">
 
             <div class="wrap">
                 <ul class="tabs">
@@ -87,8 +86,38 @@ ul.tabs li a .tab-text{
                 <div class="secciones">
                     <!-- sección clientes --> 
                     <article id="tab1">
-                        <h1>Inicio</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea numquam odio voluptate. Aliquam incidunt similique, et quasi ducimus quos aut autem non dignissimos dicta sit provident, voluptatibus ut blanditiis perspiciatis cum, vel temporibus minima enim. Asperiores omnis placeat officiis a tenetur sit recusandae, reprehenderit neque. Tempora quibusdam, perferendis id ratione culpa dolorum! Nemo, animi? Eveniet eaque perspiciatis, libero quia, pariatur iusto, ipsum porro quod, ut tempora cum quo non illum. Non eligendi incidunt sequi, molestias quia perspiciatis architecto repudiandae quod.</p>
+                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Gestionar clientes</h2>
+                        <p style="text-align:center">La siguiente tabla todos los clientes registrados.</p>
+                            <div class="table">
+                                <table id="tabla-ejemplo2" class="display table table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre/Apellido</th>
+                                            <th>Correo registrado</th>
+                                            <th>Dirección</th>
+                                            <th>C.P.</th>
+                                            <th>Estado</th>
+                                            <th>Ciudad</th>
+                                            <th>Teléfono</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    <?php
+                                    foreach($clientes as $dat){
+                                        echo "<tr>";
+                                            echo "<td>".$dat['name']." ".$dat['apellido']."</td>";
+                                            echo "<td>".$dat['email']."</td>";
+                                            echo "<td>".$dat['direccion']."</td>";
+                                            echo "<td>".$dat['CP']."</td>";
+                                            echo "<td>".$dat['estado']."</td>";
+                                            echo "<td>".$dat['ciudad']."</td>";
+                                            echo "<td>".$dat['telefono']."</td>";
+                                        echo "</tr>";
+                                    }
+                                    ?>
+                                    </tbody>
+                                </table>
+                            </div>    
                     </article>
 
                     <!-- sección pedidos --> 
@@ -99,8 +128,8 @@ ul.tabs li a .tab-text{
 
                     <!-- sección cupones --> 
                     <article id="tab3">
-                        <h2 style="font-family: adineue PRO, sans-serif;">Gestionar cupones</h2>
-                        <p>La siguiente tabla muestra todos los cupones disponibles</p>
+                        <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Gestionar cupones</h2>
+                        <p style="text-align:center">La siguiente tabla muestra todos los cupones disponibles.</p>
                         <div class="table">
                             <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                                 <thead>
@@ -138,12 +167,13 @@ ul.tabs li a .tab-text{
                                 }
                                 ?>
                                 </tbody>
-
                             </table>
                     </article>
-                    <!-- termina sección cupones --> 
+
                 </div>
+                <!-- terminan las secciones --> 
             </div>
+            <!-- termina contenedor secciones --> 
 
         </div>
     </div>
@@ -152,6 +182,11 @@ ul.tabs li a .tab-text{
 <script>
 $(document).ready(function() {
     $('#tabla-ejemplo').DataTable({
+        "language": {
+        "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+         }
+    });
+    $('#tabla-ejemplo2').DataTable({
         "language": {
         "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
          }

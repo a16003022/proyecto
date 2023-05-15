@@ -52,4 +52,13 @@ class UserModel extends Model
         $query->execute([$email]);
         return $query->getResultArray();
     }
+
+    public function traer_clientes(){
+        $query=$this->db->query("SELECT u.name, u.apellido, u.email, d.direccion, d.CP, d.estado, d.ciudad, d.telefono 
+        FROM users u 
+        INNER JOIN datos_usarios d ON u.user_id = d.idUsuario
+        WHERE u.rol != 'administrador'");
+        return $query->getResultArray();
+    }
+
 }
