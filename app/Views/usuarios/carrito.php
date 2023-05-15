@@ -118,10 +118,10 @@
                       $descuento_aplicado = $total * $descuento_decimal;
                       $total_con_descuento = $total - $descuento_aplicado; // calcula el total con el descuento aplicado
                       $descuento_aplicado = number_format($descuento_aplicado, 2);
-                      if($descuento) {
-                          echo "<tr><td>Descuento aplicado: " . $descuento."%</td>";
-                          echo "<td> $".$descuento_aplicado."</td></tr>";
-                      }
+                      if($descuento) { ?>
+                          <tr><td>Descuento aplicado: <?php echo $descuento?>%</td>
+                          <td id="descuentoAp">$<?php echo $descuento_aplicado?></td></tr>
+                      <?php }
 
                       $totalpedido=$total_con_descuento+$precio_envio;
                   ?>
@@ -152,6 +152,7 @@ $(document).ready(function() {
     var subtotal = precio * cantidad;
     $(this).parent().next('.subtotal').html('$' + subtotal.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
     actualizarEnvio();
+    actualizarDescuento();
     actualizarTotal();
   });
 
@@ -163,6 +164,12 @@ $(document).ready(function() {
       var costoEnvio = parseFloat($('#envio-total').html().replace('$', '').replace(',', ''));
       // Sumar el costo de envío al total
       total += costoEnvio;
+      // Restar el descuento si está definido
+      <?php if ($descuento): ?>
+        var porcentajeDesc = <?php echo $descuento ?>;
+        var descuento = total * 0.1;
+        total -= descuento;
+      <?php endif; ?> 
     });
     $('#total2').html('$' + total.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
   }
@@ -180,6 +187,18 @@ $(document).ready(function() {
     $('#envio-total').html('$' + costoEnvio.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
   }
 
+  function actualizarDescuento() {
+    // Obtener el total de la compra
+    var total = 0;
+    $('.subtotal').each(function() {
+      total += parseFloat($(this).html().replace('$', '').replace(',', ''));
+    });
+    // Calcular el costo de envío
+    var porcentajeDesc = 0.1; // porcentaje aleatorio del 10%
+    var descuento = total * porcentajeDesc;
+    // Actualizar el campo del costo de envío
+    $('#descuentoAp').html('$' + descuento.toLocaleString('es-MX', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+  }
 
   $('#btn-pagar').click(function() {
     // Obtener los datos de los productos del carrito
