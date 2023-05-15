@@ -83,7 +83,7 @@
                                     echo "<td>".$dat['precio']."</td>";
                                     echo "<td style='display: flex; justify-content: space-between;'>
                                         <a href='".base_url('añadirProductos/')."/".$dat['idPaquete']."' class='bi bi-plus-circle-fill'></a>
-                                        <a href='".base_url('registrarPaquete')."/".$dat['idPaquete']."' class='bi bi-pencil-square'></a>
+                                        <a href='".base_url('editarPaquete')."/".$dat['idPaquete']."' class='bi bi-pencil-square'></a>
                                         <a href='".base_url('eliminarPaquete/')."/".$dat['idPaquete']."' class='bi bi-trash-fill'></a>
                                     </td>";
                                 echo "</tr>";

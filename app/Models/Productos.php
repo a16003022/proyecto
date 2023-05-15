@@ -40,6 +40,11 @@ class Productos extends Model
         return $query->getResultArray();
     }
 
+    public function traer_producto($idProducto){
+        $query=$this->db->query("select nombre, img, modelo, marca, medida, precio, clasificacion, idProducto from productos where idProducto=$idProducto");
+        return $query->getResultArray();
+    }
+
     public function guardar_producto($param){
         $this->insert($param);
     }

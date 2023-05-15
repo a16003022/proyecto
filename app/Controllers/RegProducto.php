@@ -5,16 +5,19 @@ use App\Models\Inventarios;
 
 class RegProducto extends BaseController
 {
-    public function index()
+    public function index($id = null)
     {
+        $mProductos=new Productos();
+        if (!is_null($id)){
+            $data3["producto"] = $mProductos->traer_producto($id);
+        }
         $data2=[
             'titulo'=>"Registrar productos",
             'titulo_seccion'=>"Registro para los productos",
             'descripcion'=>"Los siguientes datos son requeridos para poder darlos de alta en nuestro catálogo 
             de productos."
         ];
-    $mProductos=new Productos();
-    $data3["producto"]=$mProductos->traer_productos();
+    $data3["productos"]=$mProductos->traer_productos();
     $data4["name"] = $_SESSION['name'];
         $vistas= view('administrador/header', $data2).  
             view('administrador/navbar',$data4).
