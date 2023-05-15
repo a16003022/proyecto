@@ -87,7 +87,7 @@ $routes->post('/recuperarcontra', 'Login::Recuperar');
 
 $routes->post('/aplicarcupon', 'VerCarrito::AplicarCupon', ['filter' => 'authFilter']);
 
-$routes->get('/revisarCupones', 'CuponesUsuarios::index', ['filter' => 'authFilter']);
+$routes->get('/gestionarClientes', 'Clientes::index', ['filter' => 'authFilter']);
 
 $routes->get('/buscarProductos', 'RegProducto::buscar');
 

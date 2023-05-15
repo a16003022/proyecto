@@ -18,7 +18,7 @@
           <a class="nav-link" href="<?php echo base_url()?>/registrarProducto">Productos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo base_url()?>/revisarCupones">Cupones</a>
+          <a class="nav-link" href="<?php echo base_url()?>/gestionarClientes">Clientes</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CATÁLOGO</a>
