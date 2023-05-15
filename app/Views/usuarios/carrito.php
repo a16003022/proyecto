@@ -115,21 +115,20 @@
                       $session = session();
                       $descuento = $session->get('descuento');
                       $descuento_decimal = $descuento / 100;
-                      $descuento_aplicado = $total * $descuento_decimal;
-                      $total_con_descuento = $total - $descuento_aplicado; // calcula el total con el descuento aplicado
+                      $totalpedido = $total + $precio_envio;
+                      $descuento_aplicado = $totalpedido * $descuento_decimal;
+                      $total_con_descuento = $totalpedido - $descuento_aplicado; // calcula el total con el descuento aplicado
                       $descuento_aplicado = number_format($descuento_aplicado, 2);
                       if($descuento) { ?>
                           <tr><td>Descuento aplicado: <?php echo $descuento?>%</td>
                           <td id="descuentoAp">$<?php echo $descuento_aplicado?></td></tr>
                       <?php }
-
-                      $totalpedido=$total_con_descuento+$precio_envio;
                   ?>
                   <tr>
                     <td><b>Total</b></td>
-                    <td id="total2">$<?php  echo number_format($totalpedido, 2, '.', ',') ?></td>
+                    <td id="total2">$<?php  echo number_format($total_con_descuento, 2, '.', ',') ?></td>
                   </tr>
-                  <input type='text' name='total' id="total" value='<?php echo $totalpedido ?>'hidden>
+                  <input type='text' name='total' id="total" value='<?php echo $total_con_descuento ?>'hidden>
                 </tbody>
               </table>
             </div>
@@ -167,7 +166,7 @@ $(document).ready(function() {
       // Restar el descuento si está definido
       <?php if ($descuento): ?>
         var porcentajeDesc = <?php echo $descuento ?>;
-        var descuento = total * 0.1;
+        var descuento = total * (porcentajeDesc/100);
         total -= descuento;
       <?php endif; ?> 
     });
@@ -193,7 +192,11 @@ $(document).ready(function() {
     $('.subtotal').each(function() {
       total += parseFloat($(this).html().replace('$', '').replace(',', ''));
     });
-    // Calcular el costo de envío
+    // obtener costo de envio
+    var costoEnvio = parseFloat($('#envio-total').html().replace('$', '').replace(',', ''));
+    // Sumar el costo de envío al total
+    total += costoEnvio;
+    // Calcular descuento
     var porcentajeDesc = 0.1; // porcentaje aleatorio del 10%
     var descuento = total * porcentajeDesc;
     // Actualizar el campo del costo de envío
