@@ -45,6 +45,7 @@ $routes->add('eliminarPaquete/(:num)', 'RegPaquete::eliminar_paquete/$1', ['filt
 $routes->post('/guardar_paquete', 'RegPaquete::guardar_paquete', ['filter' => 'authFilter']);
 $routes->get('registrarProducto', 'RegProducto::index', ['filter' => 'authFilter']);
 $routes->add('editarProducto/(:num)', 'RegProducto::index/$1', ['filter' => 'authFilter']);
+$routes->add('eliminarProducto/(:num)', 'RegProducto::eliminar_producto/$1', ['filter' => 'authFilter']);
 $routes->post('/guardar_producto', 'RegProducto::guardar_producto', ['filter' => 'authFilter']);
 $routes->get('/añadirProductos/(:num)', 'AñaProductos::index/$1', ['as' => 'añadir_productos']);
 $routes->post('/relacionarProd/(:num)', 'AñaProductos::relacionarProd/$1', ['as' => 'añadir_productos']);

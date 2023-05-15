@@ -38,5 +38,10 @@ class Inventarios extends Model
         $query = $this->db->query("UPDATE inventarios SET cantidad = cantidad-$cantidad WHERE idProducto = $idProducto");
         return $query;
     }
+
+    public function eliminar_inventario($id) {
+        $query=$this->db->query("delete from inventarios where idProducto=$id");
+        return $query;
+    }
 }
 ?>

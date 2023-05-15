@@ -37,20 +37,38 @@ class RegProducto extends BaseController
             "precio"=>$_POST["precio"],
             "clasificacion"=>$_POST["clasificacion"]
         ];
-        $mregistrar= new Productos();
-        $mregistrar->guardar_producto($data);
-
-        //guardo el inventario correspondiente a ese producto
-        $idProducto = $mregistrar->insertID();
-        $data2=[
-            "idProducto"=>$idProducto,
-            "nombre"=>$_POST["nombre"],
-            "cantidad"=>$_POST["stock"]
-        ];
-        $mregistrar= new Inventarios();
-        $mregistrar->insertar_inventario($data2);
-
+        $mProductos= new Productos();
+       
+        //Determinar si debo agregar o actualizar
+        $accion = $this->request->getPost('accion');
+        if ($accion == "agregar") {
+            $mProductos->guardar_producto($data);
+            //guardo el inventario correspondiente a ese producto
+            $idProducto = $mProductos->insertID();
+            $data2=[
+                "idProducto"=>$idProducto,
+                "nombre"=>$_POST["nombre"],
+                "cantidad"=>$_POST["stock"]
+            ];
+            $mInventarios= new Inventarios();
+            $mInventarios->insertar_inventario($data2);
         return redirect()->back();
+        } else {
+            $idProducto = $this->request->getPost('idProducto');
+            $mProductos->actualizar_producto($data, $idProducto);
+        return redirect()->to(base_url('registrarProducto'));
+        } 
+    }
+
+    public function eliminar_producto($id){
+        // eliminar el producto
+        $mProductos = new Productos();
+        $mProductos->eliminar_producto($id);
+
+        // eliminar su inventario
+        $mInventarios = new Inventarios();
+        $mInventarios->eliminar_inventario($id);
+    return redirect()->back();
     }
 
     public function buscar()

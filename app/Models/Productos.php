@@ -45,8 +45,19 @@ class Productos extends Model
         return $query->getResultArray();
     }
 
+    public function actualizar_producto($param, $idProducto) {
+        $this->set($param);
+        $this->where('idProducto', $idProducto);
+        $this->update();
+    }
+
     public function guardar_producto($param){
         $this->insert($param);
+    }
+
+    public function eliminar_producto($id) {
+        $query=$this->db->query("delete from productos where idProducto=$id");
+        return $query;
     }
 
     public function buscar($searchTerm)
