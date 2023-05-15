@@ -97,14 +97,9 @@
             <?php
             // AGREGAR CAMBIO ENVIO
                   $total_pago = $total; // Aquí iría el total de pago del usuario
-                  $porcentajes = array(0.05, 0.1, 0.15); // Opciones de porcentaje
-                  $random_index = rand(0, count($porcentajes) - 1); // Genera un índice aleatorio del array
-                  $porcentaje = $porcentajes[$random_index]; // Obtiene el porcentaje correspondiente
-                  $precio_envio = $total_pago * $porcentaje; // Calcula el precio del envío
+                  $precio_envio = $total_pago * 0.1; // Calcula el precio del envío
                   $precio_envio = number_format($precio_envio, 2);
             ?>
-            
-            <input type='text' name='envio' id="envio" value='<?php echo $precio_envio ?>' hidden>
           
           </div>
           <div class="col-md-4">
@@ -114,6 +109,7 @@
                   <tr>
                     <td>Envío</td>
                     <td id="envio-total"><?php echo '$'.$precio_envio ?></td>
+                    <input type='text' name='envio' id="envio" value='<?php echo $precio_envio ?>' hidden>
                   </tr> 
                   <?php 
                       $session = session();
@@ -148,6 +144,7 @@
 </section>
 
 <script>
+
 $(document).ready(function() {
   $('.cantidad').on('input', function() {
     var precio = $(this).data('precio');
@@ -194,8 +191,8 @@ $(document).ready(function() {
     });
 
     // Obtener el costo de envío y el total a pagar
-    var costoEnvio = $('#envio').val();
-    var totalPagar = $('#total').val();
+    var costoEnvio = $('#envio-total').text().replace('$', '').replace(',', '');
+    var totalPagar = $('#total2').text().replace('$', '').replace(',', '');
     
     // Enviar los datos como objeto JSON
     var data = {
