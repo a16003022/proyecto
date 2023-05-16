@@ -58,7 +58,7 @@
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
   </div>
   <div class="offcanvas-body">
-    <input type="search" id="search" class="form-control shadow-sm" placeholder="Buscar">
+    <input type="search" id="search" class="form-control shadow-sm btn-jumbotron" placeholder="Buscar">
   </div>
 </div>
 </nav>

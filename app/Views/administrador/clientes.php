@@ -88,7 +88,7 @@ ul.tabs li a .tab-text{
                     <article id="tab1">
                         <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Visualizar clientes</h2>
                         <p style="text-align:center">La siguiente tabla muestra todos los clientes registrados.</p>
-                            <div class="table">
+                            <div class="table table-responsive">
                                 <table id="tabla-ejemplo2" class="display table table-hover table-bordered">
                                     <thead>
                                         <tr>
@@ -124,7 +124,7 @@ ul.tabs li a .tab-text{
                     <article id="tab2">
                         <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Visualizar ventas</h2>
                         <p style="text-align:center">La siguiente tabla muestra todas las ventas realizadas.</p>
-                            <div class="table">
+                            <div class="table table-responsive">
                                 <table id="tabla-ejemplo3" class="display table table-hover table-bordered">
                                     <thead>
                                         <tr>
@@ -161,7 +161,7 @@ ul.tabs li a .tab-text{
                     <article id="tab3">
                         <h2 style="font-family: adineue PRO, sans-serif; text-align:center">Visualizar cupones</h2>
                         <p style="text-align:center">La siguiente tabla muestra todos los cupones disponibles.</p>
-                        <div class="table">
+                        <div class="table table-responsive">
                             <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                                 <thead>
                                     <tr>

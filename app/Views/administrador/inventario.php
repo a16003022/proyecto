@@ -4,7 +4,7 @@
             <div id="contenido_de_la_tabla" class="container">
                 <h2 style="font-family: adineue PRO, sans-serif;"><?= $titulo_seccion; ?></h2>
                 <p><?= $descripcion; ?></p>
-                <div class="table">
+                <div class="table table-responsive">
                     <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                         <thead>
                             <tr>

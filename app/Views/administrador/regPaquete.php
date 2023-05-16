@@ -57,8 +57,8 @@
     
         <div class="col-lg-8">
             <div id="contenido_de_la_tabla" class="container">
-                <h2>Catalogo de paquetes</h2>
-                <div class="table">
+                <h2 style="font-family: adineue PRO, sans-serif;">Catalogo de paquetes</h2>
+                <div class="table table-responsive">
                     <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                         <thead>
                             <tr>
@@ -101,7 +101,8 @@
       $(document).ready(function() {
         $('#tabla-ejemplo').DataTable({
           "language": {
-            "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+            "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json",
+            "responsive": true
         }
         });
       });

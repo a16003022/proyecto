@@ -80,7 +80,8 @@
         </div>
         <div class="col-lg-8">
             <div>
-                <h2>Catalogo de productos</h2>
+                <h2 style="font-family: adineue PRO, sans-serif;">Catalogo de productos</h2>
+                <div class="table table-responsive">
                 <table id="tabla-ejemplo" class="display table table-hover table-bordered">
                     <thead>
                         <tr>
@@ -117,6 +118,7 @@
                     <tbody>
                 </table>
             </div>
+            </div>
         </div>
     </div>    
 </div>
@@ -127,7 +129,8 @@
             pageLength : 5,
             lengthMenu: [5, 10, 15, 25, 50],
           "language": {
-            "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+            "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json",
+            "responsive":true
         }
         });
       });
