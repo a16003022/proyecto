@@ -204,6 +204,7 @@ class Pago extends BaseController
         $idVenta = $session->get('id_venta');
         //Create an instance; passing `true` enables exceptions
         $mail = new PHPMailer(true);
+        $mail->CharSet = 'UTF-8';
         $VentasUsuario = new VentasUsuario();
         $data=$VentasUsuario->TraerVenta($idVenta);
         $model = new TarjetasUsuario();
