@@ -52,7 +52,7 @@
               <div class="form-outline mb-4">
                 <label for="password" class="form-label">Contraseña</label>                
                 <div class="input-group">
-                  <input type="password" class="form-control" id="password" name="password">
+                  <input type="password" class="form-control" id="password" name="password" required>
                     <div class="input-group-append">
                       <button id="show_password" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password')"> 
                         <span class="fa fa-eye-slash icon"></span> 
@@ -69,7 +69,7 @@
               <div class="form-outline mb-4">
                 <label for="confirm_password" class="form-label">Confirmar contraseña</label>
                 <div class="input-group">
-                <input type="password" class="form-control" id="confirm_password" name="confirm_password">
+                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
                   <div class="input-group-append">
                     <button id="show_password_2" class="btn btn-primary btn-pass" type="button" onclick="mostrarPassword('show_password_2')">
                       <span class="fa fa-eye-slash icon"></span> 
