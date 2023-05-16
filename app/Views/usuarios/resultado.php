@@ -84,9 +84,11 @@
 <body>
   <section class="bgCat" style="min-height: 95vh;">
     <div class="container">
+      <?php $busqueda = $_GET['buscar']; ?>
       <div class="row justify-content-center align-items-stretch" style="padding-top:15vh;">
-          
+      <h3 class="text-white" style="font-family: Quicksand, sans-serif; font-size: 35px; text-align: center; text-transform: none;">Resultados de la búsqueda: "<?php echo $busqueda ?>"</h3><br>
           <?php
+          if ($producto){
           foreach($producto as $dat): ?>
             <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4" >
               <div class="card h-100" id="card">
@@ -166,7 +168,11 @@
                 </div>
               </div>
             </div>                     
-          <?php endforeach; ?>     
+          <?php endforeach; 
+          } else {
+            echo "<h3 class='text-white' style='font-family: Quicksand, sans-serif; font-size: 20px; text-align: center; text-transform: none;'>No se han encontrado resultados para tu búsqueda.<br>Intenta con otra palabra clave.</h3><br>";
+          }
+            ?>     
       </div>
     </div>
   </section>
@@ -181,39 +187,6 @@
             cantidadInputs[i].parentNode.querySelector("input[id^='stock']").value = stock - cantidad + 1;
         }
     }
-
-  introJs().start();
-  introJs().setOptions({
-  dontShowAgainLabel: "No mostrar de nuevo.",
-  dontShowAgain: true,
-  steps: [
-  {
-    element: document.querySelector('.card'),
-    intro: '¡Hola! Este es un tour por nuestro catálogo.',
-    position: 'left'
-  },
-  {
-    element: document.querySelector('.card-title'),
-    intro: 'Este es el nombre completo del producto.',
-    position: 'left'
-  },
-  {
-    element: document.querySelector('.card-text'),
-    intro: 'Aquí puede ver sus detalles y características.',
-    position: 'bottom'
-  },
-  {
-    element: document.querySelector('.botonComprar'),
-    intro: 'Con este botón usted puede agregarlo al carrito.',
-    position: 'top'
-  },
-  {
-    element: document.querySelector('.container-corazon'),
-    intro: 'Y aquí puede agregarlo a su lista de deseos.',
-    position: 'top'
-  }]
-
-}).start();
 </script>
 
 

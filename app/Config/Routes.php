@@ -89,7 +89,7 @@ $routes->post('/aplicarcupon', 'VerCarrito::AplicarCupon', ['filter' => 'authFil
 
 $routes->get('/gestionarClientes', 'Clientes::index', ['filter' => 'authFilter']);
 
-$routes->get('/buscarProductos', 'RegProducto::buscar');
+$routes->get('/buscar', 'Buscador::buscar');
 
 /*
  * --------------------------------------------------------------------

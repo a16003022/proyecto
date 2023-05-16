@@ -40,12 +40,11 @@
   </div>
 </nav>
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel">Encuentra tu producto</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-  </div>
-  <div class="offcanvas-body">
-    <input type="search" id="search" class="form-control shadow-sm" placeholder="Buscar">
-  </div>
+<div class="offcanvas-body">
+    <form method="get" action="<?php echo base_url('buscar'); ?>">
+      <input type="search" id="buscar" name="buscar" class="form-control shadow-sm" placeholder="Escriba una palabra clave">
+      <button type="submit" class="btn btn-primary mt-2">Buscar</button>
+    </form>
+</div>
 </div>
 </nav>

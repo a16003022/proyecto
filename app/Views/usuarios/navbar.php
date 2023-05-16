@@ -73,7 +73,11 @@
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
   </div>
   <div class="offcanvas-body">
-    <input type="search" id="search" class="form-control shadow-sm" placeholder="Buscar">
+    <form method="get" action="<?php echo base_url('buscar'); ?>">
+      <input type="search" id="buscar" name="buscar" class="form-control shadow-sm" placeholder="Escriba una palabra clave">
+      <button type="submit" class="btn btn-primary mt-2">Buscar</button>
+    </form>
   </div>
 </div>
+
 </nav>

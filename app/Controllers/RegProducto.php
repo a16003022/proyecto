@@ -35,7 +35,8 @@ class RegProducto extends BaseController
             "marca"=>$_POST["marca"],
             "medida"=>$_POST["medida"],
             "precio"=>$_POST["precio"],
-            "clasificacion"=>$_POST["clasificacion"]
+            "clasificacion"=>$_POST["clasificacion"],
+            "caracteristicas"=>$_POST["caracteristicas"]
         ];
         $mProductos= new Productos();
        
