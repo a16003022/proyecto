@@ -222,10 +222,14 @@ class RegUsuario extends BaseController
             view("inicio");
             return $vistas;
         }else{
-             $data['validation'] = $this->validator;
-             $data['captcha_error'] = 'Por favor, resuelve el captcha correctamente.';
-             $data2=[
-                "titulo"=>"Registrarse"
+            if (!($this->validate($rules))){
+                $data['validation'] = $this->validator;
+            }
+            if (!($atributos['success'])){
+                $data['captcha_error'] = 'Por favor, resuelve el captcha correctamente.';
+            }
+            $data2=[
+               "titulo"=>"Registrarse"
             ];
              $vistas= view('genericos/header', $data2).  
              view('genericos/navbar').
