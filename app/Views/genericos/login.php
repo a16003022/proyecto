@@ -120,9 +120,11 @@ $('#miFormulario').submit(function(event) {
         console.log(response);
       if (response.success) {
         // Mensaje de éxito
+        $('#miFormulario .alert').remove();
         $('#miFormulario').append('<div class="alert alert-success">' + response.mensaje + '</div>');
       } else {
         // Mensaje de error
+        $('#miFormulario .alert').remove();
         $('#miFormulario').append('<div class="alert alert-danger">' + response.mensaje + '</div>');
       }
     },

@@ -84,12 +84,14 @@ $routes->post('/recuperarcontraseña', 'Login::RecuperarContraseña');
 
 $routes->get('/recuperar/(:num)/(:any)', 'Login::Recuperar/$1/$2');
 $routes->post('/recuperarcontra', 'Login::Recuperar');
-
+$routes->get('/recuperarcontra', 'Login::index');
 $routes->post('/aplicarcupon', 'VerCarrito::AplicarCupon', ['filter' => 'authFilter']);
 
 $routes->get('/gestionarClientes', 'Clientes::index', ['filter' => 'authFilter']);
 
 $routes->get('/buscar', 'Buscador::buscar');
+
+
 
 /*
  * --------------------------------------------------------------------

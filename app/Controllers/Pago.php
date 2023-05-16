@@ -234,55 +234,188 @@ class Pago extends BaseController
             // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
 
             //Content
+            $mConfig= new ConfigPedido();
+            $config = $mConfig->traer_configPedido();
+            $envio = 0;
+            foreach($config as $conf){
+                
+                $envio= $conf['Envio'];
+            }
             $mDetalleVenta=new DetalleVenta();
             $data5=$mDetalleVenta->Traer_Detalle_Venta($idVenta);
             $mail->Subject = 'Tu pedido de TecShirts #'.$idVenta;
             $mail->isHTML(true);                                  //Set email format to HTML
-            $mail->Body = '<div style="display: flex; justify-content: center; align-items: center;">
-                    <h1 style="text-align:center; color:#9162dd;">Confirmación de compra</h1>
-                </div>
-                <div>
-                    <h4 style="display:inline-block;">Pedido #' . $idVenta . '</h4>
-                    <table>
-                        <tr>
-                            <th>Producto</th>
-                            <th>Cantidad</th>
-                            <th>Precio</th>
-                        </tr>';
-            $total = 0;
-            $subtotal = 0;
-            foreach($data5 as $dat){
-                            $precio = $dat['precio'];
-                            $cant = $dat['cantidad'];
-                            $subtotal = $precio * $cant;
-                            $total = $subtotal + $total;
-                $mail->Body .= '<tr>
-                                    <td>'.$dat['nombre'].'</td>
-                                    <td style="text-align:center;">'.$dat['cantidad'].'</td>
+            // $mail->Body = '<div style="display: flex; justify-content: center; align-items: center;">
+            //         <h1 style="text-align:center; color:#9162dd;">Confirmación de compra</h1>
+            //     </div>
+            //     <div>
+            //         <h4 style="display:inline-block;">Pedido #' . $idVenta . '</h4>
+            //         <table>
+            //             <tr>
+            //                 <th>Producto</th>
+            //                 <th>Cantidad</th>
+            //                 <th>Precio</th>
+            //             </tr>';
+            // $total = 0;
+            // $subtotal = 0;
+            // foreach($data5 as $dat){
+            //                 $precio = $dat['precio'];
+            //                 $cant = $dat['cantidad'];
+            //                 $subtotal = $precio * $cant;
+            //                 $total = $subtotal + $total;
+            //     $mail->Body .= '<tr>
+            //                         <td>'.$dat['nombre'].'</td>
+            //                         <td style="text-align:center;">'.$dat['cantidad'].'</td>
                                     
-                                    <td style="text-align:center;">'.$subtotal.'</td>
-                                </tr>';
+            //                         <td style="text-align:center;">'.$subtotal.'</td>
+            //                     </tr>';
                                 
-            }
-            $mail->Body .= '<tr>';
-            $mail->Body .= '<td><strong>Total:</strong></td>';
-            $mail->Body .= '<td></td>';
-            $mail->Body .= '<td style="text-align:center;"><strong>' . $total . '</strong></td>';
-            $mail->Body .= '</tr>';
+            // }
+            // $mail->Body .= '<tr>';
+            // $mail->Body .= '<td><strong>Total:</strong></td>';
+            // $mail->Body .= '<td></td>';
+            // $mail->Body .= '<td style="text-align:center;"><strong>' . $total . '</strong></td>';
+            // $mail->Body .= '</tr>';
            
-            foreach ($data2 as $Tick){
-                $numTarjeta = $Tick['numTarjeta'];
-                $ultimosCuatro = substr($numTarjeta, -4);
-                $asteriscos = str_repeat('*', 12);
-                $numTarjetaOculto = $asteriscos . ' ' . $ultimosCuatro;
-                $mail->Body .='
-                <h4 style="display:inline-block;">Método de pago</h4>
-                <p>'.$numTarjetaOculto.'</p>';
-            }
-            $mail->Body .= '
-            </table>
-            <h3 style="color:#9162dd;">¡Gracias por tu compra!</h3>
-            </div>';
+            // foreach ($data2 as $Tick){
+            //     $numTarjeta = $Tick['numTarjeta'];
+            //     $ultimosCuatro = substr($numTarjeta, -4);
+            //     $asteriscos = str_repeat('*', 12);
+            //     $numTarjetaOculto = $asteriscos . ' ' . $ultimosCuatro;
+            //     $mail->Body .='
+            //     <h4 style="display:inline-block;">Método de pago</h4>
+            //     <p>'.$numTarjetaOculto.'</p>';
+            // }
+            // $mail->Body .= '
+            // </table>
+            // <h3 style="color:#9162dd;">¡Gracias por tu compra!</h3>
+            // </div>';
+
+            $mail->Body = '
+                            <!DOCTYPE html>
+                            <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+                            <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width,initial-scale=1">
+                            <meta name="x-apple-disable-message-reformatting">
+                            <title></title>
+                            <style>
+                                table, td, div, h1, p {font-family: Arial, sans-serif;}
+                            </style>
+                            </head>
+                            <body style="margin:0;padding:0;">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff;">
+                                <tr>
+                                <td align="center" style="padding:0;">
+                                    <table role="presentation" style="width:602px;border-collapse:collapse;border:1px solid #cccccc;border-spacing:0;text-align:left;">
+                                    <tr>
+                                        <td align="center" style="padding:40px 0 30px 0;background:#8C52FF;">
+                                        <img src="https://i.postimg.cc/qRynRGRx/Black-Pink-Bold-Elegant-Monogram-Personal-Brand-Logo.jpg" alt="" width="300" style="height:auto;display:block;" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:36px 30px 42px 30px;">
+                                        <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                                            <tr>
+                                            <td style="padding:0 0 36px 0;">
+                                                <h1 style="text-align:center; color:#9162dd;">Confirmación de compra</h1>
+                                                <h4 style="display:inline-block;">Pedido #' . $idVenta . '</h4>
+                                                <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">¡Muchas gracias por comprar con nosotros!</p>
+                                                <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Un resumen de tu pedido:</p>
+                                                <table>
+                                                <tr>
+                                                    <th>Producto</th>
+                                                    <th>Cantidad</th>
+                                                    <th>Precio</th>
+                                                </tr>';
+                                                $total = 0;
+                                                $subtotal = 0;
+                                                foreach($data5 as $dat){
+                                                                $precio = $dat['precio'];
+                                                                $cant = $dat['cantidad'];
+                                                                $subtotal = $precio * $cant;
+                                                                $total = $subtotal + $total;
+                                                    $mail->Body .= '<tr>
+                                                                        <td>'.$dat['nombre'].'</td>
+                                                                        <td style="text-align:center;">'.$dat['cantidad'].'</td>
+                                                                        
+                                                                        <td style="text-align:center;">$'.$subtotal.'</td>
+                                                                    </tr>';
+                                                                    
+                                                }
+                                                $mail->Body .= '<tr>';
+                                                $mail->Body .= '<td>Envio:</td>';
+                                                $mail->Body .= '<td></td>';
+                                                $mail->Body .= '<td style="text-align:center;">$' . $envio . '</td>';
+                                                $mail->Body .= '</tr>';
+                                                $mail->Body .= '<tr>';
+                                                $mail->Body .= '<td><strong>Total:</strong></td>';
+                                                $mail->Body .= '<td></td>';
+                                                $mail->Body .= '<td style="text-align:center;"><strong>$' . $total+$envio . '</strong></td>';
+                                                $mail->Body .= '</tr>';
+                                               
+                                                foreach ($data2 as $Tick){
+                                                    $numTarjeta = $Tick['numTarjeta'];
+                                                    $ultimosCuatro = substr($numTarjeta, -4);
+                                                    $asteriscos = str_repeat('*', 12);
+                                                    $numTarjetaOculto = $asteriscos . ' ' . $ultimosCuatro;
+                                                    $mail->Body .='
+                                                    <h4 style="display:inline-block;">Método de pago</h4>
+                                                    <p>'.$numTarjetaOculto.'</p>';
+                                                }
+                                                $mail->Body .= '
+                                            </table>
+                                                <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Si tienes alguna pregunta o necesitas ayuda con cualquier cosa, no dudes en ponerte en contacto con nuestro equipo de soporte.</p>
+                                                <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Gracias,<br>TecShirts</p>
+
+                                            </td>
+                                            </tr>
+                                            
+                                        
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:30px;background:#8C52FF;">
+                                        <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px;font-family:Arial,sans-serif;">
+                                            <tr>
+                                            <td style="padding:0;width:50%;" align="left">
+                                                <p style="margin:0;font-size:14px;line-height:16px;font-family:Arial,sans-serif;color:#ffffff;">
+                                                &reg; 2023 TecShirts Todos los derechos reservados.
+                                                </p>
+                                            </td>
+                                            <td style="padding:0;width:50%;" align="right">
+                                                <table role="presentation" style="border-collapse:collapse;border:0;border-spacing:0;">
+                                                <tr>
+                                                    <td style="padding:0 0 0 10px;width:38px;">
+                                                    <a href="http://www.twitter.com/" style="color:#ffffff;"><img src="https://assets.codepen.io/210284/tw_1.png" alt="Twitter" width="38" style="height:auto;display:block;border:0;" /></a>
+                                                    </td>
+                                                    <td style="padding:0 0 0 10px;width:38px;">
+                                                    <a href="http://www.facebook.com/" style="color:#ffffff;"><img src="https://assets.codepen.io/210284/fb_1.png" alt="Facebook" width="38" style="height:auto;display:block;border:0;" /></a>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                            </td>
+                                            </tr>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                    </table>
+                                </td>
+                                </tr>
+                            </table>
+                            </body>
+                            </html>
+                
+                
+                
+                ';
+
+
+
+
+
+
+
 
             $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 

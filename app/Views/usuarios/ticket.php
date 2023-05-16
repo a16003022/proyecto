@@ -54,7 +54,7 @@
             <h1>Ticket del pedido</h1>
             <div class="container mb-2 p-0">
                 <div class="row ">
-                    <div class="col-10 col-sm-8">
+                    <div class="col-lg-10 col-sm-12">
                         <?php 
                             foreach ($Ticket as $Tick){
                                 $fecha = $Tick['fecha'];
@@ -65,14 +65,14 @@
                             }?>
                             
                     </div>
-                    <div class="col-2 col-sm-4 d-flex">
+                    <div class="col-lg-2 col-sm-12 d-flex">
                         <a href="<?php echo base_url('ticket/'.$_SESSION['id_venta']); ?>" class="btn btn-sm btn-primary ms-auto ticket shadow-none" target="_blank">Imprimir ticket</a>
                     </div>
                 </div>
             </div>
             <div class="container border-detalles p-4 ">
                 <div class="row ">
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <h5>Dirección de envío</h5>
                         <div class="direccion">
                             <ul class="list-unstyled">
@@ -85,7 +85,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                     <h5>Método de pago</h5>
                     <div class="metodo-pago">
                         <ul class="list-unstyled">
@@ -101,20 +101,27 @@
                         </ul>
                     </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                     <h5>Resumen del pedido</h5>
                         <div class="resumen-pedido">
-                            <table>
-                            <!-- AGREGAR CAMBIO ENVIO -->
-                                <?php
-                                    foreach ($Ticket as $Tick){
-                                        echo "<tr><td>Productos:</td><td style='padding-left: 2vw'> $".$Tick['totalPagar']."</td></tr>";
-                                        echo "<tr><td>Envío:</td><td style='padding-left: 2vw'>$".$Envio."</td></tr>";
-                                        echo "<tr><td><strong>Total (IVA incluido, en <br> caso de ser aplicable):</td><td style='padding-left: 2vw'> $".$TotalPago."</strong></td></tr>";
-                                    }
-                                ?>
-                                
-                            </table>
+                        <table >
+                        <tr>
+                            <th style="">Productos</th>
+                            <th style="padding: 10px; text-align:center;">Envío</th>
+                            <th style="padding: 10px; text-align:center;">Total</th>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px;">
+                            <?php foreach ($Ticket as $Tick) {
+                                echo "$" . $Tick['totalPagar'] . "<br>";
+                            } ?>
+                            </td>
+                            <td style="padding: 10px;">$<?= $Envio ?></td>
+                            <td style="padding: 10px;">$<?= $TotalPago ?></td>
+                        </tr>
+                        </table>
+
+
                         </div>
                     </div>
                 </div>

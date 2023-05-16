@@ -8,6 +8,7 @@ use App\Models\Productos;
 use App\Models\Carrito;
 use App\Models\Inventarios;
 use App\Models\Correos;
+use App\Models\ConfigPedido;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -339,6 +340,8 @@ class Login extends BaseController
         }
         // vaciar el carrito de compras
         $mCarrito->borrar_todo();
+        $mConfig = new ConfigPedido();
+        $mConfig->borrar_todo();
         //destruir la sesión
         session_destroy();
         return redirect()->to('/inicio');
