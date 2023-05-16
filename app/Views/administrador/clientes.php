@@ -171,7 +171,6 @@ ul.tabs li a .tab-text{
                                         <th>Codigo</th>
                                         <th>Descuento</th>
                                         <th>Usado</th>
-                                        <th>Acción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -192,7 +191,6 @@ ul.tabs li a .tab-text{
                                         echo "<td>".$dat['codigo']."</td>";
                                         echo "<td>".$dat['descuento']."</td>";
                                         echo "<td>".$valor."</td>";
-                                        echo '<td><i class="fa-solid fa-pen-to-square" style="color: #9162dd;" data-id="'. $dat['id'] .'"></i></td>';
                                         // echo "<td><input class='cantidad' type='number' value='".$dat["cantidad"]."' min='1' max='999'></td>";
                                     echo "</tr>";
                                 }
