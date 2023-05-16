@@ -82,7 +82,7 @@
                     <p>
                      Proporcionar a nuestros clientes ropa de alta calidad, con un enfoque en la moda y el estilo, mientras mantenemos una cultura de responsabilidad social y sostenibilidad. 
                     </p>
-                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto " data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Contactános! </a>
+                    <a href="#contact" class="btn-jumbotron btn btn-primary mr-auto " data-backdrop="static" data-keyboard="false">Contactános! </a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval='5000'>
@@ -92,7 +92,7 @@
                     <p>
                     Reconocidos como líderes en la industria de la moda, innovando constantemente en diseño y tecnología para ofrecer a nuestros clientes una experiencia de compra única y memorable. 
                     </p>
-                    <a href="#section-contacto" class="btn-jumbotron btn btn-primary mr-auto" data-toggle="modal" data-target="modal-contacto" data-backdrop="static" data-keyboard="false">Ver productos</a>
+                    <a href="#productos" class="btn-jumbotron btn btn-primary mr-auto" data-backdrop="static" data-keyboard="false">Ver productos</a>
                 </div>
             </div>
         </div>

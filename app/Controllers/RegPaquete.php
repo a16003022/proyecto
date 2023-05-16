@@ -42,7 +42,7 @@ class RegPaquete extends BaseController
                 <br>
             </div>
             <div class='card-footer text-center' style='border: none; background-color: transparent; padding:5px; margin:5px;'>  
-                <a class='btn btn-primary btn-promos'>Comprar</a>
+                <a class='btn btn-primary btn-promos' href='http://localhost/proyecto/proyecto/index.php/login'>Comprar</a>
             </div>
             </div>
             </div>";
