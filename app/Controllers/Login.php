@@ -65,13 +65,13 @@ class Login extends BaseController
         }
  
         if(is_null($user)) {
-            return redirect()->back()->withInput()->with('error', 'Correo o contraseña incorrecta.');
+            return redirect()->to('/login')->withInput()->with('error', 'Correo o contraseña incorrecta.');
         }
  
         $pwd_verify = password_verify($password, $user['password']);
  
         if(!$pwd_verify) {
-            return redirect()->back()->withInput()->with('error', 'Correo o contraseña incorrecta.');
+            return redirect()->to('/login')->withInput()->with('error', 'Correo o contraseña incorrecta.');
         }
  
         $ses_data = [
